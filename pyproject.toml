@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=64.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neuroxpert-rag"
+version = "1.0.0"
+description = "An auditable two-track expert-system architecture for LLM-extracted biomedical literature evidence"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "Irfan Khan", email = "author@institution.edu"}
+]
+keywords = [
+    "biomedical",
+    "literature-mining",
+    "expert-systems",
+    "retrieval-augmented-generation",
+    "evidence-extraction",
+    "mechanical-grounding",
+    "semantic-verification",
+    "auditability",
+    "llm"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+]
+requires-python = ">=3.7"
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "pytest-cov"]
+
+[project.urls]
+Homepage = "https://github.com/iyousafzai1/neuroxpert-rag"
+Repository = "https://github.com/iyousafzai1/neuroxpert-rag"
+Documentation = "https://github.com/iyousafzai1/neuroxpert-rag"
+
+[tool.setuptools.packages.find]
+where = ["."]

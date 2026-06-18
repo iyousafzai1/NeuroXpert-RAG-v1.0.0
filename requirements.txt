@@ -1,0 +1,4 @@
+# NeuroXpert-RAG core dependencies
+# Exact environment snapshot for reproduction: see environment/conda_env.yaml
+
+requests>=2.25.0
