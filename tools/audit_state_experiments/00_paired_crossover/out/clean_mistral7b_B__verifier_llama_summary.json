@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-09-15T01:01:16.224465+00:00",
+  "input_csv": "inputs/clean_mistral7b_B_audit_sheet.csv",
+  "input_sha256": "1a5386cb2bdfa648bbb09efe424a386c7409d177e567aa53f440af2f3ac7c523",
+  "verifier_model": "llama-3.1-8b-instruct",
+  "base_url": "http://127.0.0.1:8000/v1",
+  "n_rows": 100,
+  "decision": {
+    "keep": 52,
+    "revise": 32,
+    "drop": 16
+  },
+  "overclaiming": {
+    "no": 93,
+    "unclear": 7
+  },
+  "errors": 0,
+  "seconds": 59.0
+}

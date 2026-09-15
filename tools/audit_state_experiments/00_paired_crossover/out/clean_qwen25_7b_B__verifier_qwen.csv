@@ -1,0 +1,1273 @@
+record_id,pmid,title,year,journal,query,extracted_brain_system,extracted_feature_type,extracted_phenotype,extracted_diagnostic_context,extracted_relationship,extracted_direction,extracted_mechanism,extracted_directness,evidence_strength,supporting_sentence,schema_valid,schema_issues,citation_valid,sentence_present,sentence_anchored,semantic_support_score,phenotype_correct,feature_type_correct,relationship_correct,direction_correct,overclaiming_flag,hallucination_flag,review_decision,review_notes,verifier_model,verifier_support_score,verifier_decision,verifier_phenotype_supported,verifier_feature_supported,verifier_relationship_supported,verifier_direction_supported,verifier_directness_supported,verifier_overclaiming,verifier_corrected_phenotype,verifier_corrected_feature_type,verifier_corrected_direction,verifier_rationale,verifier_error,verifier_raw_response
+1,39315326,Resting-state brain networks alterations in adolescents with Internet Gaming Disorder associate with cognitive control impairments.,2024,Frontiers in psychiatry,Barratt Impulsiveness Scale resting-state fMRI,"Salience Network, Executive Control Network, Dorsal Attention Network",functional connectivity,impulsivity (general),Internet Gaming Disorder,correlates_with,higher,changes in the ECN and DAN correlate with heightened impulsivity and attentional deficits in adolescents with IGD,direct,0.8,"impulsivity in adolescent IGD subjects showed a positive correlation with the severity of IGD (r=0.6350, p < 0.001), linked to impairments in the Executive Control Network (ECN) and a decrease in functional connectivity between the Salience Network (SN) and ECN (r=0.4307, p=0.0021; r=-0.5147, p=0.0034).",yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,1,revise,yes,no,yes,yes,no,yes,impulsivity (general),functional connectivity,higher,The sentence mentions a correlation with impulsivity and IGD severity but does not directly state the relationship with functional connectivity. It also implies a decrease in functional connectivity without explicitly stating it as a direct measure.,,"{
+  ""support_score"": 1,
+  ""decision"": ""revise"",
+  ""phenotype_supported"": true,
+  ""feature_supported"": false,
+  ""relationship_supported"": true,
+  ""direction_supported"": true,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": ""impulsivity (general)"",
+  ""corrected_feature_type"": ""functional connectivity"",
+  ""corrected_direction"": ""higher"",
+  ""rationale"": ""The sentence mentions a correlation with impulsivity and IGD severity but does not directly state the relationship with functional connectivity. It also implies a decrease in functional connectivity without explicitly stating it as a direct measure.""
+}"
+2,35040662,Role of White Matter Microstructure in Impulsive Behavior.,2022,The Journal of neuropsychiatry and clinical neurosciences,Barratt Impulsiveness Scale fMRI,unknown,structural connectivity,nonplanning impulsivity,unknown,correlates_with,lower,,direct,0.85,"Whole-brain total average FA was inversely correlated with motor impulsiveness (r=-0.32, p=0.007) and positively correlated with nonplanning impulsiveness (r=0.29, p=0.02); these correlations were significant after correction for multiple comparisons.",yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,2,keep,yes,yes,yes,yes,yes,no,nonplanning impulsivity,fractional anisotropy (FA),lower,"The sentence directly states that whole-brain total average FA is inversely correlated with nonplanning impulsiveness, which matches the extracted claim.",,"{
+  ""support_score"": 2,
+  ""decision"": ""keep"",
+  ""phenotype_supported"": true,
+  ""feature_supported"": true,
+  ""relationship_supported"": true,
+  ""direction_supported"": true,
+  ""directness_supported"": true,
+  ""overclaiming"": false,
+  ""corrected_phenotype"": ""nonplanning impulsivity"",
+  ""corrected_feature_type"": ""fractional anisotropy (FA)"",
+  ""corrected_direction"": ""lower"",
+  ""rationale"": ""The sentence directly states that whole-brain total average FA is inversely correlated with nonplanning impulsiveness, which matches the extracted claim.""
+}"
+3,39796107,The Relationship Between Impulsivity Traits and In Vivo Cerebral Serotonin Transporter and Serotonin 2A Receptor Binding in Healthy Individuals: A Double-Tracer PET Study with C-11 DASB and C-11 MDL100907.,2024,International journal of molecular sciences,Barratt Impulsiveness Scale fMRI,unknown,unknown,nonplanning impulsivity,unknown,correlates_with,higher,,direct,0.8,"the region of interest (ROI)-based partial correlation analysis with age, sex, and temperament traits as covariates revealed a significant positive correlation between non-planning impulsiveness and [11C]MDL100907 BPND in the caudate (CAU) at Bonferroni-corrected p < 0.0045.",yes,,yes,yes,no,,,,,,,,,,qwen2.5-7b-instruct,2,keep,yes,yes,yes,yes,yes,no,nonplanning impulsivity,serotonin 2A receptor binding,higher,"The sentence directly states a significant positive correlation between non-planning impulsiveness and serotonin 2A receptor binding (as measured by [11C]MDL100907 BPND) in the caudate, supporting all aspects of the claim.",,"{
+  ""support_score"": 2,
+  ""decision"": ""keep"",
+  ""phenotype_supported"": true,
+  ""feature_supported"": true,
+  ""relationship_supported"": true,
+  ""direction_supported"": true,
+  ""directness_supported"": true,
+  ""overclaiming"": false,
+  ""corrected_phenotype"": ""nonplanning impulsivity"",
+  ""corrected_feature_type"": ""serotonin 2A receptor binding"",
+  ""corrected_direction"": ""higher"",
+  ""rationale"": ""The sentence directly states a significant positive correlation between non-planning impulsiveness and serotonin 2A receptor binding (as measured by [11C]MDL100907 BPND) in the caudate, supporting all aspects of the claim.""
+}"
+4,29337234,Electrophysiological Activity Prior to Self-initiated Movements is Related to Impulsive Personality Traits.,2018,Neuroscience,Barratt Impulsiveness Scale neuroimaging,unknown,EEG connectivity,impulsivity (general),unknown,correlates_with,higher,,direct,0.85,"In particular, the RP showed an earlier negative rising phase and a greater amplitude, with the increasing of BIS-11 scores.",yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,0,drop,no,no,no,no,no,yes,,,,The sentence discusses changes in the Rolandic cortex (RP) in relation to BIS-11 scores but does not directly state a correlation between impulsivity and EEG connectivity. It also does not specify the direction of the relationship or provide direct evidence for the relationship.,,"{
+  ""support_score"": 0,
+  ""decision"": ""drop"",
+  ""phenotype_supported"": false,
+  ""feature_supported"": false,
+  ""relationship_supported"": false,
+  ""direction_supported"": false,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": null,
+  ""corrected_feature_type"": null,
+  ""corrected_direction"": null,
+  ""rationale"": ""The sentence discusses changes in the Rolandic cortex (RP) in relation to BIS-11 scores but does not directly state a correlation between impulsivity and EEG connectivity. It also does not specify the direction of the relationship or provide direct evidence for the relationship.""
+}"
+5,12860356,"Impulsivity, gender, and response to fenfluramine challenge in borderline personality disorder.",2003,Psychiatry research,Barratt Impulsiveness Scale neuroimaging,unknown,unknown,impulsivity (general),borderline personality disorder,predicts,higher,,indirect,0.8,Impulsivity and aggression each predicted prolactin responses.,yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,1,revise,yes,no,yes,yes,no,yes,impulsivity (general),prolactin responses,higher,"The sentence mentions impulsivity as a predictor of prolactin responses, which supports the relationship and direction. However, it does not specify that prolactin responses are a feature type, and it does not directly state that impulsivity predicts prolactin responses in the context of borderline personality disorder.",,"{
+  ""support_score"": 1,
+  ""decision"": ""revise"",
+  ""phenotype_supported"": true,
+  ""feature_supported"": false,
+  ""relationship_supported"": true,
+  ""direction_supported"": true,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": ""impulsivity (general)"",
+  ""corrected_feature_type"": ""prolactin responses"",
+  ""corrected_direction"": ""higher"",
+  ""rationale"": ""The sentence mentions impulsivity as a predictor of prolactin responses, which supports the relationship and direction. However, it does not specify that prolactin responses are a feature type, and it does not directly state that impulsivity predicts prolactin responses in the context of borderline personality disorder.""
+}"
+6,39424632,Enhanced ADHD classification through deep learning and dynamic resting state fMRI analysis.,2024,Scientific reports,impulsivity resting-state fMRI functional connectivity,unknown,functional connectivity,impulsivity (general),ADHD classification,associated_with,unclear,,direct,0.85,"Resting-state functional connectivity analysis has emerged as a promising approach for ADHD classification using resting-state functional magnetic resonance imaging (rs-fMRI), although with limited accuracy.",yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,0,drop,no,no,no,no,no,yes,,,,"The sentence does not specify any particular phenotype or feature type, and instead provides general information about the use of rs-fMRI for ADHD classification. It also does not clarify the relationship, direction, or directness of the association.",,"{
+  ""support_score"": 0,
+  ""decision"": ""drop"",
+  ""phenotype_supported"": false,
+  ""feature_supported"": false,
+  ""relationship_supported"": false,
+  ""direction_supported"": false,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": null,
+  ""corrected_feature_type"": null,
+  ""corrected_direction"": null,
+  ""rationale"": ""The sentence does not specify any particular phenotype or feature type, and instead provides general information about the use of rs-fMRI for ADHD classification. It also does not clarify the relationship, direction, or directness of the association.""
+}"
+7,32035425,Ventromedial prefrontal value signals and functional connectivity during decision-making in suicidal behavior and impulsivity.,2020,Neuropsychopharmacology : official publication of the American College of Neuropsychopharmacology,impulsivity fMRI functional connectivity,unknown,functional connectivity,impulsivity (general),suicidal behavior,correlates_with,unclear,,direct,0.8,"In nonpsychiatric controls, vmPFC-frontoparietal connectivity was negatively moderated by impulsivity (pFWE corrected < 0.05).",yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,1,revise,yes,yes,yes,no,no,yes,impulsivity (general),vmPFC-frontoparietal connectivity,negatively correlated,"The sentence mentions a group difference (nonpsychiatric controls) and a correlation between impulsivity and vmPFC-frontoparietal connectivity, but it does not directly state the direction of the relationship or that the relationship is direct. It also implies a broader context of suicidal behavior, which is not supported by the sentence.",,"{
+    ""support_score"": 1,
+    ""decision"": ""revise"",
+    ""phenotype_supported"": true,
+    ""feature_supported"": true,
+    ""relationship_supported"": true,
+    ""direction_supported"": false,
+    ""directness_supported"": false,
+    ""overclaiming"": true,
+    ""corrected_phenotype"": ""impulsivity (general)"",
+    ""corrected_feature_type"": ""vmPFC-frontoparietal connectivity"",
+    ""corrected_direction"": ""negatively correlated"",
+    ""rationale"": ""The sentence mentions a group difference (nonpsychiatric controls) and a correlation between impulsivity and vmPFC-frontoparietal connectivity, but it does not directly state the direction of the relationship or that the relationship is direct. It also implies a broader context of suicidal behavior, which is not supported by the sentence.""
+}"
+8,29442271,Exploring variability in basal ganglia connectivity with functional MRI in healthy aging.,2018,Brain imaging and behavior,impulsivity fMRI functional connectivity,unknown,functional connectivity,impulsivity (general),unknown,unclear,unclear,,indirect,0.3,,yes,,yes,no,unclear,,,,,,,,,,qwen2.5-7b-instruct,0,drop,no,no,no,no,no,yes,,,,"The sentence does not provide any information about impulsivity or functional connectivity, and it does not mention a clear relationship, direction, or directness. It also suggests a group difference rather than a phenotype-feature association.",,"{""support_score"": 0, ""decision"": ""drop"", ""phenotype_supported"": false, ""feature_supported"": false, ""relationship_supported"": false, ""direction_supported"": false, ""directness_supported"": false, ""overclaiming"": true, ""corrected_phenotype"": null, ""corrected_feature_type"": null, ""corrected_direction"": null, ""rationale"": ""The sentence does not provide any information about impulsivity or functional connectivity, and it does not mention a clear relationship, direction, or directness. It also suggests a group difference rather than a phenotype-feature association.""}"
+9,26745144,Head Motion and Inattention/Hyperactivity Share Common Genetic Influences: Implications for fMRI Studies of ADHD.,2016,PloS one,trait impulsivity resting-state fMRI,unknown,covariates,impulsivity (general),ADHD,correlates_with,unclear,,indirect,0.7,"HM was moderately correlated with maternal reports of Inattention (r = 0.17, p-value = 7.4E-5) and Hyperactivity-Impulsivity (r = 0.16, p-value = 2.9E-4), and these associations were mainly due to pleiotropic genetic factors with genetic correlations [95% CIs] of rg = 0.24 [0.02, 0.43] and rg = 0.23 [0.07, 0.39].",yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,1,keep,yes,yes,yes,no,no,yes,Hyperactivity-Impulsivity,covariates,unclear,"The sentence provides correlation data between head motion and hyperactivity-impulsivity, which supports the phenotype and feature. However, it does not specify the direction of the relationship or confirm that the relationship is direct.",,"{
+  ""support_score"": 1,
+  ""decision"": ""keep"",
+  ""phenotype_supported"": true,
+  ""feature_supported"": true,
+  ""relationship_supported"": true,
+  ""direction_supported"": false,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": ""Hyperactivity-Impulsivity"",
+  ""corrected_feature_type"": ""covariates"",
+  ""corrected_direction"": ""unclear"",
+  ""rationale"": ""The sentence provides correlation data between head motion and hyperactivity-impulsivity, which supports the phenotype and feature. However, it does not specify the direction of the relationship or confirm that the relationship is direct.""
+}"
+10,38018143,Converging Evidence for Frontopolar Cortex as a Target for Neuromodulation in Addiction Treatment.,2024,The American journal of psychiatry,trait impulsivity functional connectivity,unknown,functional connectivity,impulsivity (general),unknown,associated_with,unclear,,indirect,0.7,"This approach is supported by converging multimodal evidence, including lesion-based maps, functional MRI-based maps, tES studies, TMS studies, and dose-response relationships.",yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,0,drop,no,no,no,no,no,yes,,,,"The evidence sentence does not specify any particular phenotype or feature type, and instead provides a general statement about various types of evidence supporting the concept of frontopolar cortex as a target for neuromodulation. It also does not indicate a clear direction or directness of the relationship.",,"{
+  ""support_score"": 0,
+  ""decision"": ""drop"",
+  ""phenotype_supported"": false,
+  ""feature_supported"": false,
+  ""relationship_supported"": false,
+  ""direction_supported"": false,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": null,
+  ""corrected_feature_type"": null,
+  ""corrected_direction"": null,
+  ""rationale"": ""The evidence sentence does not specify any particular phenotype or feature type, and instead provides a general statement about various types of evidence supporting the concept of frontopolar cortex as a target for neuromodulation. It also does not indicate a clear direction or directness of the relationship.""
+}"
+11,36747838,Individual Differences in Delay Discounting are Associated with Dorsal Prefrontal Cortex Connectivity in Youth.,2023,bioRxiv : the preprint server for biology,attentional impulsivity resting-state fMRI,default mode network,functional connectivity,nonplanning impulsivity,unknown,associated_with,higher,,direct,0.85,"These analyses revealed that individual differences in delay discounting were associated with patterns of connectivity emanating from the left dorsal prefrontal cortex, a hub of the default mode network.",yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,1,revise,yes,no,yes,yes,no,yes,nonplanning impulsivity,connectivity from the left dorsal prefrontal cortex,higher,The sentence mentions an association but does not specify the exact feature (functional connectivity) and the directness is not fully supported as the connectivity is from the left dorsal prefrontal cortex to other regions.,,"{
+  ""support_score"": 1,
+  ""decision"": ""revise"",
+  ""phenotype_supported"": true,
+  ""feature_supported"": false,
+  ""relationship_supported"": true,
+  ""direction_supported"": true,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": ""nonplanning impulsivity"",
+  ""corrected_feature_type"": ""connectivity from the left dorsal prefrontal cortex"",
+  ""corrected_direction"": ""higher"",
+  ""rationale"": ""The sentence mentions an association but does not specify the exact feature (functional connectivity) and the directness is not fully supported as the connectivity is from the left dorsal prefrontal cortex to other regions.""
+}"
+12,39284401,"Transcranial Magnetic Stimulation-Induced Plasticity Improving Cognitive Control in Obsessive-Compulsive Disorder, Part II: Task-Based Neural Predictors of Treatment Response.",2025,Biological psychiatry,attentional impulsivity functional connectivity,unknown,functional connectivity,attentional impulsivity,obsessive-compulsive disorder,associated_with,lower,,direct,0.75,Lower precuneus activation with increased planning taskload was correlated with symptom reduction in the dorsolateral prefrontal cortex group.,yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,0,drop,no,no,no,no,no,yes,,,,"The sentence discusses a correlation between precuneus activation and symptom reduction in a specific brain region (dorsolateral prefrontal cortex) under a certain task condition, which does not directly support the extracted claim about attentional impulsivity and functional connectivity. It also does not specify the direction of the relationship or the directness of the association.",,"{
+  ""support_score"": 0,
+  ""decision"": ""drop"",
+  ""phenotype_supported"": false,
+  ""feature_supported"": false,
+  ""relationship_supported"": false,
+  ""direction_supported"": false,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": null,
+  ""corrected_feature_type"": null,
+  ""corrected_direction"": null,
+  ""rationale"": ""The sentence discusses a correlation between precuneus activation and symptom reduction in a specific brain region (dorsolateral prefrontal cortex) under a certain task condition, which does not directly support the extracted claim about attentional impulsivity and functional connectivity. It also does not specify the direction of the relationship or the directness of the association.""
+}"
+13,35277392,Prefrontal Cortical Connectivity Mediates Locus Coeruleus Noradrenergic Regulation of Inhibitory Control in Older Adults.,2022,The Journal of neuroscience : the official journal of the Society for Neuroscience,motor impulsivity functional connectivity,unknown,functional connectivity,nonplanning impulsivity,unknown,mediates,unclear,,direct,0.8,"We confirm that better response inhibition is correlated with locus coeruleus integrity and stronger connectivity between presupplementary motor area (preSMA) and right inferior frontal gyrus (rIFG), but not volumes of the prefrontal cortical regions.",yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,0,drop,no,no,no,no,no,yes,,,,"The sentence discusses correlation with locus coeruleus integrity and connectivity, but does not directly address nonplanning impulsivity or functional connectivity as specified in the claim. It also introduces additional information about volumes of prefrontal cortical regions which is not mentioned in the claim.",,"{
+  ""support_score"": 0,
+  ""decision"": ""drop"",
+  ""phenotype_supported"": false,
+  ""feature_supported"": false,
+  ""relationship_supported"": false,
+  ""direction_supported"": false,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": null,
+  ""corrected_feature_type"": null,
+  ""corrected_direction"": null,
+  ""rationale"": ""The sentence discusses correlation with locus coeruleus integrity and connectivity, but does not directly address nonplanning impulsivity or functional connectivity as specified in the claim. It also introduces additional information about volumes of prefrontal cortical regions which is not mentioned in the claim.""
+}"
+1,29454934,Time scale properties of task and resting-state functional connectivity: Detrended partial cross-correlation analysis.,2018,NeuroImage,Barratt Impulsiveness Scale resting-state fMRI,default mode network,functional connectivity,impulsivity (general),unknown,correlates_with,higher,,direct,0.8,the within-network connectivity time scale of the pre-supplementary motor area - a medial prefrontal cortical structure of the task network and critical to proactive inhibitory control - correlated inversely with Barratt impulsivity and stop signal reaction time.,yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,1,revise,no,yes,yes,no,no,yes,"Barratt impulsivity, stop signal reaction time",,lower,"The sentence mentions a group difference (Barratt impulsivity and stop signal reaction time) but does not directly state a correlation between impulsivity and functional connectivity. The direction is inverse, not higher, and the relationship is indirect.",,"{
+  ""support_score"": 1,
+  ""decision"": ""revise"",
+  ""phenotype_supported"": false,
+  ""feature_supported"": true,
+  ""relationship_supported"": true,
+  ""direction_supported"": false,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": ""Barratt impulsivity, stop signal reaction time"",
+  ""corrected_direction"": ""lower"",
+  ""corrected_direction_rationale"": ""The sentence states an inverse correlation, which implies a lower relationship."",
+  ""corrected_directness"": ""indirect"",
+  ""corrected_directness_rationale"": ""The sentence describes connectivity within a network rather than a direct association between the phenotype and the feature."",
+  ""rationale"": ""The sentence mentions a group difference (Barratt impulsivity and stop signal reaction time) but does not directly state a correlation between impulsivity and functional connectivity. The direction is inverse, not higher, and the relationship is indirect.""
+}"
+2,40630648,Identifying a Biological Signature of Trauma-Related Neurodegeneration Following Repeated Traumatic Brain Injuries Compared with Healthy Controls.,2025,Neurotrauma reports,Barratt Impulsiveness Scale fMRI,unknown,unknown,impulsivity (general),unknown,correlates_with,higher,,indirect,0.7,"The TBI group had higher NSI, PCL-5, BSI-18, BPAQ, ESS, and ISI scores compared with the controls (p < 0.001-0.042).",yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,0,drop,no,no,no,no,no,yes,,,,"The sentence mentions a group difference but does not specify a phenotype-feature association. It also does not directly state that impulsivity correlates with any feature, making the claim overclaimed.",,"{
+    ""support_score"": 0,
+    ""decision"": ""drop"",
+    ""phenotype_supported"": false,
+    ""feature_supported"": false,
+    ""relationship_supported"": false,
+    ""direction_supported"": false,
+    ""directness_supported"": false,
+    ""overclaiming"": true,
+    ""corrected_phenotype"": null,
+    ""corrected_feature_type"": null,
+    ""corrected_direction"": null,
+    ""rationale"": ""The sentence mentions a group difference but does not specify a phenotype-feature association. It also does not directly state that impulsivity correlates with any feature, making the claim overclaimed.""
+}"
+3,14572528,Response inhibition and impulsivity: an fMRI study.,2003,Neuropsychologia,Barratt Impulsiveness Scale fMRI,unknown,BOLD variability,impulsivity (general),unknown,correlates_with,higher,,direct,0.8,"Subjects with greater scores on impulsivity scales and who made more errors had greater activation of paralimbic areas during response inhibition, while less impulsive individuals and those with least errors activated higher order association areas.",yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,1,keep,yes,yes,yes,no,no,yes,impulsivity (general),activation of paralimbic areas,higher,"The sentence mentions a correlation between impulsivity and activation of paralimbic areas, but it does not directly state that BOLD variability correlates with impulsivity. The direction and directness are not explicitly supported.",,"{
+  ""support_score"": 1,
+  ""decision"": ""keep"",
+  ""phenotype_supported"": true,
+  ""feature_supported"": true,
+  ""relationship_supported"": true,
+  ""direction_supported"": false,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": ""impulsivity (general)"",
+  ""corrected_feature_type"": ""activation of paralimbic areas"",
+  ""corrected_direction"": ""higher"",
+  ""rationale"": ""The sentence mentions a correlation between impulsivity and activation of paralimbic areas, but it does not directly state that BOLD variability correlates with impulsivity. The direction and directness are not explicitly supported.""
+}"
+4,33426970,Add-on repetitive transcranial magnetic stimulation in patients with opioid use disorder undergoing methadone maintenance therapy.,2021,The American journal of drug and alcohol abuse,Barratt Impulsiveness Scale neuroimaging,unknown,unknown,impulsivity (general),OUD participants undergoing MMT,correlates_with,lower,,direct,0.8,"However, HDRS scores, BIS-11 attentional subscales, and CPTs commission T-scores (C-TS) were significantly lower in the active rTMS group (P = .003, 0.04, and 0.02, respectively) than in the sham group.",yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,1,revise,no,no,no,yes,no,yes,impulsivity (general),cognitive function,lower,"The sentence mentions a group difference in cognitive function measures but does not directly state a correlation between impulsivity and any cognitive measure. The direction of the effect is supported, but the phenotype and feature are not clearly identified.",,"{
+  ""support_score"": 1,
+  ""decision"": ""revise"",
+  ""phenotype_supported"": false,
+  ""feature_supported"": false,
+  ""relationship_supported"": false,
+  ""direction_supported"": true,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": ""impulsivity (general)"",
+  ""corrected_feature_type"": ""cognitive function"",
+  ""corrected_direction"": ""lower"",
+  ""rationale"": ""The sentence mentions a group difference in cognitive function measures but does not directly state a correlation between impulsivity and any cognitive measure. The direction of the effect is supported, but the phenotype and feature are not clearly identified.""
+}"
+5,41098388,Functional connectivity in resting-state fMRI (rs-fMRI) in opioid use disorder.,2025,The European physical journal. Special topics,impulsivity resting-state fMRI functional connectivity,"default mode network, salience/ventral attention network",functional connectivity,impulsivity (general),opioid use disorder,correlates_with,unclear,,indirect,0.6,Our preliminary rs-fMRI findings reveal significant disruptions in functional connectivity in individuals with opioid addiction within DMN and SN networks involved in cognitive functions such as decision-making and impulse control.,yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,1,revise,no,yes,yes,no,no,yes,impulsivity (general),functional connectivity,unclear,"The sentence mentions functional connectivity disruptions in networks involved in decision-making and impulse control, which indirectly supports the phenotype of impulsivity. However, it does not directly state that impulsivity correlates with functional connectivity. The direction and directness are unclear.",,"{
+    ""support_score"": 1,
+    ""decision"": ""revise"",
+    ""phenotype_supported"": false,
+    ""feature_supported"": true,
+    ""relationship_supported"": true,
+    ""direction_supported"": false,
+    ""directness_supported"": false,
+    ""overclaiming"": true,
+    ""corrected_phenotype"": ""impulsivity (general)"",
+    ""corrected_feature_type"": ""functional connectivity"",
+    ""corrected_direction"": ""unclear"",
+    ""rationale"": ""The sentence mentions functional connectivity disruptions in networks involved in decision-making and impulse control, which indirectly supports the phenotype of impulsivity. However, it does not directly state that impulsivity correlates with functional connectivity. The direction and directness are unclear.""
+}"
+6,24834038,Brain functional connectivity changes in children that differ in impulsivity temperamental trait.,2014,Frontiers in behavioral neuroscience,impulsivity resting-state fMRI functional connectivity,default mode network,functional connectivity,impulsivity (general),unknown,correlates_with,lower,,direct,0.9,We found two DMN clusters located at the posterior cingulate cortex and the right angular gyrus which were negatively correlated with impulsivity scores.,yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,2,keep,yes,yes,yes,yes,yes,no,,,,"The sentence directly states a negative correlation between impulsivity scores and functional connectivity in the default mode network, which matches the extracted claim.",,"{
+  ""support_score"": 2,
+  ""decision"": ""keep"",
+  ""phenotype_supported"": true,
+  ""feature_supported"": true,
+  ""relationship_supported"": true,
+  ""direction_supported"": true,
+  ""directness_supported"": true,
+  ""overclaiming"": false,
+  ""corrected_phenotype"": null,
+  ""corrected_feature_type"": null,
+  ""corrected_direction"": null,
+  ""rationale"": ""The sentence directly states a negative correlation between impulsivity scores and functional connectivity in the default mode network, which matches the extracted claim.""
+}"
+7,28189592,Dissociable frontostriatal white matter connectivity underlies reward and motor impulsivity.,2017,NeuroImage,impulsivity fMRI functional connectivity,unknown,structural connectivity,impulsivity (general),unknown,associated_with,unclear,,direct,0.85,"We found a double dissociation such that individual differences in white matter connectivity between the ventral striatum and the ventromedial prefrontal cortex and dorsolateral prefrontal cortex was associated with reward impulsivity, as measured by delay discounting, whereas connectivity between dorsal striatum and supplementary motor area was associated with motor impulsivity, but not vice versa.",yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,2,keep,yes,yes,yes,no,yes,no,"reward impulsivity, motor impulsivity",white matter connectivity,unclear,"The sentence clearly states associations between white matter connectivity and impulsivity, but the direction of the relationship is not specified.",,"{
+    ""support_score"": 2,
+    ""decision"": ""keep"",
+    ""phenotype_supported"": true,
+    ""feature_supported"": true,
+    ""relationship_supported"": true,
+    ""direction_supported"": false,
+    ""directness_supported"": true,
+    ""overclaiming"": false,
+    ""corrected_phenotype"": ""reward impulsivity, motor impulsivity"",
+    ""corrected_feature_type"": ""white matter connectivity"",
+    ""corrected_direction"": ""unclear"",
+    ""rationale"": ""The sentence clearly states associations between white matter connectivity and impulsivity, but the direction of the relationship is not specified.""
+}"
+8,31886611,Dorsal striatal functional connectivity changes in Internet gaming disorder: A longitudinal magnetic resonance imaging study.,2021,Addiction biology,impulsivity fMRI functional connectivity,unknown,functional connectivity,impulsivity (general),Internet gaming disorder,correlates_with,unclear,,direct,0.75,Young males with IGD showed an altered FC pattern in the dorsal striatum during follow-up. FC of the dorsal striatum in IGD increased in the mPFC and decreased in the MOG.,yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,1,revise,no,yes,yes,no,no,yes,Internet gaming disorder,functional connectivity,"increased in some areas, decreased in others",The sentence mentions a group difference (IGD) but does not directly state that impulsivity correlates with functional connectivity. The direction of the relationship is unclear and the directness is not fully supported as the sentence does not specify the exact relationship between impulsivity and functional connectivity.,,"{
+  ""support_score"": 1,
+  ""decision"": ""revise"",
+  ""phenotype_supported"": false,
+  ""feature_supported"": true,
+  ""relationship_supported"": true,
+  ""direction_supported"": false,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": ""Internet gaming disorder"",
+  ""corrected_feature_type"": ""functional connectivity"",
+  ""corrected_direction"": ""increased in some areas, decreased in others"",
+  ""rationale"": ""The sentence mentions a group difference (IGD) but does not directly state that impulsivity correlates with functional connectivity. The direction of the relationship is unclear and the directness is not fully supported as the sentence does not specify the exact relationship between impulsivity and functional connectivity.""
+}"
+9,28860514,Delay discounting is associated with the fractional amplitude of low-frequency fluctuations and resting-state functional connectivity in late adolescence.,2017,Scientific reports,trait impulsivity resting-state fMRI,unknown,functional connectivity,impulsivity (general),unknown,associated_with,higher,,direct,0.9,"DD was positively correlated with the RSFC between the dACC and the left dorsolateral prefrontal cortex (DLPFC), a critical functional circuit in the cognitive control network.",yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,2,keep,yes,yes,yes,yes,yes,no,impulsivity (general),resting-state functional connectivity,higher,"The sentence directly states a positive correlation between delay discounting (a measure of impulsivity) and resting-state functional connectivity (RSFC) between specific brain regions, which aligns with the extracted claim.",,"{
+  ""support_score"": 2,
+  ""decision"": ""keep"",
+  ""phenotype_supported"": true,
+  ""feature_supported"": true,
+  ""relationship_supported"": true,
+  ""direction_supported"": true,
+  ""directness_supported"": true,
+  ""overclaiming"": false,
+  ""corrected_phenotype"": ""impulsivity (general)"",
+  ""corrected_feature_type"": ""resting-state functional connectivity"",
+  ""corrected_direction"": ""higher"",
+  ""rationale"": ""The sentence directly states a positive correlation between delay discounting (a measure of impulsivity) and resting-state functional connectivity (RSFC) between specific brain regions, which aligns with the extracted claim.""
+}"
+10,34993375,Brain Networks Associated With COVID-19 Risk: Data From 3662 Participants.,2021,"Chronic stress (Thousand Oaks, Calif.)",trait impulsivity functional connectivity,unknown,functional connectivity,impulsivity (general),unknown,associated_with,unclear,,indirect,0.7,"Overall, lower integration across the brain modules and increased segregation, as reflected by internal within module connectivity, were associated with higher infection rates.",yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,0,drop,no,no,no,no,no,yes,,,,"The sentence discusses brain integration and segregation in relation to infection rates, but does not specify a phenotype or feature type that aligns with the extracted claim about impulsivity and functional connectivity.",,"{
+  ""support_score"": 0,
+  ""decision"": ""drop"",
+  ""phenotype_supported"": false,
+  ""feature_supported"": false,
+  ""relationship_supported"": false,
+  ""direction_supported"": false,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": null,
+  ""corrected_feature_type"": null,
+  ""corrected_direction"": null,
+  ""rationale"": ""The sentence discusses brain integration and segregation in relation to infection rates, but does not specify a phenotype or feature type that aligns with the extracted claim about impulsivity and functional connectivity.""
+}"
+11,37561637,Abnormal frontostriatal connectivity and serotonin function in gambling disorder: A preliminary exploratory study.,2023,Journal of behavioral addictions,attentional impulsivity resting-state fMRI,unknown,functional connectivity,attentional impulsivity,gambling disorder,correlates_with,lower,,direct,0.9,"Right NAcc 11C-MADAM binding potential correlated with attentional impulsivity in individuals with gambling disorder (r = -0.73, p = 0.005).",yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,2,keep,yes,yes,yes,yes,yes,no,,,,"The sentence directly states that the binding potential of 11C-MADAM in the right NAcc correlates with attentional impulsivity in individuals with gambling disorder, which matches the extracted claim.",,"{
+  ""support_score"": 2,
+  ""decision"": ""keep"",
+  ""phenotype_supported"": true,
+  ""feature_supported"": true,
+  ""relationship_supported"": true,
+  ""direction_supported"": true,
+  ""directness_supported"": true,
+  ""overclaiming"": false,
+  ""corrected_phenotype"": null,
+  ""corrected_feature_type"": null,
+  ""corrected_direction"": null,
+  ""rationale"": ""The sentence directly states that the binding potential of 11C-MADAM in the right NAcc correlates with attentional impulsivity in individuals with gambling disorder, which matches the extracted claim.""
+}"
+12,22901705,Alterations in regional homogeneity of resting-state brain activity in internet gaming addicts.,2012,Behavioral and brain functions : BBF,motor impulsivity resting-state fMRI,unknown,BOLD variability,impulsivity (general),internet gaming addiction,associated_with,unclear,,indirect,0.6,Our results suggest that long-time online game playing enhanced the brain synchronization in sensory-motor coordination related brain regions and decreased the excitability in visual and auditory related brain regions.,yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,0,drop,no,no,no,no,no,yes,,,,"The sentence discusses changes in brain synchronization and excitability in sensory-motor and visual-auditory regions, but does not mention impulsivity or BOLD variability. It also does not provide a clear direction or directness of the relationship.",,"{
+  ""support_score"": 0,
+  ""decision"": ""drop"",
+  ""phenotype_supported"": false,
+  ""feature_supported"": false,
+  ""relationship_supported"": false,
+  ""direction_supported"": false,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": null,
+  ""corrected_feature_type"": null,
+  ""corrected_direction"": null,
+  ""rationale"": ""The sentence discusses changes in brain synchronization and excitability in sensory-motor and visual-auditory regions, but does not mention impulsivity or BOLD variability. It also does not provide a clear direction or directness of the relationship.""
+}"
+13,41281564,Associations between structural injury and task-based corticomuscular connectivity after stroke.,2025,Frontiers in neurology,motor impulsivity functional connectivity,unknown,functional connectivity,motor impulsivity,stroke,correlates_with,unclear,,indirect,0.5,"greater injury correlated with higher coherence between electrodes overlying the supplementary motor area and affected extensor digitorum (high beta: ρ = 0.83, p = 0.001)",yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,1,revise,no,yes,yes,no,no,yes,,coherence,unclear,"The sentence mentions a correlation between injury and coherence, which indirectly supports the feature but does not specify a phenotype. The direction and directness are unclear, and the claim of motor impulsivity is an overclaim.",,"{
+  ""support_score"": 1,
+  ""decision"": ""revise"",
+  ""phenotype_supported"": false,
+  ""feature_supported"": true,
+  ""relationship_supported"": true,
+  ""direction_supported"": false,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": null,
+  ""corrected_feature_type"": ""coherence"",
+  ""corrected_direction"": ""unclear"",
+  ""rationale"": ""The sentence mentions a correlation between injury and coherence, which indirectly supports the feature but does not specify a phenotype. The direction and directness are unclear, and the claim of motor impulsivity is an overclaim.""
+}"
+1,38002468,Insula Connectivity Abnormalities Predict Impulsivity in Chronic Heroin Use Disorder: A Cross-Sectional Resting-State fMRI Study.,2023,Brain sciences,Barratt Impulsiveness Scale resting-state fMRI,unknown,functional connectivity,impulsivity (general),heroin use disorder,predicts,higher,,direct,0.9,"Changes in FC between the right insula and the lateral occipital cortex and the right angular gyrus were significantly positively correlated with total trait impulsivity scores, motor impulsivity, and nonplanning impulsivity, whereas changes in the FC between the left insula and the left superior frontal gyrus and left frontopolar brain region were significantly negatively correlated with trait impulsivity.",yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,2,keep,yes,yes,yes,yes,yes,no,,,,"The sentence directly states positive and negative correlations between functional connectivity changes and impulsivity traits, which aligns with the extracted claim.",,"{
+  ""support_score"": 2,
+  ""decision"": ""keep"",
+  ""phenotype_supported"": true,
+  ""feature_supported"": true,
+  ""relationship_supported"": true,
+  ""direction_supported"": true,
+  ""directness_supported"": true,
+  ""overclaiming"": false,
+  ""corrected_phenotype"": null,
+  ""corrected_feature_type"": null,
+  ""corrected_direction"": null,
+  ""rationale"": ""The sentence directly states positive and negative correlations between functional connectivity changes and impulsivity traits, which aligns with the extracted claim.""
+}"
+2,15309395,Negative correlation between right prefrontal activity during response inhibition and impulsiveness: a fMRI study.,2004,European archives of psychiatry and clinical neuroscience,Barratt Impulsiveness Scale fMRI,unknown,functional connectivity,motor impulsivity,unknown,correlates_with,lower,,direct,0.8,A negative correlation was observed between the motor impulsiveness of BIS-11 and No-Go-related activation in the right dorsolateral prefrontal cortex (RDLPFC).,yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,1,revise,unclear,unclear,unclear,no,no,yes,motor impulsivity,functional connectivity,lower,The sentence mentions a group difference (motor impulsiveness) but does not directly state that functional connectivity correlates with impulsivity. The direction and directness need to be clarified.,,"{
+  ""support_score"": 1,
+  ""decision"": ""revise"",
+  ""phenotype_supported"": ""motor impulsiveness"",
+  ""feature_supported"": ""No-Go-related activation in the right dorsolateral prefrontal cortex (RDLPFC)"",
+  ""relationship_supported"": ""correlates_with"",
+  ""direction_supported"": false,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": ""motor impulsivity"",
+  ""corrected_feature_type"": ""functional connectivity"",
+  ""corrected_direction"": ""lower"",
+  ""rationale"": ""The sentence mentions a group difference (motor impulsiveness) but does not directly state that functional connectivity correlates with impulsivity. The direction and directness need to be clarified.""
+}"
+3,34461353,Impulsivity is related to overhasty risk learning in attention-deficit/hyperactivity disorder: A computational psychiatric approach.,2021,Journal of psychiatric research,Barratt Impulsiveness Scale fMRI,unknown,functional connectivity,impulsivity (general),attention-deficit/hyperactivity disorder,associated_with,higher,,direct,0.85,"The degree of overhasty learning in ADHD patients was significantly correlated with the BIS score (r = 0.424, p = 0.009).",yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,1,revise,yes,no,yes,no,no,yes,impulsivity (general),behavioral index (BIS score),higher,"The sentence mentions a correlation between overhasty learning and a BIS score, which is a behavioral index, but does not directly mention functional connectivity. The direction and relationship are correct but the feature type and directness are not explicitly supported.",,"{
+    ""support_score"": 1,
+    ""decision"": ""revise"",
+    ""phenotype_supported"": true,
+    ""feature_supported"": false,
+    ""relationship_supported"": true,
+    ""direction_supported"": false,
+    ""directness_supported"": false,
+    ""overclaiming"": true,
+    ""corrected_phenotype"": ""impulsivity (general)"",
+    ""corrected_feature_type"": ""behavioral index (BIS score)"",
+    ""corrected_direction"": ""higher"",
+    ""rationale"": ""The sentence mentions a correlation between overhasty learning and a BIS score, which is a behavioral index, but does not directly mention functional connectivity. The direction and relationship are correct but the feature type and directness are not explicitly supported.""
+}"
+4,28783574,Go/No-Go task performance predicts differences in compulsivity but not in impulsivity personality traits.,2017,Psychiatry research,Barratt Impulsiveness Scale neuroimaging,unknown,unknown,impulsivity (general),unknown,predicts,higher,,indirect,0.7,"Surprisingly, no relation was found between the Go/No-Go task and the BIS-11 scale.",yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,0,drop,no,no,no,no,no,yes,,,,"The sentence states that no relation was found between the Go/No-Go task and the BIS-11 scale, which contradicts the claim of predicting impulsivity. It also mentions a group difference (between Go/No-Go task and BIS-11 scale) without directly stating a phenotype-feature association.",,"{
+  ""support_score"": 0,
+  ""decision"": ""drop"",
+  ""phenotype_supported"": false,
+  ""feature_supported"": false,
+  ""relationship_supported"": false,
+  ""direction_supported"": false,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": null,
+  ""corrected_feature_type"": null,
+  ""corrected_direction"": null,
+  ""rationale"": ""The sentence states that no relation was found between the Go/No-Go task and the BIS-11 scale, which contradicts the claim of predicting impulsivity. It also mentions a group difference (between Go/No-Go task and BIS-11 scale) without directly stating a phenotype-feature association.""
+}"
+5,37673288,Resting-state functional magnetic resonance imaging alterations in borderline personality disorder: A systematic review.,2023,Journal of affective disorders,impulsivity resting-state fMRI functional connectivity,unknown,functional connectivity,impulsivity (general),Borderline personality disorder,associated_with,unclear,,indirect,0.5,"aberrant resting-state functional connectivity (rs-FC) within and between default mode network (DMN), salience network (SN), and central executive network (CEN) were observed in BPD compared to healthy controls",yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,1,revise,no,yes,yes,no,no,yes,impulsivity (general),resting-state functional connectivity (rs-FC),unclear,The sentence mentions a group difference (BPD vs. healthy controls) but does not directly state an association with impulsivity. It also does not specify the direction of the relationship.,,"{
+    ""support_score"": 1,
+    ""decision"": ""revise"",
+    ""phenotype_supported"": false,
+    ""feature_supported"": true,
+    ""relationship_supported"": true,
+    ""direction_supported"": false,
+    ""directness_supported"": false,
+    ""overclaiming"": true,
+    ""corrected_phenotype"": ""impulsivity (general)"",
+    ""corrected_feature_type"": ""resting-state functional connectivity (rs-FC)"",
+    ""corrected_direction"": ""unclear"",
+    ""rationale"": ""The sentence mentions a group difference (BPD vs. healthy controls) but does not directly state an association with impulsivity. It also does not specify the direction of the relationship.""
+}"
+6,37887440,"Neurophysiological, Neuroimaging, and Neuropsychological Predictors of Human Alcoholism and Risk.",2023,"Behavioral sciences (Basel, Switzerland)",impulsivity resting-state fMRI functional connectivity,unknown,unknown,impulsivity (general),unknown,unknown,unclear,,background,,,no,evidence_strength not a number,yes,no,unclear,,,,,,,,,,qwen2.5-7b-instruct,0,drop,no,no,no,no,no,yes,,,,"The sentence does not provide any specific information about impulsivity or any other phenotype-feature association, making it neither directly nor indirectly supportive of the claim. It also suggests a group difference without specifying a phenotype-feature relationship.",,"{""support_score"": 0, ""decision"": ""drop"", ""phenotype_supported"": false, ""feature_supported"": false, ""relationship_supported"": false, ""direction_supported"": false, ""directness_supported"": false, ""overclaiming"": true, ""corrected_phenotype"": null, ""corrected_feature_type"": null, ""corrected_direction"": null, ""rationale"": ""The sentence does not provide any specific information about impulsivity or any other phenotype-feature association, making it neither directly nor indirectly supportive of the claim. It also suggests a group difference without specifying a phenotype-feature relationship.""}"
+7,38468374,Functional connectivity alterations in individuals with gaming disorder assessed by functional magnetic resonance imaging: a systematic review.,2025,Journal of addictive diseases,impulsivity fMRI functional connectivity,unknown,functional connectivity,impulsivity (general),Internet Gaming Disorder (IGD),associated_with,unclear,,indirect,0.7,The main findings reveal changes such as significant increases or decreases in functional connectivity in certain regions of the brain.,yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,1,revise,no,yes,no,no,no,yes,impulsivity (general),functional connectivity,unclear,The sentence mentions changes in functional connectivity but does not specify a particular phenotype or the direction of the change. It also implies a group difference without directly stating an association between impulsivity and functional connectivity.,,"{
+  ""support_score"": 1,
+  ""decision"": ""revise"",
+  ""phenotype_supported"": false,
+  ""feature_supported"": true,
+  ""relationship_supported"": false,
+  ""direction_supported"": false,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": ""impulsivity (general)"",
+  ""corrected_feature_type"": ""functional connectivity"",
+  ""corrected_direction"": ""unclear"",
+  ""rationale"": ""The sentence mentions changes in functional connectivity but does not specify a particular phenotype or the direction of the change. It also implies a group difference without directly stating an association between impulsivity and functional connectivity.""
+}"
+8,32987241,Intrinsic functional connectivity of the default mode and cognitive control networks relate to change in behavioral performance over two years.,2020,Cortex; a journal devoted to the study of the nervous system and behavior,impulsivity fMRI functional connectivity,default mode network | cognitive control network,functional connectivity,impulsivity (general),unknown,associated_with,lower,,direct,0.85,"Additionally, decreased connectivity between posterior parietal CCN and DMN nodes and decreased connectivity between left and right dorsolateral prefrontal nodes was associated with increased cognitive performance.",yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,0,drop,no,no,no,no,no,yes,,,,"The sentence discusses decreased connectivity associated with increased cognitive performance, which contradicts the extracted claim of decreased connectivity associated with increased impulsivity. It also does not specify a clear phenotype and the relationship is not directly stated.",,"{
+  ""support_score"": 0,
+  ""decision"": ""drop"",
+  ""phenotype_supported"": false,
+  ""feature_supported"": false,
+  ""relationship_supported"": false,
+  ""direction_supported"": false,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": null,
+  ""corrected_feature_type"": null,
+  ""corrected_direction"": null,
+  ""rationale"": ""The sentence discusses decreased connectivity associated with increased cognitive performance, which contradicts the extracted claim of decreased connectivity associated with increased impulsivity. It also does not specify a clear phenotype and the relationship is not directly stated.""
+}"
+9,41098856,The CB1 receptor: linking impulsivity and substance use disorder.,2025,Frontiers in neuroscience,trait impulsivity functional connectivity,unknown,functional connectivity,impulsivity (general),unknown,associated_with,unclear,,indirect,0.7,"CB1R signaling in these regions influences decision-making, reward sensitivity, and response inhibition-all processes critical to the emergence of impulsive traits and drug-seeking behavior.",yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,1,revise,yes,no,yes,no,no,yes,impulsivity (general),"decision-making, reward sensitivity, response inhibition",unclear,The sentence mentions impulsivity-related traits but does not specify a functional connectivity feature. It also does not directly state an association between CB1R and functional connectivity. The direction and directness are unclear.,,"{
+  ""support_score"": 1,
+  ""decision"": ""revise"",
+  ""phenotype_supported"": true,
+  ""feature_supported"": false,
+  ""relationship_supported"": true,
+  ""direction_supported"": false,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": ""impulsivity (general)"",
+  ""corrected_feature_type"": ""decision-making, reward sensitivity, response inhibition"",
+  ""corrected_direction"": ""unclear"",
+  ""rationale"": ""The sentence mentions impulsivity-related traits but does not specify a functional connectivity feature. It also does not directly state an association between CB1R and functional connectivity. The direction and directness are unclear.""
+}"
+10,27896939,"A multimodal study of impulsivity and body weight: Integrating behavioral, cognitive, and neuroimaging approaches.",2017,"Obesity (Silver Spring, Md.)",trait impulsivity functional connectivity,unknown,functional connectivity,impulsivity (general),unknown,correlates_with,higher,,direct,0.85,"Further, there was a positive association between BMI and functional connectivity between the right inferior frontal gyrus and right middle frontal gyrus during successful response inhibition.",yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,1,revise,no,yes,yes,yes,no,no,impulsivity (response inhibition),functional connectivity,higher,"The sentence mentions a positive association between BMI and functional connectivity, which correlates with the feature but does not directly mention impulsivity. The direction is correct, but the phenotype is not explicitly stated.",,"{
+  ""support_score"": 1,
+  ""decision"": ""revise"",
+  ""phenotype_supported"": false,
+  ""feature_supported"": true,
+  ""relationship_supported"": true,
+  ""direction_supported"": true,
+  ""directness_supported"": false,
+  ""overclaiming"": false,
+  ""corrected_phenotype"": ""impulsivity (response inhibition)"",
+  ""corrected_feature_type"": ""functional connectivity"",
+  ""corrected_direction"": ""higher"",
+  ""rationale"": ""The sentence mentions a positive association between BMI and functional connectivity, which correlates with the feature but does not directly mention impulsivity. The direction is correct, but the phenotype is not explicitly stated.""
+}"
+11,28174127,Altered functional connectivity in default mode network in Internet gaming disorder: Influence of childhood ADHD.,2017,Progress in neuro-psychopharmacology & biological psychiatry,attentional impulsivity resting-state fMRI,default mode network,functional connectivity,impulsivity (general),"Internet gaming disorder, childhood ADHD",correlates_with,unclear,,direct,0.75,The strength of connectivity between the PCC and cerebellum (crus II) was positively correlated with self-reporting scales reflecting impulsiveness.,yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,1,revise,no,yes,yes,no,no,yes,impulsivity (self-reporting scales),connectivity strength,positive,The sentence mentions a correlation with impulsiveness but does not specify that it is related to childhood ADHD. It also does not directly mention the default mode network or Internet gaming disorder. The direction and directness need to be clarified.,,"{
+  ""support_score"": 1,
+  ""decision"": ""revise"",
+  ""phenotype_supported"": false,
+  ""feature_supported"": true,
+  ""relationship_supported"": true,
+  ""direction_supported"": false,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": ""impulsivity (self-reporting scales)"",
+  ""corrected_feature_type"": ""connectivity strength"",
+  ""corrected_direction"": ""positive"",
+  ""rationale"": ""The sentence mentions a correlation with impulsiveness but does not specify that it is related to childhood ADHD. It also does not directly mention the default mode network or Internet gaming disorder. The direction and directness need to be clarified.""
+}"
+12,25925985,Impaired corticostriatal connectivity in impulse control disorders in Parkinson disease.,2015,Neurology,motor impulsivity resting-state fMRI,unknown,functional connectivity,nonplanning impulsivity,Parkinson disease with and without impulse control disorders,associated_with,lower,,direct,0.8,"The presence of an ICD in patients with PD was associated with functional disconnection between the left anterior putamen and both the left inferior temporal gyrus and the left anterior cingulate gyrus, as well as a trend toward a functional disconnection between several motor and associative striatal regions and limbic, associative, and motor cortical regions.",yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,1,revise,no,yes,yes,no,no,yes,nonplanning impulsivity,functional connectivity,lower,The sentence mentions a group difference (ICD in PD) but does not directly state that nonplanning impulsivity is associated with lower functional connectivity. The direction and directness are not explicitly stated.,,"{
+    ""support_score"": 1,
+    ""decision"": ""revise"",
+    ""phenotype_supported"": false,
+    ""feature_supported"": true,
+    ""relationship_supported"": true,
+    ""direction_supported"": false,
+    ""directness_supported"": false,
+    ""overclaiming"": true,
+    ""corrected_phenotype"": ""nonplanning impulsivity"",
+    ""corrected_feature_type"": ""functional connectivity"",
+    ""corrected_direction"": ""lower"",
+    ""rationale"": ""The sentence mentions a group difference (ICD in PD) but does not directly state that nonplanning impulsivity is associated with lower functional connectivity. The direction and directness are not explicitly stated.""
+}"
+13,31907881,Human Brain Imaging Links Dopaminergic Systems to Impulsivity.,2020,Current topics in behavioral neurosciences,motor impulsivity functional connectivity,unknown,functional connectivity,motor impulsivity,unknown,correlates_with,lower,,direct,0.85,striatal D2-type receptor availability shows positive correlation with motor response inhibition and cognitive flexibility.,yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,0,drop,no,no,no,no,no,yes,,,,"The sentence discusses striatal D2-type receptor availability correlating with motor response inhibition and cognitive flexibility, which are different phenotypes than the extracted claim about motor impulsivity. It also does not specify functional connectivity as the feature type, and the relationship and direction are not directly supported.",,"{
+  ""support_score"": 0,
+  ""decision"": ""drop"",
+  ""phenotype_supported"": false,
+  ""feature_supported"": false,
+  ""relationship_supported"": false,
+  ""direction_supported"": false,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": null,
+  ""corrected_feature_type"": null,
+  ""corrected_direction"": null,
+  ""rationale"": ""The sentence discusses striatal D2-type receptor availability correlating with motor response inhibition and cognitive flexibility, which are different phenotypes than the extracted claim about motor impulsivity. It also does not specify functional connectivity as the feature type, and the relationship and direction are not directly supported.""
+}"
+1,37086305,"Emotion dysregulation, impulsivity and anger rumination in borderline personality disorder: the role of amygdala and insula.",2024,European archives of psychiatry and clinical neuroscience,Barratt Impulsiveness Scale resting-state fMRI,unknown,functional connectivity,impulsivity (general),BPD,correlates_with,lower,,direct,0.8,"Amygdala and insula are altered in BPD patients, and these two limbic structures are implicated in specific neuropsychiatric symptoms, such as difficulty in emotion regulation, depression, anger and depressive rumination.",yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,0,drop,no,no,no,no,no,yes,,,,"The sentence does not provide a specific relationship between impulsivity and functional connectivity, nor does it mention the direction or directness of the relationship. It also implies a broader context of neuropsychiatric symptoms rather than focusing on a specific phenotype-feature association.",,"{
+  ""support_score"": 0,
+  ""decision"": ""drop"",
+  ""phenotype_supported"": false,
+  ""feature_supported"": false,
+  ""relationship_supported"": false,
+  ""direction_supported"": false,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": null,
+  ""corrected_feature_type"": null,
+  ""corrected_direction"": null,
+  ""rationale"": ""The sentence does not provide a specific relationship between impulsivity and functional connectivity, nor does it mention the direction or directness of the relationship. It also implies a broader context of neuropsychiatric symptoms rather than focusing on a specific phenotype-feature association.""
+}"
+2,31427669,The Effect of Mindfulness Meditation on Impulsivity and its Neurobiological Correlates in Healthy Adults.,2019,Scientific reports,Barratt Impulsiveness Scale fMRI,unknown,unknown,impulsivity (general),unknown,unclear,unclear,,background,0.5,"Here, an eight-week mindfulness intervention did not reduce impulsivity on the go/no-go task or Barratt Impulsiveness Scale (BIS-11), nor produce changes in neural correlates of impulsivity (i.e. frontostriatal gray matter, functional connectivity, and dopamine levels) compared to active or wait-list control groups.",yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,1,revise,yes,no,no,no,no,yes,impulsivity (general),"neural correlates (frontostriatal gray matter, functional connectivity, dopamine levels)",no change,"The sentence mentions a group difference between the mindfulness intervention group and control groups, but it does not directly state a relationship between mindfulness and impulsivity. It also overclaims by mentioning neural correlates without establishing a clear relationship.",,"{
+  ""support_score"": 1,
+  ""decision"": ""revise"",
+  ""phenotype_supported"": true,
+  ""feature_supported"": false,
+  ""relationship_supported"": false,
+  ""direction_supported"": false,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": ""impulsivity (general)"",
+  ""corrected_feature_type"": ""neural correlates (frontostriatal gray matter, functional connectivity, dopamine levels)"",
+  ""corrected_direction"": ""no change"",
+  ""rationale"": ""The sentence mentions a group difference between the mindfulness intervention group and control groups, but it does not directly state a relationship between mindfulness and impulsivity. It also overclaims by mentioning neural correlates without establishing a clear relationship.""
+}"
+3,26460483,Lateral prefrontal model-based signatures are reduced in healthy individuals with high trait impulsivity.,2015,Translational psychiatry,Barratt Impulsiveness Scale fMRI,unknown,functional connectivity,impulsivity (general),unknown,associated_with,lower,,direct,0.9,Right lateral prefrontal model-based signatures were reduced in high-impulsive individuals.,yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,2,keep,yes,yes,yes,yes,yes,no,,,,"The sentence directly states that right lateral prefrontal model-based signatures were reduced in high-impulsive individuals, which aligns with the extracted claim.",,"{
+  ""support_score"": 2,
+  ""decision"": ""keep"",
+  ""phenotype_supported"": true,
+  ""feature_supported"": true,
+  ""relationship_supported"": true,
+  ""direction_supported"": true,
+  ""directness_supported"": true,
+  ""overclaiming"": false,
+  ""corrected_phenotype"": null,
+  ""corrected_feature_type"": null,
+  ""corrected_direction"": null,
+  ""rationale"": ""The sentence directly states that right lateral prefrontal model-based signatures were reduced in high-impulsive individuals, which aligns with the extracted claim.""
+}"
+4,30616125,A multi-dimensional evaluation of craving and impulsivity among people admitted for alcohol-related problems in emergency department.,2019,Psychiatry research,Barratt Impulsiveness Scale neuroimaging,unknown,unknown,impulsivity (general),alcohol misuse,associated_with,unclear,,background,,,no,evidence_strength not a number,yes,no,unclear,,,,,,,,,,qwen2.5-7b-instruct,1,revise,yes,no,yes,no,no,no,impulsivity (general),unknown,unclear,"The sentence partially supports the claim as it mentions an association with impulsivity, but it does not specify the feature type or provide a clear direction. The directness is marked as background, which is accurate.",,"{
+  ""support_score"": 1,
+  ""decision"": ""revise"",
+  ""phenotype_supported"": true,
+  ""feature_supported"": false,
+  ""relationship_supported"": true,
+  ""direction_supported"": false,
+  ""directness_supported"": false,
+  ""overclaiming"": false,
+  ""corrected_phenotype"": ""impulsivity (general)"",
+  ""corrected_feature_type"": ""unknown"",
+  ""corrected_direction"": ""unclear"",
+  ""rationale"": ""The sentence partially supports the claim as it mentions an association with impulsivity, but it does not specify the feature type or provide a clear direction. The directness is marked as background, which is accurate.""
+}"
+5,31284029,Genetic contribution to the phenotypic correlation between trait impulsivity and resting-state functional connectivity of the amygdala and its subregions.,2019,NeuroImage,impulsivity resting-state fMRI functional connectivity,unknown,functional connectivity,impulsivity (general),unknown,correlates_with,higher,,direct,0.95,trait impulsivity was positively correlated with the rsFC between the left full amygdala and the right dorsolateral prefrontal cortex (DLPFC),yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,2,keep,yes,yes,yes,yes,yes,no,,,,"The sentence directly states a positive correlation between trait impulsivity and functional connectivity (rsFC) between specific brain regions, which aligns with the extracted claim.",,"{
+  ""support_score"": 2,
+  ""decision"": ""keep"",
+  ""phenotype_supported"": true,
+  ""feature_supported"": true,
+  ""relationship_supported"": true,
+  ""direction_supported"": true,
+  ""directness_supported"": true,
+  ""overclaiming"": false,
+  ""corrected_phenotype"": null,
+  ""corrected_feature_type"": null,
+  ""corrected_direction"": null,
+  ""rationale"": ""The sentence directly states a positive correlation between trait impulsivity and functional connectivity (rsFC) between specific brain regions, which aligns with the extracted claim.""
+}"
+6,29277650,"Macroscale variation in resting-state neuronal activity and connectivity assessed by simultaneous calcium imaging, hemodynamic imaging and electrophysiology.",2018,NeuroImage,impulsivity resting-state fMRI functional connectivity,unknown,functional connectivity,impulsivity (general),unknown,unclear,unclear,,background,,,no,evidence_strength not a number,yes,no,unclear,,,,,,,,,,qwen2.5-7b-instruct,0,drop,no,no,no,no,no,yes,,,,"The sentence does not provide any information related to impulsivity, functional connectivity, or any specific relationship or direction. It also does not mention a clear phenotype-feature association, leading to overclaiming.",,"{""support_score"": 0, ""decision"": ""drop"", ""phenotype_supported"": false, ""feature_supported"": false, ""relationship_supported"": false, ""direction_supported"": false, ""directness_supported"": false, ""overclaiming"": true, ""corrected_phenotype"": null, ""corrected_feature_type"": null, ""corrected_direction"": null, ""rationale"": ""The sentence does not provide any information related to impulsivity, functional connectivity, or any specific relationship or direction. It also does not mention a clear phenotype-feature association, leading to overclaiming.""}"
+7,31401546,Functional connectivity of emotional well-being: Overconnectivity between default and attentional networks is associated with attitudes of anger and aggression.,2019,Psychiatry research. Neuroimaging,impulsivity fMRI functional connectivity,"default mode network, salience/ventral attention network",functional connectivity,nonplanning impulsivity,unknown,associated_with,higher,impaired effortful control and decreased response inhibition,direct,0.85,functional connectivity between the default and attentional networks was positively correlated with scores of attitudes of anger and aggression,yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,1,revise,no,yes,yes,yes,no,yes,anger and aggression,functional connectivity,higher,"The sentence mentions functional connectivity between the default and attentional networks and their positive correlation with attitudes of anger and aggression, which supports the feature and relationship but does not directly mention nonplanning impulsivity. The direction is correctly identified as higher. However, the directness is not supported since the sentence does not explicitly state that the functional connectivity is directly associated with nonplanning impulsivity. Additionally, the sentence overclaims by suggesting a broader association than the extracted claim.",,"{
+  ""support_score"": 1,
+  ""decision"": ""revise"",
+  ""phenotype_supported"": false,
+  ""feature_supported"": true,
+  ""relationship_supported"": true,
+  ""direction_supported"": true,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": ""anger and aggression"",
+  ""corrected_feature_type"": ""functional connectivity"",
+  ""corrected_direction"": ""higher"",
+  ""rationale"": ""The sentence mentions functional connectivity between the default and attentional networks and their positive correlation with attitudes of anger and aggression, which supports the feature and relationship but does not directly mention nonplanning impulsivity. The direction is correctly identified as higher. However, the directness is not supported since the sentence does not explicitly state that the functional connectivity is directly associated with nonplanning impulsivity. Additionally, the sentence overclaims by suggesting a broader association than the extracted claim.""
+}"
+8,37992501,Testing the triple network model of psychopathology in a transdiagnostic neurodevelopmental cohort.,2023,NeuroImage. Clinical,impulsivity neuroimaging functional connectivity,"salience/ventral attention network, frontoparietal/control network, default mode network",functional connectivity,impulsivity (general),transdiagnostic neurodevelopmental difficulties,associated_with,higher,"delayed network segregation, difficulties sustaining CEN activity to regulate behavior, heightened developmental mismatch between neural systems",direct,0.8,"Hyperactivity/impulsivity was associated with increased functional connectivity between the SN, CEN, and DMN in at-risk children, whereas it was associated with decreased functional connectivity between the CEN and DMN in comparison children.",yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,1,revise,yes,yes,yes,no,no,yes,impulsivity (general),functional connectivity,increased,"The sentence mentions associations with increased and decreased functional connectivity, which does not capture a single direction. Additionally, it does not specify that the relationship is direct.",,"{
+  ""support_score"": 1,
+  ""decision"": ""revise"",
+  ""phenotype_supported"": true,
+  ""feature_supported"": true,
+  ""relationship_supported"": true,
+  ""direction_supported"": false,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": ""impulsivity (general)"",
+  ""corrected_feature_type"": ""functional connectivity"",
+  ""corrected_direction"": ""increased"",
+  ""rationale"": ""The sentence mentions associations with increased and decreased functional connectivity, which does not capture a single direction. Additionally, it does not specify that the relationship is direct.""
+}"
+9,38451271,Trait anxiety and corresponding neuromarkers predict internet addiction: A longitudinal study.,2024,Journal of behavioral addictions,trait impulsivity functional connectivity,default mode network,functional connectivity,impulsivity (general),internet addiction,predicts,higher,mediated by stressful life events and correlated functional connectivity,direct,0.8,CPM results revealed that the functional connectivity of cognitive control and emotion-regulation circuits and DMN were significantly correlated with TA.,yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,1,revise,no,yes,yes,no,no,yes,impulsivity (general),functional connectivity,correlated,The sentence mentions functional connectivity but does not specify the exact phenotype (impulsivity) or the direction (predicts vs. correlated). It also introduces additional information about cognitive control and emotion-regulation circuits which is not supported by the claim.,,"{
+  ""support_score"": 1,
+  ""decision"": ""revise"",
+  ""phenotype_supported"": false,
+  ""feature_supported"": true,
+  ""relationship_supported"": true,
+  ""direction_supported"": false,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": ""impulsivity (general)"",
+  ""corrected_feature_type"": ""functional connectivity"",
+  ""corrected_direction"": ""correlated"",
+  ""rationale"": ""The sentence mentions functional connectivity but does not specify the exact phenotype (impulsivity) or the direction (predicts vs. correlated). It also introduces additional information about cognitive control and emotion-regulation circuits which is not supported by the claim.""
+}"
+10,37058964,Impulsivity and self-regulation: A dual-process model of risky driving in young drivers in Iran.,2023,Accident; analysis and prevention,trait impulsivity functional connectivity,unknown,functional connectivity,impulsivity (general),unknown,mediates,unclear,,indirect,,,no,evidence_strength not a number,yes,no,unclear,,,,,,,,,,qwen2.5-7b-instruct,0,drop,no,no,no,no,no,yes,,,,"The sentence does not provide any specific information about impulsivity, functional connectivity, or their relationship. It also does not clarify the direction or directness of the relationship, and it is unclear if the sentence is making a claim about a specific brain system or diagnostic context.",,"{""support_score"": 0, ""decision"": ""drop"", ""phenotype_supported"": false, ""feature_supported"": false, ""relationship_supported"": false, ""direction_supported"": false, ""directness_supported"": false, ""overclaiming"": true, ""corrected_phenotype"": null, ""corrected_feature_type"": null, ""corrected_direction"": null, ""rationale"": ""The sentence does not provide any specific information about impulsivity, functional connectivity, or their relationship. It also does not clarify the direction or directness of the relationship, and it is unclear if the sentence is making a claim about a specific brain system or diagnostic context.""}"
+11,40334458,Temporal variability-based alternations in dynamic functional networks in internet gaming disorder.,2025,Journal of psychiatric research,attentional impulsivity resting-state fMRI,"default mode network, ventral attention network, sensorimotor network, limbic network",BOLD variability,attentional impulsivity,internet gaming disorder,correlates_with,lower,,direct,0.85,"Compared to RGUs, IGD individuals exhibited decreased within-network variability in the default mode network (DMN)",yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,1,revise,no,yes,yes,yes,no,no,attentional impulsivity,BOLD variability,lower,"The sentence does not explicitly mention 'attentional impulsivity' as the phenotype, and it does not specify BOLD variability as the feature type. The direction is correct but the directness is not supported as the sentence refers to within-network variability rather than a direct correlation.",,"{
+  ""support_score"": 1,
+  ""decision"": ""revise"",
+  ""phenotype_supported"": false,
+  ""feature_supported"": true,
+  ""relationship_supported"": true,
+  ""direction_supported"": true,
+  ""directness_supported"": false,
+  ""overclaiming"": false,
+  ""corrected_phenotype"": ""attentional impulsivity"",
+  ""corrected_feature_type"": ""BOLD variability"",
+  ""corrected_direction"": ""lower"",
+  ""rationale"": ""The sentence does not explicitly mention 'attentional impulsivity' as the phenotype, and it does not specify BOLD variability as the feature type. The direction is correct but the directness is not supported as the sentence refers to within-network variability rather than a direct correlation.""
+}"
+12,28040671,Decisional impulsivity and the associative-limbic subthalamic nucleus in obsessive-compulsive disorder: stimulation and connectivity.,2017,Brain : a journal of neurology,motor impulsivity resting-state fMRI,unknown,functional connectivity,nonplanning impulsivity,obsessive-compulsive disorder,associated_with,higher,,direct,0.9,We show that stimulation of the subthalamic nucleus is causally implicated in increasing decisional impulsivity with less accumulation of evidence during probabilistic uncertainty and in enhancing delay discounting.,yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,1,revise,yes,no,yes,yes,no,no,decisional impulsivity,delay discounting,increasing,"The sentence supports the relationship between stimulation of the subthalamic nucleus and decisional impulsivity, indicating a higher level of impulsivity. However, it does not directly mention functional connectivity as a feature type, and the directness is not explicitly stated.",,"{
+    ""support_score"": 1,
+    ""decision"": ""revise"",
+    ""phenotype_supported"": true,
+    ""feature_supported"": false,
+    ""relationship_supported"": true,
+    ""direction_supported"": true,
+    ""directness_supported"": false,
+    ""overclaiming"": false,
+    ""corrected_phenotype"": ""decisional impulsivity"",
+    ""corrected_feature_type"": ""delay discounting"",
+    ""corrected_direction"": ""increasing"",
+    ""rationale"": ""The sentence supports the relationship between stimulation of the subthalamic nucleus and decisional impulsivity, indicating a higher level of impulsivity. However, it does not directly mention functional connectivity as a feature type, and the directness is not explicitly stated.""
+}"
+13,33304251,Neural Basis of Increased Cognitive Control of Impulsivity During the Mid-Luteal Phase Relative to the Late Follicular Phase of the Menstrual Cycle.,2020,Frontiers in human neuroscience,ADHD impulsivity resting-state fMRI connectivity,unknown,functional connectivity,nonplanning impulsivity,attention deficit hyperactivity disorder,correlates_with,lower,cyclical gonadal hormones affect cognitive control of impulsive behavior via DS-dlPFC circuitry,direct,0.8,"DS-dlPFC functional connectivity magnitude correlated negatively with psychometric impulsivity scores during the late FP, consistent with our behavioral data and further indicating that relative estradiol levels may play an important role in augmenting cognitive control.",yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,1,revise,yes,yes,yes,no,no,yes,psychometric impulsivity scores,DS-dlPFC functional connectivity magnitude,lower,"The sentence mentions a correlation between DS-dlPFC functional connectivity and psychometric impulsivity scores, which is consistent with the claim. However, the direction and directness need to be corrected, and the claim overstates the diagnostic context.",,"{
+  ""support_score"": 1,
+  ""decision"": ""revise"",
+  ""phenotype_supported"": ""yes"",
+  ""feature_supported"": ""yes"",
+  ""relationship_supported"": ""yes"",
+  ""direction_supported"": ""no"",
+  ""directness_supported"": ""no"",
+  ""overclaiming"": ""yes"",
+  ""corrected_phenotype"": ""psychometric impulsivity scores"",
+  ""corrected_feature_type"": ""DS-dlPFC functional connectivity magnitude"",
+  ""corrected_direction"": ""lower"",
+  ""rationale"": ""The sentence mentions a correlation between DS-dlPFC functional connectivity and psychometric impulsivity scores, which is consistent with the claim. However, the direction and directness need to be corrected, and the claim overstates the diagnostic context.""
+}"
+1,25944613,Nature of functional links in valuation networks differentiates impulsive behaviors between abstinent heroin-dependent subjects and nondrug-using subjects.,2015,NeuroImage,Barratt Impulsiveness Scale resting-state fMRI,unknown,functional connectivity,impulsivity (general),abstinent heroin-dependent subjects and nondrug-using subjects,associated_with,higher,imbalanced functional connectivity between β- and δ-networks,direct,0.8,"the functional link between the β- and δ-networks is imbalanced, with stronger β-network connectivity and weaker δ-network connectivity. The imbalanced link is associated with impulsivity, indicating that the β- and δ-networks may mutually reinforce each other in abstinent heroin-dependent subjects.",yes,,yes,yes,no,,,,,,,,,,qwen2.5-7b-instruct,2,keep,yes,yes,yes,yes,yes,no,,,,"The sentence directly states that the imbalanced functional link between β- and δ-networks is associated with impulsivity, which matches the extracted claim.",,"{
+  ""support_score"": 2,
+  ""decision"": ""keep"",
+  ""phenotype_supported"": true,
+  ""feature_supported"": true,
+  ""relationship_supported"": true,
+  ""direction_supported"": true,
+  ""directness_supported"": true,
+  ""overclaiming"": false,
+  ""corrected_phenotype"": null,
+  ""corrected_feature_type"": null,
+  ""corrected_direction"": null,
+  ""rationale"": ""The sentence directly states that the imbalanced functional link between β- and δ-networks is associated with impulsivity, which matches the extracted claim.""
+}"
+2,32464339,Investigation of structure-function correlation among the young offspring of patients with bipolar disorder.,2020,Psychiatry research. Neuroimaging,Barratt Impulsiveness Scale fMRI,unknown,structural connectivity,impulsivity (general),young offspring of patients with bipolar disorder,correlates_with,higher,,direct,0.75,MD values in the cingulum were inversely correlated with the Child and Youth Resilience Measure and positively correlated with higher scores on the Barratt Impulsiveness Scale-Attentional.,yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,1,revise,no,yes,yes,no,no,yes,Barratt Impulsiveness Scale-Attentional,MD values in the cingulum,inverse,"The sentence mentions a correlation with impulsivity as measured by the Barratt Impulsiveness Scale-Attentional, but it does not directly state that impulsivity correlates with structural connectivity. The direction of the relationship is inverse, not higher, and the directness is not explicitly stated.",,"{
+    ""support_score"": 1,
+    ""decision"": ""revise"",
+    ""phenotype_supported"": false,
+    ""feature_supported"": true,
+    ""relationship_supported"": true,
+    ""direction_supported"": false,
+    ""directness_supported"": false,
+    ""overclaiming"": true,
+    ""corrected_phenotype"": ""Barratt Impulsiveness Scale-Attentional"",
+    ""corrected_feature_type"": ""MD values in the cingulum"",
+    ""corrected_direction"": ""inverse"",
+    ""rationale"": ""The sentence mentions a correlation with impulsivity as measured by the Barratt Impulsiveness Scale-Attentional, but it does not directly state that impulsivity correlates with structural connectivity. The direction of the relationship is inverse, not higher, and the directness is not explicitly stated.""
+}"
+3,28423021,Trait impulsivity components correlate differently with proactive and reactive control.,2017,PloS one,Barratt Impulsiveness Scale fMRI,frontoparietal/control network,functional connectivity,nonplanning impulsivity,unknown,correlates_with,higher,,direct,0.9,Higher motor impulsiveness was associated with a larger proactive control effect in the inferior parietal lobule and a smaller reactive control effect in the right dorsolateral prefrontal cortex (DLPFC) and anterior cingulate contex.,yes,,yes,yes,no,,,,,,,,,,qwen2.5-7b-instruct,1,revise,no,yes,yes,no,no,yes,motor impulsiveness,functional connectivity,"larger proactive control effect, smaller reactive control effect","The sentence mentions a group difference but does not directly state that nonplanning impulsivity correlates with functional connectivity. The direction of the relationship is not clearly specified, and the directness is not supported as the sentence does not name both phenotype and feature.",,"{
+  ""support_score"": 1,
+  ""decision"": ""revise"",
+  ""phenotype_supported"": false,
+  ""feature_supported"": true,
+  ""relationship_supported"": true,
+  ""direction_supported"": false,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": ""motor impulsiveness"",
+  ""corrected_feature_type"": ""functional connectivity"",
+  ""corrected_direction"": ""larger proactive control effect, smaller reactive control effect"",
+  ""rationale"": ""The sentence mentions a group difference but does not directly state that nonplanning impulsivity correlates with functional connectivity. The direction of the relationship is not clearly specified, and the directness is not supported as the sentence does not name both phenotype and feature.""
+}"
+4,26648853,Impulsivity is Associated with Increased Metabolism in the Fronto-Insular Network in Parkinson's Disease.,2015,Frontiers in behavioral neuroscience,Barratt Impulsiveness Scale neuroimaging,unknown,BOLD variability,impulsivity (general),Parkinson's disease,associated_with,higher,,direct,0.9,"Voxel-wise group comparison revealed higher FDG-metabolism in the orbitofrontal cortex (OFC), anterior cingulate cortex (ACC), and right insula in patients with higher impulsivity scores.",yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,1,revise,yes,no,yes,yes,no,yes,impulsivity (general),FDG metabolism,higher,"The sentence mentions a group difference in metabolism but does not specify BOLD variability as the feature. It also does not directly state that impulsivity is associated with increased metabolism, making the directness less clear. Additionally, the sentence suggests an overclaim by mentioning metabolism in multiple brain regions without specifying a single phenotype-feature association.",,"{
+  ""support_score"": 1,
+  ""decision"": ""revise"",
+  ""phenotype_supported"": true,
+  ""feature_supported"": false,
+  ""relationship_supported"": true,
+  ""direction_supported"": true,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": ""impulsivity (general)"",
+  ""corrected_feature_type"": ""FDG metabolism"",
+  ""corrected_direction"": ""higher"",
+  ""rationale"": ""The sentence mentions a group difference in metabolism but does not specify BOLD variability as the feature. It also does not directly state that impulsivity is associated with increased metabolism, making the directness less clear. Additionally, the sentence suggests an overclaim by mentioning metabolism in multiple brain regions without specifying a single phenotype-feature association.""
+}"
+5,29040723,Resting-state functional connectivity in combat veterans suffering from impulsive aggression.,2017,Social cognitive and affective neuroscience,impulsivity resting-state fMRI functional connectivity,unknown,functional connectivity,impulsivity (general),combat veterans,associated_with,lower,weakened functional connectivity between the amygdala and prefrontal regions,direct,0.85,"In exploratory cluster analyses, we observed reduced functional connectivity between the (bilateral) BLA and left dorsolateral prefrontal cortex in the impulsive aggression group, relative to combat controls.",yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,2,keep,yes,yes,yes,yes,yes,no,impulsivity (general),functional connectivity,lower,"The sentence directly states reduced functional connectivity between the bilateral BLA and left dorsolateral prefrontal cortex in the impulsive aggression group, which aligns with the extracted claim.",,"{
+  ""support_score"": 2,
+  ""decision"": ""keep"",
+  ""phenotype_supported"": true,
+  ""feature_supported"": true,
+  ""relationship_supported"": true,
+  ""direction_supported"": true,
+  ""directness_supported"": true,
+  ""overclaiming"": false,
+  ""corrected_phenotype"": ""impulsivity (general)"",
+  ""corrected_feature_type"": ""functional connectivity"",
+  ""corrected_direction"": ""lower"",
+  ""rationale"": ""The sentence directly states reduced functional connectivity between the bilateral BLA and left dorsolateral prefrontal cortex in the impulsive aggression group, which aligns with the extracted claim.""
+}"
+6,25738502,Decreased prefrontal lobe interhemispheric functional connectivity in adolescents with internet gaming disorder: a primary study using resting-state FMRI.,2015,PloS one,impulsivity resting-state fMRI functional connectivity,unknown,functional connectivity,impulsivity (general),Internet gaming disorder,associated_with,lower,,direct,0.8,"Compared to healthy controls, IGD participants showed decreased VMHC between the left and right superior frontal gyrus (orbital part), inferior frontal gyrus (orbital part), middle frontal gyrus and superior frontal gyrus.",yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,1,revise,no,yes,yes,yes,no,yes,impulsivity (general),VMHC,lower,The sentence mentions a group difference but does not directly state an association between impulsivity and functional connectivity. It also does not specify the exact brain regions involved in the context of impulsivity.,,"{
+    ""support_score"": 1,
+    ""decision"": ""revise"",
+    ""phenotype_supported"": false,
+    ""feature_supported"": true,
+    ""relationship_supported"": true,
+    ""direction_supported"": true,
+    ""directness_supported"": false,
+    ""overclaiming"": true,
+    ""corrected_phenotype"": ""impulsivity (general)"",
+    ""corrected_feature_type"": ""VMHC"",
+    ""corrected_direction"": ""lower"",
+    ""rationale"": ""The sentence mentions a group difference but does not directly state an association between impulsivity and functional connectivity. It also does not specify the exact brain regions involved in the context of impulsivity.""
+}"
+7,28777996,Neural connectivity moderates the association between sleep and impulsivity in adolescents.,2017,Developmental cognitive neuroscience,impulsivity fMRI functional connectivity,default mode network,functional connectivity,impulsivity (general),unknown,moderates,unclear,,direct,0.85,"Poor sleep quality was related to greater affect-related impulsivity among adolescents with low, but not high, connectivity, suggesting neural functioning relates to individual differences linking sleep quality and impulsivity.",yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,1,revise,yes,yes,yes,no,no,yes,affect-related impulsivity,functional connectivity,unclear,"The sentence mentions a group difference (low vs high connectivity) and suggests a relationship between sleep quality and impulsivity through functional connectivity, but it does not directly state that poor sleep quality leads to greater impulsivity. The direction of the relationship is unclear, and the directness is not explicitly supported.",,"{
+  ""support_score"": 1,
+  ""decision"": ""revise"",
+  ""phenotype_supported"": true,
+  ""feature_supported"": true,
+  ""relationship_supported"": true,
+  ""direction_supported"": false,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": ""affect-related impulsivity"",
+  ""corrected_feature_type"": ""functional connectivity"",
+  ""corrected_direction"": ""unclear"",
+  ""rationale"": ""The sentence mentions a group difference (low vs high connectivity) and suggests a relationship between sleep quality and impulsivity through functional connectivity, but it does not directly state that poor sleep quality leads to greater impulsivity. The direction of the relationship is unclear, and the directness is not explicitly supported.""
+}"
+8,40193128,Subthalamic Deep Brain Stimulation: Mapping Non-Motor Outcomes to Structural Connections.,2025,Human brain mapping,impulsivity neuroimaging functional connectivity,unknown,structural connectivity,impulsivity (general),Parkinson's Disease,associated_with,lower,,direct,0.8,improvement of mood and cognition and worsening of trait impulsivity,yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,1,revise,yes,no,yes,no,no,yes,trait impulsivity,unknown,worsening,"The sentence mentions a change in impulsivity but does not specify the type of impulsivity (e.g., trait vs. state) and does not mention structural connectivity as a feature. The direction of the relationship is unclear and the sentence is indirect.",,"{
+  ""support_score"": 1,
+  ""decision"": ""revise"",
+  ""phenotype_supported"": true,
+  ""feature_supported"": false,
+  ""relationship_supported"": true,
+  ""direction_supported"": false,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": ""trait impulsivity"",
+  ""corrected_feature_type"": ""unknown"",
+  ""corrected_direction"": ""worsening"",
+  ""rationale"": ""The sentence mentions a change in impulsivity but does not specify the type of impulsivity (e.g., trait vs. state) and does not mention structural connectivity as a feature. The direction of the relationship is unclear and the sentence is indirect.""
+}"
+9,31383336,Hypothesis: Compulsive hoarding as an atavism.,2019,Medical hypotheses,trait impulsivity functional connectivity,unknown,unknown,impulsivity (general),unknown,unknown,unclear,,background,,,no,evidence_strength not a number,yes,no,unclear,,,,,,,,,,qwen2.5-7b-instruct,0,drop,no,no,no,no,no,yes,,,,"The sentence does not provide any specific information about impulsivity or any other phenotype, feature, or their relationship. It also does not indicate a clear direction or directness of the relationship.",,"{""support_score"": 0, ""decision"": ""drop"", ""phenotype_supported"": false, ""feature_supported"": false, ""relationship_supported"": false, ""direction_supported"": false, ""directness_supported"": false, ""overclaiming"": true, ""corrected_phenotype"": null, ""corrected_feature_type"": null, ""corrected_direction"": null, ""rationale"": ""The sentence does not provide any specific information about impulsivity or any other phenotype, feature, or their relationship. It also does not indicate a clear direction or directness of the relationship.""}"
+10,32121585,"Random Forest Classification of Alcohol Use Disorder Using EEG Source Functional Connectivity, Neuropsychological Functioning, and Impulsivity Measures.",2020,"Behavioral sciences (Basel, Switzerland)",nonplanning impulsivity functional connectivity,default mode network,EEG connectivity,nonplanning impulsivity,AUD,associated_with,higher,"hyperconnectivity among 25 of 29 significant connections, indicating aberrant network functioning during resting state suggestive of neural hyperexcitability and impulsivity",direct,0.8,"The AUD group showed a predominant pattern of hyperconnectivity among 25 of 29 significant connections, indicating aberrant network functioning during resting state suggestive of neural hyperexcitability and impulsivity.",yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,2,keep,yes,yes,yes,yes,yes,no,,,,"The sentence directly states that the AUD group showed hyperconnectivity among 25 of 29 significant connections, which is associated with aberrant network functioning during resting state suggestive of neural hyperexcitability and impulsivity. This aligns with the extracted claim on nonplanning impulsivity being associated with EEG connectivity in a direct manner.",,"{
+  ""support_score"": 2,
+  ""decision"": ""keep"",
+  ""phenotype_supported"": true,
+  ""feature_supported"": true,
+  ""relationship_supported"": true,
+  ""direction_supported"": true,
+  ""directness_supported"": true,
+  ""overclaiming"": false,
+  ""corrected_phenotype"": null,
+  ""corrected_feature_type"": null,
+  ""corrected_direction"": null,
+  ""rationale"": ""The sentence directly states that the AUD group showed hyperconnectivity among 25 of 29 significant connections, which is associated with aberrant network functioning during resting state suggestive of neural hyperexcitability and impulsivity. This aligns with the extracted claim on nonplanning impulsivity being associated with EEG connectivity in a direct manner.""
+}"
+11,34851976,Differential structure-function network coupling in the inattentive and combined types of attention deficit hyperactivity disorder.,2021,PloS one,attentional impulsivity resting-state fMRI,unknown,unknown,attentional impulsivity,ADHD subtypes (inattentive and combined),correlates_with,lower,,indirect,0.7,"Children with ADHD had lower structural connectivity and network efficiency in the DMN, without significant group differences in functional networks.",yes,,yes,yes,no,,,,,,,,,,qwen2.5-7b-instruct,1,revise,yes,no,yes,yes,no,yes,attentional impulsivity,structural connectivity and network efficiency,lower,"The sentence mentions a group difference (children with ADHD) and a correlation (lower structural connectivity and network efficiency), which supports the phenotype and the relationship. However, it does not specify the feature type, and the directness is indirect as the evidence is not directly linking the phenotype to the feature.",,"{
+  ""support_score"": 1,
+  ""decision"": ""revise"",
+  ""phenotype_supported"": true,
+  ""feature_supported"": false,
+  ""relationship_supported"": true,
+  ""direction_supported"": true,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": ""attentional impulsivity"",
+  ""corrected_feature_type"": ""structural connectivity and network efficiency"",
+  ""corrected_direction"": ""lower"",
+  ""rationale"": ""The sentence mentions a group difference (children with ADHD) and a correlation (lower structural connectivity and network efficiency), which supports the phenotype and the relationship. However, it does not specify the feature type, and the directness is indirect as the evidence is not directly linking the phenotype to the feature.""
+}"
+12,31801105,A preliminary study of disrupted functional network in individuals with Internet gaming disorder: Evidence from the comparison with recreational game users.,2020,Addictive behaviors,motor impulsivity resting-state fMRI,unknown,functional connectivity,nonplanning impulsivity,Internet gaming disorder,associated_with,higher,,direct,0.7,"subjects with IGD as compared to those with RGU showed increased nodal centralities in the reward, craving, emotional memory and sensory-motor processing regions.",yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,1,revise,no,yes,yes,no,no,yes,nonplanning impulsivity,nodal centralities,higher,"The sentence mentions a group difference (IGD vs RGU) and an increase in nodal centralities, which indirectly suggests an association. However, it does not directly state that nonplanning impulsivity is associated with higher nodal centralities. The direction and directness are not explicitly stated.",,"{
+  ""support_score"": 1,
+  ""decision"": ""revise"",
+  ""phenotype_supported"": false,
+  ""feature_supported"": true,
+  ""relationship_supported"": true,
+  ""direction_supported"": false,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": ""nonplanning impulsivity"",
+  ""corrected_feature_type"": ""nodal centralities"",
+  ""corrected_direction"": ""higher"",
+  ""rationale"": ""The sentence mentions a group difference (IGD vs RGU) and an increase in nodal centralities, which indirectly suggests an association. However, it does not directly state that nonplanning impulsivity is associated with higher nodal centralities. The direction and directness are not explicitly stated.""
+}"
+1,26830141,Midbrain functional connectivity and ventral striatal dopamine D2-type receptors: link to impulsivity in methamphetamine users.,2016,Molecular psychiatry,Barratt Impulsiveness Scale resting-state fMRI,unknown,functional connectivity,impulsivity (general),methamphetamine-dependent individuals,correlates_with,unclear,,direct,0.75,"In Study 2, an interaction of the group with RSFC on impulsivity was observed. Methamphetamine-dependent users exhibited a positive relationship of midbrain RSFC to the left ventral striatum with cognitive impulsivity, whereas a negative relationship was observed in healthy controls.",yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,1,revise,yes,yes,yes,no,no,yes,cognitive impulsivity,midbrain RSFC to the left ventral striatum,"positive in methamphetamine-dependent users, negative in healthy controls",The sentence mentions a group difference but does not directly state the relationship between impulsivity and functional connectivity. It also does not specify the direction of the relationship for all groups.,,"{
+  ""support_score"": 1,
+  ""decision"": ""revise"",
+  ""phenotype_supported"": true,
+  ""feature_supported"": true,
+  ""relationship_supported"": true,
+  ""direction_supported"": false,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": ""cognitive impulsivity"",
+  ""corrected_feature_type"": ""midbrain RSFC to the left ventral striatum"",
+  ""corrected_direction"": ""positive in methamphetamine-dependent users, negative in healthy controls"",
+  ""rationale"": ""The sentence mentions a group difference but does not directly state the relationship between impulsivity and functional connectivity. It also does not specify the direction of the relationship for all groups.""
+}"
+2,27095357,Sex differences in impulsivity and brain morphometry in methamphetamine users.,2017,Brain structure & function,Barratt Impulsiveness Scale fMRI,unknown,BOLD variability,impulsivity (general),methamphetamine users,correlates_with,higher,,direct,0.85,"METH users had higher impulsivity scores, on both the Cognitive and Behavioral Factors from the BIS (p < 0.0001-0.0001).",yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,1,revise,yes,no,yes,yes,no,yes,impulsivity (general),null,higher,"The sentence mentions impulsivity scores but does not specify the feature type. It also does not directly state a correlation with BOLD variability. The direction of the relationship is correct, but the directness is not supported as the sentence does not name the feature. Additionally, the sentence implies a group difference without explicitly stating a phenotype-feature association.",,"{
+  ""support_score"": 1,
+  ""decision"": ""revise"",
+  ""phenotype_supported"": true,
+  ""feature_supported"": false,
+  ""relationship_supported"": true,
+  ""direction_supported"": true,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": ""impulsivity (general)"",
+  ""corrected_feature_type"": ""null"",
+  ""corrected_direction"": ""higher"",
+  ""rationale"": ""The sentence mentions impulsivity scores but does not specify the feature type. It also does not directly state a correlation with BOLD variability. The direction of the relationship is correct, but the directness is not supported as the sentence does not name the feature. Additionally, the sentence implies a group difference without explicitly stating a phenotype-feature association.""
+}"
+3,29034964,Hemispheric asymmetry of the frontolimbic cortex in young adults with borderline personality disorder.,2017,Acta psychiatrica Scandinavica,Barratt Impulsiveness Scale fMRI,unknown,unknown,nonplanning impulsivity,borderline personality disorder,correlates_with,higher,,direct,0.8,greater asymmetry of AI&ACC correlated with a higher score in attention subscale of Barratt Impulsiveness Scale.,yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,1,revise,no,no,yes,yes,no,yes,attention impulsivity,anterior insula and anterior cingulate cortex (AI&ACC),higher,The sentence mentions a correlation but does not specify the exact brain region or feature type. It also implies a group difference rather than a direct phenotype-feature association.,,"{
+  ""support_score"": 1,
+  ""decision"": ""revise"",
+  ""phenotype_supported"": false,
+  ""feature_supported"": false,
+  ""relationship_supported"": true,
+  ""direction_supported"": true,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": ""attention impulsivity"",
+  ""corrected_feature_type"": ""anterior insula and anterior cingulate cortex (AI&ACC)"",
+  ""corrected_direction"": ""higher"",
+  ""rationale"": ""The sentence mentions a correlation but does not specify the exact brain region or feature type. It also implies a group difference rather than a direct phenotype-feature association.""
+}"
+4,23770040,Resting-state beta and gamma activity in Internet addiction.,2013,International journal of psychophysiology : official journal of the International Organization of Psychophysiology,Barratt Impulsiveness Scale neuroimaging,unknown,BOLD variability,impulsivity (general),Internet addiction,correlates_with,lower,,direct,0.85,"The Internet addiction group showed lower absolute power on the beta band than did the control group (estimate = -3.370, p < 0.01).",yes,,yes,yes,no,,,,,,,,,,qwen2.5-7b-instruct,1,revise,no,yes,yes,no,no,yes,impulsivity (general),BOLD variability,lower,"The sentence supports BOLD variability as a feature and the direction of the relationship, but it does not directly mention impulsivity. The relationship is implied rather than explicitly stated, and the direction is not clearly aligned with the extracted claim.",,"{
+  ""support_score"": 1,
+  ""decision"": ""revise"",
+  ""phenotype_supported"": false,
+  ""feature_supported"": true,
+  ""relationship_supported"": true,
+  ""direction_supported"": false,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": ""impulsivity (general)"",
+  ""corrected_feature_type"": ""BOLD variability"",
+  ""corrected_direction"": ""lower"",
+  ""rationale"": ""The sentence supports BOLD variability as a feature and the direction of the relationship, but it does not directly mention impulsivity. The relationship is implied rather than explicitly stated, and the direction is not clearly aligned with the extracted claim.""
+}"
+5,40297839,"Hippocampus Functional Connectivity, Impulsivity, and Subsequent Substance Use.",2025,Journal of cellular neuroscience,impulsivity resting-state fMRI functional connectivity,default mode network,functional connectivity,impulsivity (general),unknown,mediates,higher,,direct,0.85,"hippocampal rsFC was significantly associated with impulsivity, which, in turn, predicted higher substance use at follow-up.",yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,1,revise,yes,yes,no,yes,no,yes,impulsivity (general),functional connectivity,higher,"The sentence supports the relationship between functional connectivity and impulsivity, but it does not directly state that functional connectivity mediates impulsivity. It also suggests a predictive relationship rather than a direct one, and it overclaims by predicting substance use, which is not part of the extracted claim.",,"{
+  ""support_score"": 1,
+  ""decision"": ""revise"",
+  ""phenotype_supported"": true,
+  ""feature_supported"": true,
+  ""relationship_supported"": false,
+  ""direction_supported"": true,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": ""impulsivity (general)"",
+  ""corrected_feature_type"": ""functional connectivity"",
+  ""corrected_direction"": ""higher"",
+  ""rationale"": ""The sentence supports the relationship between functional connectivity and impulsivity, but it does not directly state that functional connectivity mediates impulsivity. It also suggests a predictive relationship rather than a direct one, and it overclaims by predicting substance use, which is not part of the extracted claim.""
+}"
+6,31073695,Binge drinking is associated with altered resting state functional connectivity of reward-salience and top down control networks.,2020,Brain imaging and behavior,impulsivity resting state functional connectivity,"salience/ventral attention network, frontoparietal/control network",functional connectivity,impulsivity (general),"binge drinking, light drinking",associated_with,higher,dysregulation of neurofunctional networks,direct,0.8,BDs demonstrated lower connectivity between the IFC and hippocampus which was associated with higher craving.,yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,1,revise,no,yes,yes,no,no,yes,impulsivity (general),functional connectivity,lower,The sentence mentions a group difference in connectivity but does not directly link to impulsivity. It also does not specify the direction of the relationship as 'higher'. The directness is not supported as the sentence does not explicitly state that the connectivity change is due to binge drinking.,,"{
+  ""support_score"": 1,
+  ""decision"": ""revise"",
+  ""phenotype_supported"": false,
+  ""feature_supported"": true,
+  ""relationship_supported"": true,
+  ""direction_supported"": false,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": ""impulsivity (general)"",
+  ""corrected_feature_type"": ""functional connectivity"",
+  ""corrected_direction"": ""lower"",
+  ""rationale"": ""The sentence mentions a group difference in connectivity but does not directly link to impulsivity. It also does not specify the direction of the relationship as 'higher'. The directness is not supported as the sentence does not explicitly state that the connectivity change is due to binge drinking.""
+}"
+7,30277562,The role of the dorsal striatum in choice impulsivity.,2019,Annals of the New York Academy of Sciences,impulsivity fMRI functional connectivity,unknown,unknown,impulsivity (general),unknown,unknown,unclear,,background,,,no,evidence_strength not a number,yes,no,unclear,,,,,,,,,,qwen2.5-7b-instruct,0,drop,no,no,no,no,no,yes,,,,"The sentence does not provide any specific information about a phenotype-feature relationship or direction. It only mentions the dorsal striatum's role in choice impulsivity, which is too general and does not directly support the structured claim.",,"{""support_score"": 0, ""decision"": ""drop"", ""phenotype_supported"": false, ""feature_supported"": false, ""relationship_supported"": false, ""direction_supported"": false, ""directness_supported"": false, ""overclaiming"": true, ""corrected_phenotype"": null, ""corrected_feature_type"": null, ""corrected_direction"": null, ""rationale"": ""The sentence does not provide any specific information about a phenotype-feature relationship or direction. It only mentions the dorsal striatum's role in choice impulsivity, which is too general and does not directly support the structured claim.""}"
+8,27942448,Brain connectivity aberrations in anabolic-androgenic steroid users.,2017,NeuroImage. Clinical,impulsivity neuroimaging functional connectivity,default mode network,functional connectivity,impulsivity (general),unknown,associated_with,lower,,direct,0.8,"current users exhibited reduced functional connectivity between key nodes involved in emotional and cognitive regulation, in particular reduced connectivity between the amygdala and default-mode network (DMN) and between the dorsal attention network (DAN) and a frontal node encompassing the superior and inferior frontal gyri (SFG/IFG) and the anterior cingulate cortex (ACC), with further reductions as a function of dependency, lifetime exposure, and cycle state (on/off).",yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,1,revise,no,yes,yes,no,no,yes,impulsivity (general),functional connectivity,lower,The sentence mentions reduced functional connectivity but does not directly link it to impulsivity. It also does not specify the exact direction or directness of the relationship.,,"{
+    ""support_score"": 1,
+    ""decision"": ""revise"",
+    ""phenotype_supported"": false,
+    ""feature_supported"": true,
+    ""relationship_supported"": true,
+    ""direction_supported"": false,
+    ""directness_supported"": false,
+    ""overclaiming"": true,
+    ""corrected_phenotype"": ""impulsivity (general)"",
+    ""corrected_feature_type"": ""functional connectivity"",
+    ""corrected_direction"": ""lower"",
+    ""rationale"": ""The sentence mentions reduced functional connectivity but does not directly link it to impulsivity. It also does not specify the exact direction or directness of the relationship.""
+}"
+9,29946511,Abnormal cortical gyrification in criminal psychopathy.,2018,NeuroImage. Clinical,trait impulsivity functional connectivity,unknown,BOLD variability,impulsivity (general),psychopathy,associated_with,lower,,indirect,0.7,PCL-R scores were negatively associated with LGI measures within the right hemisphere in the midcingulate cortex (MCC) and adjacent regions of the superior frontal gyrus as well as lateral superior parietal cortex.,yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,0,drop,no,no,no,no,no,yes,,,,"The sentence discusses PCL-R scores (a measure of psychopathy) being negatively associated with LGI measures in specific brain regions, which does not directly support an association between impulsivity and BOLD variability. It also does not specify the exact brain system involved.",,"{
+  ""support_score"": 0,
+  ""decision"": ""drop"",
+  ""phenotype_supported"": false,
+  ""feature_supported"": false,
+  ""relationship_supported"": false,
+  ""direction_supported"": false,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": null,
+  ""corrected_feature_type"": null,
+  ""corrected_direction"": null,
+  ""rationale"": ""The sentence discusses PCL-R scores (a measure of psychopathy) being negatively associated with LGI measures in specific brain regions, which does not directly support an association between impulsivity and BOLD variability. It also does not specify the exact brain system involved.""
+}"
+10,25928822,Altered resting-state frontoparietal control network in children with attention-deficit/hyperactivity disorder.,2015,Journal of the International Neuropsychological Society : JINS,attentional impulsivity resting-state fMRI,frontoparietal/control network,functional connectivity,attentional impulsivity,children with attention-deficit/hyperactivity disorder,associated_with,unclear,,direct,0.8,"Furthermore, this aberrant connectivity of the frontoparietal control network in ADHD was associated with symptoms of impulsivity and opposition-defiance, as well as impaired response inhibition and attentional control.",yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,1,revise,yes,yes,yes,no,no,yes,attentional impulsivity,functional connectivity,unclear,"The sentence mentions symptoms of impulsivity and opposition-defiance, which are related to attentional impulsivity, and the frontoparietal control network, which is the feature. However, it does not directly state the association between the frontoparietal control network and attentional impulsivity. The direction of the relationship is also unclear.",,"{
+  ""support_score"": 1,
+  ""decision"": ""revise"",
+  ""phenotype_supported"": true,
+  ""feature_supported"": true,
+  ""relationship_supported"": true,
+  ""direction_supported"": false,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": ""attentional impulsivity"",
+  ""corrected_feature_type"": ""functional connectivity"",
+  ""corrected_direction"": ""unclear"",
+  ""rationale"": ""The sentence mentions symptoms of impulsivity and opposition-defiance, which are related to attentional impulsivity, and the frontoparietal control network, which is the feature. However, it does not directly state the association between the frontoparietal control network and attentional impulsivity. The direction of the relationship is also unclear.""
+}"
+11,39339712,Investigating the Impact of Nutrition and Oxidative Stress on Attention Deficit Hyperactivity Disorder.,2024,Nutrients,attentional impulsivity functional connectivity,unknown,functional connectivity,attentional impulsivity,ADHD,associated_with,unclear,,background,,,no,evidence_strength not a number,yes,no,unclear,,,,,,,,,,qwen2.5-7b-instruct,0,drop,no,no,no,no,no,yes,,,,The sentence does not provide any specific information about the relationship between attentional impulsivity and functional connectivity in the context of ADHD. It is too general and does not support the structured claim.,,"{
+  ""support_score"": 0,
+  ""decision"": ""drop"",
+  ""phenotype_supported"": false,
+  ""feature_supported"": false,
+  ""relationship_supported"": false,
+  ""direction_supported"": false,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": null,
+  ""corrected_feature_type"": null,
+  ""corrected_direction"": null,
+  ""rationale"": ""The sentence does not provide any specific information about the relationship between attentional impulsivity and functional connectivity in the context of ADHD. It is too general and does not support the structured claim.""
+}"
+12,41932505,Intrinsic functional connectivity alterations in medication-naïve children with combined and inattentive ADHD types: Evidence from cortical surface-based analysis.,2026,Journal of affective disorders,motor impulsivity resting-state fMRI,default mode network,functional connectivity,nonplanning impulsivity,"ADHD-C, ADHD-I, HCs",correlates_with,higher,,direct,0.8,The hypo-connectivity linking the DMN (Default-PFC7_L) and SMN (SomMot27_L) was correlated with both higher SNAP-IV Hyperactivity/Impulsivity and Total scores.,yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,1,revise,unclear,unclear,unclear,no,no,yes,nonplanning impulsivity,functional connectivity,higher,The sentence mentions a correlation but does not specify the exact direction of the relationship and does not name the brain system. It also overclaims by mentioning specific scores rather than the general phenotype.,,"{
+  ""support_score"": 1,
+  ""decision"": ""revise"",
+  ""phenotype_supported"": ""SNAP-IV Hyperactivity/Impulsivity and Total scores"",
+  ""feature_supported"": ""hypo-connectivity linking the DMN (Default-PFC7_L) and SMN (SomMot27_L)"",
+  ""relationship_supported"": ""correlates_with"",
+  ""direction_supported"": false,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": ""nonplanning impulsivity"",
+  ""corrected_feature_type"": ""functional connectivity"",
+  ""corrected_direction"": ""higher"",
+  ""rationale"": ""The sentence mentions a correlation but does not specify the exact direction of the relationship and does not name the brain system. It also overclaims by mentioning specific scores rather than the general phenotype.""
+}"
+1,39756804,Altered Functional Connectivity of Prefrontal Cortex-Related Circuitry and Trait Impulsivity in Patients With Bipolar Disorder and History of Suicide Attempts.,2025,Acta psychiatrica Scandinavica,Barratt Impulsiveness Scale resting-state fMRI,unknown,functional connectivity,impulsivity (general),Bipolar Disorder,associated_with,higher,,direct,0.85,BDSA had higher trait impulsivity than BDNS and the controls.,yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,1,revise,yes,no,yes,yes,no,yes,trait impulsivity,unknown,higher,The sentence mentions a group difference in impulsivity but does not specify the functional connectivity or any brain-related feature. It also does not directly state the relationship between impulsivity and functional connectivity.,,"{
+  ""support_score"": 1,
+  ""decision"": ""revise"",
+  ""phenotype_supported"": true,
+  ""feature_supported"": false,
+  ""relationship_supported"": true,
+  ""direction_supported"": true,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": ""trait impulsivity"",
+  ""corrected_feature_type"": ""unknown"",
+  ""corrected_direction"": ""higher"",
+  ""rationale"": ""The sentence mentions a group difference in impulsivity but does not specify the functional connectivity or any brain-related feature. It also does not directly state the relationship between impulsivity and functional connectivity.""
+}"
+2,27743376,Cortical folding patterns are associated with impulsivity in healthy young adults.,2017,Brain imaging and behavior,Barratt Impulsiveness Scale fMRI,unknown,BOLD variability,impulsivity (general),unknown,associated_with,higher,,direct,0.85,Total and attention scores were positively correlated with cortical folding in several distinct areas: ... (each p < 0.05 CWP corr.).,yes,,yes,yes,no,,,,,,,,,,qwen2.5-7b-instruct,0,drop,no,no,no,no,no,yes,,,,The sentence discusses correlations with cortical folding but does not specify impulsivity or BOLD variability. It also does not directly state that higher impulsivity is associated with higher BOLD variability.,,"{
+  ""support_score"": 0,
+  ""decision"": ""drop"",
+  ""phenotype_supported"": false,
+  ""feature_supported"": false,
+  ""relationship_supported"": false,
+  ""direction_supported"": false,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": null,
+  ""corrected_feature_type"": null,
+  ""corrected_direction"": null,
+  ""rationale"": ""The sentence discusses correlations with cortical folding but does not specify impulsivity or BOLD variability. It also does not directly state that higher impulsivity is associated with higher BOLD variability.""
+}"
+3,30504061,Relationship between quality of life in young adults and impulsivity/compulsivity✰.,2019,Psychiatry research,Barratt Impulsiveness Scale neuroimaging,unknown,unknown,impulsivity (general),unknown,associated_with,lower,,background,0.8,Worse quality of life was also significantly explained by higher impulsiveness on the Barratt scale,yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,1,revise,yes,no,yes,no,no,yes,impulsivity (general),behavioral trait,higher,"The sentence mentions a group difference in impulsiveness but does not directly state an association with quality of life. The direction is opposite to the claim, and the feature type is not specified.",,"{
+  ""support_score"": 1,
+  ""decision"": ""revise"",
+  ""phenotype_supported"": true,
+  ""feature_supported"": false,
+  ""relationship_supported"": true,
+  ""direction_supported"": false,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": ""impulsivity (general)"",
+  ""corrected_feature_type"": ""behavioral trait"",
+  ""corrected_direction"": ""higher"",
+  ""rationale"": ""The sentence mentions a group difference in impulsiveness but does not directly state an association with quality of life. The direction is opposite to the claim, and the feature type is not specified.""
+}"
+4,22749228,Behavioral and cognitive impulsivity in obsessive-compulsive disorder and eating disorders.,2012,Psychiatry research,Barratt Impulsiveness Scale neuroimaging,unknown,unknown,impulsivity (general),obsessive-compulsive disorder and eating disorders,associated_with,higher,,indirect,0.8,"Compared to controls, both clinical groups reported higher levels of impulsivity on the BIS-11",yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,2,keep,yes,no,yes,yes,no,no,impulsivity (general),behavioral,higher,"The sentence clearly states that both clinical groups reported higher levels of impulsivity compared to controls, supporting the relationship and direction. However, the feature type is not specified and the directness is marked as indirect.",,"{
+  ""support_score"": 2,
+  ""decision"": ""keep"",
+  ""phenotype_supported"": true,
+  ""feature_supported"": false,
+  ""relationship_supported"": true,
+  ""direction_supported"": true,
+  ""directness_supported"": false,
+  ""overclaiming"": false,
+  ""corrected_phenotype"": ""impulsivity (general)"",
+  ""corrected_feature_type"": ""behavioral"",
+  ""corrected_direction"": ""higher"",
+  ""rationale"": ""The sentence clearly states that both clinical groups reported higher levels of impulsivity compared to controls, supporting the relationship and direction. However, the feature type is not specified and the directness is marked as indirect.""
+}"
+5,25899520,Altered resting-state functional connectivity of the insula in young adults with Internet gaming disorder.,2016,Addiction biology,impulsivity resting-state fMRI functional connectivity,unknown,functional connectivity,impulsivity (general),Internet gaming disorder,associated_with,higher,,direct,0.85,"Furthermore, IGD severity was positively associated with connectivity between the anterior insula and angular gyrus, and STG, and with connectivity between the posterior insula and STG.",yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,1,revise,no,yes,yes,yes,no,yes,impulsivity (general),functional connectivity,higher,The sentence mentions connectivity differences but does not directly state that impulsivity is associated with these changes. It also does not specify the exact connectivity measures used.,,"{
+    ""support_score"": 1,
+    ""decision"": ""revise"",
+    ""phenotype_supported"": false,
+    ""feature_supported"": true,
+    ""relationship_supported"": true,
+    ""direction_supported"": true,
+    ""directness_supported"": false,
+    ""overclaiming"": true,
+    ""corrected_phenotype"": ""impulsivity (general)"",
+    ""corrected_feature_type"": ""functional connectivity"",
+    ""corrected_direction"": ""higher"",
+    ""rationale"": ""The sentence mentions connectivity differences but does not directly state that impulsivity is associated with these changes. It also does not specify the exact connectivity measures used.""
+}"
+6,42146757,Resting-State Functional Connectivity Alterations in Pediatric Survivors of Severe COVID-19: An Exploratory Case-Control Study.,2026,Sage open pediatrics,impulsivity resting state functional connectivity,unknown,functional connectivity,impulsivity (general),severe COVID-19,correlates_with,unclear,,indirect,0.5,"In an exploratory subset (8 post-COVID, 12 controls), 50% of post-COVID children had abnormally low Timeliness and 25% low Impulsivity MOXO-d-CPT z-scores, whereas no controls were abnormal.",yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,0,drop,no,no,no,no,no,yes,,,,The sentence does not provide a clear association between functional connectivity and impulsivity. It also mentions a group difference without directly linking it to the phenotype-feature relationship.,,"{
+  ""support_score"": 0,
+  ""decision"": ""drop"",
+  ""phenotype_supported"": false,
+  ""feature_supported"": false,
+  ""relationship_supported"": false,
+  ""direction_supported"": false,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": null,
+  ""corrected_feature_type"": null,
+  ""corrected_direction"": null,
+  ""rationale"": ""The sentence does not provide a clear association between functional connectivity and impulsivity. It also mentions a group difference without directly linking it to the phenotype-feature relationship.""
+}"
+7,35007715,Risk-taking in humans and the medial orbitofrontal cortex reward system.,2022,NeuroImage,impulsivity fMRI functional connectivity,"medial orbitofrontal cortex, ventromedial prefrontal cortex, parahippocampal areas, anterior cingulate cortex",functional connectivity,impulsivity (general),unknown,associated_with,higher,"higher connectivity with the anterior cingulate cortex, providing a route for these reward-related regions to have a greater influence on action in risk-taking individuals",direct,0.9,"Functional connectivities of the medial orbitofrontal cortex, ventromedial prefrontal cortex (VMPFC), and the parahippocampal areas were significantly higher in the risk-taking group (p < 0.001, FDR corrected).",yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,1,revise,unclear,unclear,unclear,no,no,yes,risk-taking,functional connectivity,higher,"The sentence mentions a group difference (risk-taking) and a feature (functional connectivity), but it does not explicitly state that the functional connectivity is associated with impulsivity (general). Additionally, the direction and directness are not clearly supported.",,"{
+  ""support_score"": 1,
+  ""decision"": ""revise"",
+  ""phenotype_supported"": ""risk-taking"",
+  ""feature_supported"": ""functional connectivity"",
+  ""relationship_supported"": ""associated_with"",
+  ""direction_supported"": false,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": ""risk-taking"",
+  ""corrected_feature_type"": ""functional connectivity"",
+  ""corrected_direction"": ""higher"",
+  ""rationale"": ""The sentence mentions a group difference (risk-taking) and a feature (functional connectivity), but it does not explicitly state that the functional connectivity is associated with impulsivity (general). Additionally, the direction and directness are not clearly supported.""
+}"
+8,37209127,Reduced loss aversion in value-based decision-making and edge-centric functional connectivity in patients with internet gaming disorder.,2023,Journal of behavioral addictions,impulsivity neuroimaging functional connectivity,unknown,functional connectivity,unknown,internet gaming disorder,correlates_with,lower,negatively correlated with the promoted bottom-to-up neuromodulation from the right hippocampus to the left IFG,direct,0.85,This relationship was suppressed by response consistency3 in PIGD.,yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,0,drop,no,no,no,no,no,yes,,,,"The evidence sentence does not provide any information about a phenotype-feature relationship, direction, or directness. It only mentions that the relationship was suppressed by response consistency in PIGD, which is not aligned with the extracted claim.",,"{
+  ""support_score"": 0,
+  ""decision"": ""drop"",
+  ""phenotype_supported"": false,
+  ""feature_supported"": false,
+  ""relationship_supported"": false,
+  ""direction_supported"": false,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": null,
+  ""corrected_feature_type"": null,
+  ""corrected_direction"": null,
+  ""rationale"": ""The evidence sentence does not provide any information about a phenotype-feature relationship, direction, or directness. It only mentions that the relationship was suppressed by response consistency in PIGD, which is not aligned with the extracted claim.""
+}"
+9,40168432,Protocol for a Randomized Controlled Trial to Enhance Executive Function via Brief Mindfulness Training in Individuals with Internet Gaming Disorder.,2025,PloS one,trait impulsivity functional connectivity,unknown,functional connectivity,impulsivity (general),Internet Gaming Disorder,associated_with,unclear,,indirect,0.5,,yes,,yes,no,unclear,,,,,,,,,,qwen2.5-7b-instruct,0,drop,no,no,no,no,no,yes,,,,"The evidence sentence does not provide any specific information about impulsivity or functional connectivity in the context of Internet Gaming Disorder. It also does not establish a clear relationship between the two, making it an overclaim.",,"{""support_score"": 0, ""decision"": ""drop"", ""phenotype_supported"": false, ""feature_supported"": false, ""relationship_supported"": false, ""direction_supported"": false, ""directness_supported"": false, ""overclaiming"": true, ""corrected_phenotype"": null, ""corrected_feature_type"": null, ""corrected_direction"": null, ""rationale"": ""The evidence sentence does not provide any specific information about impulsivity or functional connectivity in the context of Internet Gaming Disorder. It also does not establish a clear relationship between the two, making it an overclaim.""}"
+10,39592983,Abnormal stability of dynamic functional architecture in drug-naïve children with attention-deficit/hyperactivity disorder.,2024,BMC psychiatry,attentional impulsivity resting-state fMRI,"default mode network, salience/ventral attention network",dynamic connectivity,attentional impulsivity,drug-naïve children with ADHD,correlates_with,unclear,,direct,0.7,This preliminary study provides novel insight into the dynamic brain functional networks in ADHD.,yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,0,drop,no,no,no,no,no,yes,,,,"The evidence sentence does not provide specific information about the dynamic connectivity of the default mode network or salience/ventral attention network in relation to attentional impulsivity. It only mentions a preliminary study on dynamic brain functional networks in ADHD, which is too broad and does not support the specific claim.",,"{
+  ""support_score"": 0,
+  ""decision"": ""drop"",
+  ""phenotype_supported"": false,
+  ""feature_supported"": false,
+  ""relationship_supported"": false,
+  ""direction_supported"": false,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": null,
+  ""corrected_feature_type"": null,
+  ""corrected_direction"": null,
+  ""rationale"": ""The evidence sentence does not provide specific information about the dynamic connectivity of the default mode network or salience/ventral attention network in relation to attentional impulsivity. It only mentions a preliminary study on dynamic brain functional networks in ADHD, which is too broad and does not support the specific claim.""
+}"
+11,10570690,What is attention-deficit/hyperactivity disorder?,1999,Pediatric clinics of North America,attentional impulsivity functional connectivity,unknown,unknown,attentional impulsivity,unknown,unknown,unclear,,background,,,no,evidence_strength not a number,yes,no,unclear,,,,,,,,,,qwen2.5-7b-instruct,0,drop,no,no,no,no,no,yes,,,,The sentence does not provide any specific information about a phenotype-feature association or direction. It also mentions a group difference (attention-deficit/hyperactivity disorder) without providing a clear relationship between a phenotype and a feature.,,"{""support_score"": 0, ""decision"": ""drop"", ""phenotype_supported"": false, ""feature_supported"": false, ""relationship_supported"": false, ""direction_supported"": false, ""directness_supported"": false, ""overclaiming"": true, ""corrected_phenotype"": null, ""corrected_feature_type"": null, ""corrected_direction"": null, ""rationale"": ""The sentence does not provide any specific information about a phenotype-feature association or direction. It also mentions a group difference (attention-deficit/hyperactivity disorder) without providing a clear relationship between a phenotype and a feature.""}"
+12,40260305,Effective connectivity analysis of response inhibition functional network.,2025,Frontiers in neuroscience,motor impulsivity functional connectivity,"salience/ventral attention network, frontoparietal/control network, ventral default mode network, somatomotor network",dynamic connectivity,nonplanning impulsivity,unknown,correlates_with,unclear,,direct,0.8,"Finally, correlation analyses between self-reported impulsivity levels and causal network interactions revealed that highly impulsive individuals require greater interhemispheric integration between the right and left ECNs for effective inhibition, as well as a causal excitatory modulation from the right executive control network (rECN) to the vDMN.",yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,1,revise,yes,yes,yes,no,no,no,nonplanning impulsivity,"interhemispheric integration, causal excitatory modulation",unclear,"The sentence mentions a correlation with self-reported impulsivity levels, which aligns with the phenotype. It also discusses interhemispheric integration and causal excitatory modulation, which aligns with the feature type. However, the direction and directness are not explicitly stated.",,"{
+    ""support_score"": 1,
+    ""decision"": ""revise"",
+    ""phenotype_supported"": true,
+    ""feature_supported"": true,
+    ""relationship_supported"": true,
+    ""direction_supported"": false,
+    ""directness_supported"": false,
+    ""overclaiming"": false,
+    ""corrected_phenotype"": ""nonplanning impulsivity"",
+    ""corrected_feature_type"": ""interhemispheric integration, causal excitatory modulation"",
+    ""corrected_direction"": ""unclear"",
+    ""rationale"": ""The sentence mentions a correlation with self-reported impulsivity levels, which aligns with the phenotype. It also discusses interhemispheric integration and causal excitatory modulation, which aligns with the feature type. However, the direction and directness are not explicitly stated.""
+}"
+1,26908392,Association of ventral striatum monoamine oxidase-A binding and functional connectivity in antisocial personality disorder with high impulsivity: A positron emission tomography and functional magnetic resonance imaging study.,2016,European neuropsychopharmacology : the journal of the European College of Neuropsychopharmacology,Barratt Impulsiveness Scale resting-state fMRI,unknown,functional connectivity,impulsivity (general),antisocial personality disorder,correlates_with,lower,,direct,0.85,"Additionally, VSs-DMPFC FC was negatively correlated with NEO Personality Inventory-Revised impulsivity (r=-0.49, p=0.03), as was VSi-hippocampus FC with Barratt Impulsiveness Scale-11 motor impulsiveness (r=-0.50, p=0.03).",yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,1,keep,yes,yes,yes,no,no,yes,motor impulsiveness,functional connectivity,lower,"The sentence mentions a correlation between functional connectivity and impulsivity, but it does not specify which type of impulsivity (e.g., general impulsivity) is being correlated. Additionally, the direction and directness are not fully supported as the sentence does not explicitly state the direction and the feature type is not clearly linked to the phenotype.",,"{
+  ""support_score"": 1,
+  ""decision"": ""keep"",
+  ""phenotype_supported"": true,
+  ""feature_supported"": true,
+  ""relationship_supported"": true,
+  ""direction_supported"": false,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": ""motor impulsiveness"",
+  ""corrected_feature_type"": ""functional connectivity"",
+  ""corrected_direction"": ""lower"",
+  ""rationale"": ""The sentence mentions a correlation between functional connectivity and impulsivity, but it does not specify which type of impulsivity (e.g., general impulsivity) is being correlated. Additionally, the direction and directness are not fully supported as the sentence does not explicitly state the direction and the feature type is not clearly linked to the phenotype.""
+}"
+2,18479820,An event-related fMRI study on risk taking by healthy individuals of high or low impulsiveness.,2008,Neuroscience letters,Barratt Impulsiveness Scale fMRI,unknown,functional connectivity,impulsivity (general),unknown,associated_with,higher,,direct,0.85,a stronger activation in the insula-orbitofrontal-parietal regions was found in the high impulsiveness group compared to the low impulsiveness group,yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,1,revise,yes,no,yes,yes,no,yes,impulsivity (high) vs impulsivity (low),activation level,higher,"The sentence mentions a group difference in activation levels but does not specify functional connectivity as the feature. It also does not directly state that higher impulsivity is associated with higher activation, making directness_supported=false. Additionally, the sentence suggests an overclaim by implying a relationship between impulsivity and activation without specifying the exact nature of the association.",,"{
+  ""support_score"": 1,
+  ""decision"": ""revise"",
+  ""phenotype_supported"": true,
+  ""feature_supported"": false,
+  ""relationship_supported"": true,
+  ""direction_supported"": true,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": ""impulsivity (high) vs impulsivity (low)"",
+  ""corrected_feature_type"": ""activation level"",
+  ""corrected_direction"": ""higher"",
+  ""rationale"": ""The sentence mentions a group difference in activation levels but does not specify functional connectivity as the feature. It also does not directly state that higher impulsivity is associated with higher activation, making directness_supported=false. Additionally, the sentence suggests an overclaim by implying a relationship between impulsivity and activation without specifying the exact nature of the association.""
+}"
+3,19758706,Are self-injurers impulsive?: Results from two behavioral laboratory studies.,2009,Psychiatry research,Barratt Impulsiveness Scale neuroimaging,unknown,unknown,impulsivity (general),self-injurers,correlates_with,higher,,indirect,0.5,"In both studies, self-injurers reported greater impulsiveness;",yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,2,keep,yes,no,yes,yes,no,no,impulsivity (general),unknown,higher,"The sentence directly states that self-injurers reported greater impulsiveness, supporting the phenotype and relationship. However, it does not specify what feature of impulsivity is being measured, making directness_supported=false.",,"{
+  ""support_score"": 2,
+  ""decision"": ""keep"",
+  ""phenotype_supported"": true,
+  ""feature_supported"": false,
+  ""relationship_supported"": true,
+  ""direction_supported"": true,
+  ""directness_supported"": false,
+  ""overclaiming"": false,
+  ""corrected_phenotype"": ""impulsivity (general)"",
+  ""corrected_feature_type"": ""unknown"",
+  ""corrected_direction"": ""higher"",
+  ""rationale"": ""The sentence directly states that self-injurers reported greater impulsiveness, supporting the phenotype and relationship. However, it does not specify what feature of impulsivity is being measured, making directness_supported=false.""
+}"
+4,24373553,Anhedonia in Parkinson's disease patients with and without pathological gambling: a case-control study.,2014,Psychiatry research,Barratt Impulsiveness Scale neuroimaging,unknown,unknown,impulsivity (general),Pathological Gambling (PG) and other Impulse Control Disorders (ICDs),correlates_with,higher,,indirect,0.8,"The PG-group, compared to the ICDs-group and PD-controls, reported a significantly higher incidence of anhedonia (45% vs. 9% vs. 14% respectively), higher Snaith-Hamilton Pleasure Scale (SHAPS) scores (2.0±1.3 vs. 1.0±1.1 vs. 1.0±1.2), higher levels of impulsivity traits as measured by the Barratt Impulsiveness Scale (70.0±10.6 vs. 64.8±11 vs. 60.9±9.3) and more severe frontal dysfunctions (Frontal Assessment Battery, FAB: 12.4±4.9 vs. 15.5±1.6 vs. 14.4±3).",yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,1,revise,yes,no,yes,yes,no,yes,impulsivity (general),impulsivity traits,higher,"The sentence supports the relationship between anhedonia and higher impulsivity traits, but it does not directly state that impulsivity correlates with anhedonia. The feature type is not explicitly mentioned, and the directness is indirect.",,"{
+  ""support_score"": 1,
+  ""decision"": ""revise"",
+  ""phenotype_supported"": true,
+  ""feature_supported"": false,
+  ""relationship_supported"": true,
+  ""direction_supported"": true,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": ""impulsivity (general)"",
+  ""corrected_feature_type"": ""impulsivity traits"",
+  ""corrected_direction"": ""higher"",
+  ""rationale"": ""The sentence supports the relationship between anhedonia and higher impulsivity traits, but it does not directly state that impulsivity correlates with anhedonia. The feature type is not explicitly mentioned, and the directness is indirect.""
+}"
+5,36963562,Youth Screen Media Activity Patterns and Associations With Behavioral Developmental Measures and Resting-state Brain Functional Connectivity.,2023,Journal of the American Academy of Child and Adolescent Psychiatry,impulsivity resting-state fMRI functional connectivity,unknown,functional connectivity,impulsivity (general),unknown,associated_with,higher,,direct,0.85,"The video-centric higher-frequency SMA pattern group demonstrated higher impulsivity, more sensitivity to punishment/reward, and altered resting-state brain functional connectivity among brain areas implicated previously in cognitive processes.",yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,1,revise,yes,no,yes,yes,no,yes,impulsivity (general),resting-state brain functional connectivity,higher,"The sentence mentions higher impulsivity and altered resting-state brain functional connectivity, supporting the relationship and direction. However, it does not directly name the specific brain system or cognitive process involved, and it overclaims by mentioning additional features like sensitivity to punishment/reward that are not part of the extracted claim.",,"{
+  ""support_score"": 1,
+  ""decision"": ""revise"",
+  ""phenotype_supported"": true,
+  ""feature_supported"": false,
+  ""relationship_supported"": true,
+  ""direction_supported"": true,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": ""impulsivity (general)"",
+  ""corrected_feature_type"": ""resting-state brain functional connectivity"",
+  ""corrected_direction"": ""higher"",
+  ""rationale"": ""The sentence mentions higher impulsivity and altered resting-state brain functional connectivity, supporting the relationship and direction. However, it does not directly name the specific brain system or cognitive process involved, and it overclaims by mentioning additional features like sensitivity to punishment/reward that are not part of the extracted claim.""
+}"
+6,32699511,Neurobiological mechanisms underlying internet gaming disorder .,2020,Dialogues in clinical neuroscience,impulsivity fMRI functional connectivity,unknown,functional connectivity,impulsivity (general),internet gaming disorder,associated_with,unclear,,direct,0.7,reduced activity in impulse control areas and impaired decision making,yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,1,revise,unclear,unclear,unclear,no,no,yes,impulsivity (general),decision making,unclear,"The sentence mentions reduced activity in impulse control areas and impaired decision making, which partially supports the claim of an association between impulsivity and decision making. However, it does not directly state the relationship as 'associated_with', and the direction is unclear. Additionally, it overclaims by mentioning a group difference (impaired decision making) without specifying the exact phenotype-feature association.",,"{
+  ""support_score"": 1,
+  ""decision"": ""revise"",
+  ""phenotype_supported"": ""impulsivity (general)"",
+  ""feature_supported"": ""decision making"",
+  ""relationship_supported"": ""associated_with"",
+  ""direction_supported"": false,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": ""impulsivity (general)"",
+  ""corrected_feature_type"": ""decision making"",
+  ""corrected_direction"": ""unclear"",
+  ""rationale"": ""The sentence mentions reduced activity in impulse control areas and impaired decision making, which partially supports the claim of an association between impulsivity and decision making. However, it does not directly state the relationship as 'associated_with', and the direction is unclear. Additionally, it overclaims by mentioning a group difference (impaired decision making) without specifying the exact phenotype-feature association.""
+}"
+7,34964209,Neural processes during response inhibition in complex posttraumatic stress disorder.,2022,Depression and anxiety,impulsivity fMRI functional connectivity,unknown,functional connectivity,impulsivity (general),complex posttraumatic stress disorder,associated_with,unclear,,indirect,0.5,"These findings provide initial evidence of aberrant functioning in the neurocircuitry of inhibitory control, involving the thalamus, in CPTSD.",yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,1,revise,no,yes,yes,no,no,yes,inhibitory control,neurocircuitry,aberrant functioning,"The sentence mentions aberrant functioning in the neurocircuitry of inhibitory control, which is related to the feature but not directly to impulsivity. The direction is unclear, and the relationship is indirect.",,"{
+  ""support_score"": 1,
+  ""decision"": ""revise"",
+  ""phenotype_supported"": false,
+  ""feature_supported"": true,
+  ""relationship_supported"": true,
+  ""direction_supported"": false,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": ""inhibitory control"",
+  ""corrected_feature_type"": ""neurocircuitry"",
+  ""corrected_direction"": ""aberrant functioning"",
+  ""rationale"": ""The sentence mentions aberrant functioning in the neurocircuitry of inhibitory control, which is related to the feature but not directly to impulsivity. The direction is unclear, and the relationship is indirect.""
+}"
+8,36912839,Identifying Replicable Subgroups in Neurodevelopmental Conditions Using Resting-State Functional Magnetic Resonance Imaging Data.,2023,JAMA network open,trait impulsivity resting-state fMRI,unknown,functional connectivity,impulsivity (general),neurodevelopmental conditions,associated_with,higher,,direct,0.8,"There was a significant difference in Strengths and Weaknesses ADHD Symptoms and Normal Behavior Hyperactivity/Impulsivity subscale (SWAN-HI) between 2 subgroups in the POND data (C and D), with subgroup D having increased hyperactivity and impulsivity traits compared with subgroup C (median [IQR], 2.50 [0.00-7.00] vs 1.00 [0.00-5.00]; U = 1.19 × 104; P = .01; η2 = 0.02).",yes,,yes,yes,no,,,,,,,,,,qwen2.5-7b-instruct,1,revise,yes,no,yes,yes,no,no,hyperactivity and impulsivity traits,behavioral symptoms,higher,The sentence supports the relationship and direction but does not directly mention functional connectivity as the feature. It also does not specify that the subgroups are related to neurodevelopmental conditions.,,"{
+    ""support_score"": 1,
+    ""decision"": ""revise"",
+    ""phenotype_supported"": true,
+    ""feature_supported"": false,
+    ""relationship_supported"": true,
+    ""direction_supported"": true,
+    ""directness_supported"": false,
+    ""overclaiming"": false,
+    ""corrected_phenotype"": ""hyperactivity and impulsivity traits"",
+    ""corrected_feature_type"": ""behavioral symptoms"",
+    ""corrected_direction"": ""higher"",
+    ""rationale"": ""The sentence supports the relationship and direction but does not directly mention functional connectivity as the feature. It also does not specify that the subgroups are related to neurodevelopmental conditions.""
+}"
+9,37884552,Neural correlates of aggression in personality disorders from the perspective of DSM-5 maladaptive traits: a systematic review.,2023,Translational psychiatry,trait impulsivity functional connectivity,unknown,functional connectivity,impulsivity (general),Borderline personality disorder (BPD) and antisocial personality disorder (ASPD),associated_with,unclear,,indirect,0.6,alterations of fronto-temporal-limbic regions and serotonergic and endocannabinoid signaling systems may link impulsivity to aggression in BPD and ASPD,yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,1,revise,yes,no,yes,no,no,yes,impulsivity (general),neural circuits/signaling systems,unclear,"The sentence mentions impulsivity as related to aggression but does not specify the exact neural circuits or signaling systems involved. It also implies a link rather than a direct association, and the direction of the relationship is unclear.",,"{
+  ""support_score"": 1,
+  ""decision"": ""revise"",
+  ""phenotype_supported"": true,
+  ""feature_supported"": false,
+  ""relationship_supported"": true,
+  ""direction_supported"": false,
+  ""directness_supported"": false,
+  ""overclaiming"": true,
+  ""corrected_phenotype"": ""impulsivity (general)"",
+  ""corrected_feature_type"": ""neural circuits/signaling systems"",
+  ""corrected_direction"": ""unclear"",
+  ""rationale"": ""The sentence mentions impulsivity as related to aggression but does not specify the exact neural circuits or signaling systems involved. It also implies a link rather than a direct association, and the direction of the relationship is unclear.""
+}"
+10,27894158,Craving behavioral intervention for internet gaming disorder: remediation of functional connectivity of the ventral striatum.,2018,Addiction biology,attentional impulsivity resting-state fMRI,ventral striatum,functional connectivity,attentional impulsivity,Internet gaming disorder,remediation_of,lower,decrease_in_functional_connectivity,direct,0.8,"Moreover, compared with CBI-, CBI+ showed significantly greater decrease in VS-lIPL connectivity, along with amelioration in addiction severity following the intervention.",yes,,yes,yes,yes,,,,,,,,,,qwen2.5-7b-instruct,1,revise,no,yes,yes,no,no,yes,attentional impulsivity,VS-lIPL connectivity,lower,"The sentence mentions a group difference (CBI+ vs CBI-) and a decrease in connectivity, which partially supports the claim. However, it does not directly state that attentional impulsivity was remediated. The direction and directness are not explicitly stated.",,"{
+    ""support_score"": 1,
+    ""decision"": ""revise"",
+    ""phenotype_supported"": false,
+    ""feature_supported"": true,
+    ""relationship_supported"": true,
+    ""direction_supported"": false,
+    ""directness_supported"": false,
+    ""overclaiming"": true,
+    ""corrected_phenotype"": ""attentional impulsivity"",
+    ""corrected_feature_type"": ""VS-lIPL connectivity"",
+    ""corrected_direction"": ""lower"",
+    ""rationale"": ""The sentence mentions a group difference (CBI+ vs CBI-) and a decrease in connectivity, which partially supports the claim. However, it does not directly state that attentional impulsivity was remediated. The direction and directness are not explicitly stated.""
+}"
+11,9571295,Frontal lobe functions and dysfunctions.,1998,Clinical EEG (electroencephalography),attentional impulsivity functional connectivity,unknown,unknown,attentional impulsivity,unknown,unknown,unclear,,unclear,,,no,evidence_strength not a number,yes,no,unclear,,,,,,,,,,qwen2.5-7b-instruct,0,drop,no,no,no,no,no,yes,,,,"The evidence sentence does not provide any specific information about a phenotype-feature relationship, direction, or directness. It also suggests a group difference without directly linking to a specific phenotype or feature.",,"{""support_score"": 0, ""decision"": ""drop"", ""phenotype_supported"": false, ""feature_supported"": false, ""relationship_supported"": false, ""direction_supported"": false, ""directness_supported"": false, ""overclaiming"": true, ""corrected_phenotype"": null, ""corrected_feature_type"": null, ""corrected_direction"": null, ""rationale"": ""The evidence sentence does not provide any specific information about a phenotype-feature relationship, direction, or directness. It also suggests a group difference without directly linking to a specific phenotype or feature.""}"
+12,39218589,[A review of functional electrical stimulation based on brain-computer interface].,2024,Sheng wu yi xue gong cheng xue za zhi = Journal of biomedical engineering = Shengwu yixue gongchengxue zazhi,motor impulsivity functional connectivity,unknown,unknown,unknown,unknown,unknown,unclear,,unclear,,,no,evidence_strength not a number,yes,no,unclear,,,,,,,,,,qwen2.5-7b-instruct,0,drop,no,no,no,no,no,no,,,,"The evidence sentence does not provide any specific information about a phenotype, feature, relationship, or direction. It appears to be general background information rather than supporting the structured claim.",,"{""support_score"": 0, ""decision"": ""drop"", ""phenotype_supported"": false, ""feature_supported"": false, ""relationship_supported"": false, ""direction_supported"": false, ""directness_supported"": false, ""overclaiming"": false, ""corrected_phenotype"": null, ""corrected_feature_type"": null, ""corrected_direction"": null, ""rationale"": ""The evidence sentence does not provide any specific information about a phenotype, feature, relationship, or direction. It appears to be general background information rather than supporting the structured claim.""}"

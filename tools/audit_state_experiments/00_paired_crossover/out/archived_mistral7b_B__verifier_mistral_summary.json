@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-09-15T00:57:43.657644+00:00",
+  "input_csv": "inputs/archived_mistral7b_B_audit_sheet.csv",
+  "input_sha256": "eb4548418e02d5cb00c681b591101ad5434511a92d0e04d9f3184f33f6da36eb",
+  "verifier_model": "mistral-7b-instruct-v0.3",
+  "base_url": "http://127.0.0.1:8001/v1",
+  "n_rows": 100,
+  "decision": {
+    "keep": 49,
+    "revise": 46,
+    "drop": 5
+  },
+  "overclaiming": {
+    "unclear": 99,
+    "yes": 1
+  },
+  "errors": 0,
+  "seconds": 70.0
+}

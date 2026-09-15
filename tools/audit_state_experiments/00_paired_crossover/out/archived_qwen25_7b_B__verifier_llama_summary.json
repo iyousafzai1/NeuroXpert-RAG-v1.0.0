@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-09-15T00:55:25.480024+00:00",
+  "input_csv": "inputs/archived_qwen25_7b_B_audit_sheet.csv",
+  "input_sha256": "845ae9450989d2d9710a6a7266100e09d8ef67f0dcf1eb346975f70fbc68c2fc",
+  "verifier_model": "llama-3.1-8b-instruct",
+  "base_url": "http://127.0.0.1:8000/v1",
+  "n_rows": 100,
+  "decision": {
+    "keep": 54,
+    "revise": 38,
+    "drop": 8
+  },
+  "overclaiming": {
+    "no": 97,
+    "unclear": 3
+  },
+  "errors": 0,
+  "seconds": 42.7
+}

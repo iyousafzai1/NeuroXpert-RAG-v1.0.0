@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-09-15T00:51:24.568547+00:00",
+  "input_csv": "inputs/archived_llama31_8b_B_audit_sheet.csv",
+  "input_sha256": "f86deee0acae2788b6b1f1ed2c73a319e362387a6b2aa27754c75e05eea330b0",
+  "verifier_model": "llama-3.1-8b-instruct",
+  "base_url": "http://127.0.0.1:8000/v1",
+  "n_rows": 100,
+  "decision": {
+    "keep": 50,
+    "revise": 36,
+    "drop": 14
+  },
+  "overclaiming": {
+    "no": 95,
+    "unclear": 3,
+    "yes": 2
+  },
+  "errors": 0,
+  "seconds": 70.9
+}

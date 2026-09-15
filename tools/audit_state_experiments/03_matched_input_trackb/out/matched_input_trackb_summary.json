@@ -1,0 +1,56 @@
+{
+  "native_instr/s120": {
+    "n": 120,
+    "decision": {
+      "drop": 69,
+      "keep": 20,
+      "revise": 31
+    },
+    "parse": {
+      "ok": 115,
+      "rule": 5
+    },
+    "errors": 0
+  },
+  "native_instr/s300": {
+    "n": 300,
+    "decision": {
+      "drop": 172,
+      "revise": 79,
+      "keep": 49
+    },
+    "parse": {
+      "ok": 283,
+      "rule": 17
+    },
+    "errors": 0
+  },
+  "minimal/s120": {
+    "n": 120,
+    "decision": {
+      "revise": 61,
+      "keep": 44,
+      "drop": 15
+    },
+    "parse": {
+      "ok": 115,
+      "rule": 5
+    },
+    "errors": 0
+  },
+  "minimal/s300": {
+    "n": 300,
+    "decision": {
+      "revise": 144,
+      "drop": 56,
+      "keep": 100
+    },
+    "parse": {
+      "ok": 283,
+      "rule": 17
+    },
+    "errors": 0
+  },
+  "seconds": 336.1,
+  "model": "llama-3.1-8b-instruct"
+}

@@ -1,0 +1,83 @@
+{
+  "trackA|Llama-Qwen": {
+    "rate_a": 0.9042857142857142,
+    "rate_b": 0.8142857142857143,
+    "diff_pp": 8.999999999999996,
+    "discordant_a_only": 104,
+    "discordant_b_only": 41,
+    "p_raw": 1.6967766819869384e-07,
+    "p_holm": 1.6967766819869384e-07
+  },
+  "trackA|Llama-Mistral": {
+    "rate_a": 0.9042857142857142,
+    "rate_b": 0.5942857142857143,
+    "diff_pp": 30.999999999999993,
+    "discordant_a_only": 251,
+    "discordant_b_only": 34,
+    "p_raw": 4.722273093639464e-42,
+    "p_holm": 1.416681928091839e-41
+  },
+  "trackA|Qwen-Mistral": {
+    "rate_a": 0.8142857142857143,
+    "rate_b": 0.5942857142857143,
+    "diff_pp": 21.999999999999996,
+    "discordant_a_only": 231,
+    "discordant_b_only": 77,
+    "p_raw": 4.96878108965294e-19,
+    "p_holm": 9.93756217930588e-19
+  },
+  "trackB_kr|Llama-Qwen": {
+    "rate_a": 0.8471428571428572,
+    "rate_b": 0.8785714285714286,
+    "diff_pp": -3.142857142857136,
+    "discordant_a_only": 49,
+    "discordant_b_only": 71,
+    "p_raw": 0.05477979691370221,
+    "p_holm": 0.10955959382740442
+  },
+  "trackB_kr|Llama-Mistral": {
+    "rate_a": 0.8471428571428572,
+    "rate_b": 0.84,
+    "diff_pp": 0.7142857142857229,
+    "discordant_a_only": 55,
+    "discordant_b_only": 50,
+    "p_raw": 0.6964676629916758,
+    "p_holm": 0.6964676629916758
+  },
+  "trackB_kr|Qwen-Mistral": {
+    "rate_a": 0.8785714285714286,
+    "rate_b": 0.84,
+    "diff_pp": 3.857142857142859,
+    "discordant_a_only": 76,
+    "discordant_b_only": 49,
+    "p_raw": 0.019677394492865947,
+    "p_holm": 0.059032183478597844
+  },
+  "overclaim|Llama-Qwen": {
+    "rate_a": 0.011428571428571429,
+    "rate_b": 0.008571428571428572,
+    "diff_pp": 0.2857142857142857,
+    "discordant_a_only": 6,
+    "discordant_b_only": 4,
+    "p_raw": 0.75390625,
+    "p_holm": 1.0
+  },
+  "overclaim|Llama-Mistral": {
+    "rate_a": 0.011428571428571429,
+    "rate_b": 0.007142857142857143,
+    "diff_pp": 0.4285714285714286,
+    "discordant_a_only": 7,
+    "discordant_b_only": 4,
+    "p_raw": 0.548828125,
+    "p_holm": 1.0
+  },
+  "overclaim|Qwen-Mistral": {
+    "rate_a": 0.008571428571428572,
+    "rate_b": 0.007142857142857143,
+    "diff_pp": 0.14285714285714293,
+    "discordant_a_only": 6,
+    "discordant_b_only": 5,
+    "p_raw": 1.0,
+    "p_holm": 1.0
+  }
+}

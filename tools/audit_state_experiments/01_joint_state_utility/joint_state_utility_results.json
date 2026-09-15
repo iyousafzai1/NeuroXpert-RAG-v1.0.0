@@ -1,0 +1,452 @@
+{
+  "population_joint_matrix_2100": {
+    "fail/drop": 77,
+    "fail/keep": 233,
+    "fail/revise": 171,
+    "pass/drop": 227,
+    "pass/keep": 805,
+    "pass/revise": 587
+  },
+  "population_trackB_strata": {
+    "revise": 758,
+    "keep": 1038,
+    "drop": 304
+  },
+  "sample_strata": {
+    "drop": 40,
+    "keep": 40,
+    "revise": 40
+  },
+  "ipw_weights": {
+    "drop": 7.6,
+    "keep": 25.95,
+    "revise": 18.95
+  },
+  "s120_cells": {
+    "fail/drop": 9,
+    "fail/keep": 8,
+    "fail/revise": 6,
+    "pass/drop": 31,
+    "pass/keep": 32,
+    "pass/revise": 34
+  },
+  "s120_cell_label_distributions": {
+    "fail/drop": {
+      "n": 9,
+      "E1": {
+        "revise": 2,
+        "drop": 7
+      },
+      "E2": {
+        "revise": 1,
+        "drop": 8
+      },
+      "both_agree": {
+        "revise": 1,
+        "drop": 7
+      }
+    },
+    "fail/keep": {
+      "n": 8,
+      "E1": {
+        "revise": 3,
+        "drop": 3,
+        "keep": 2
+      },
+      "E2": {
+        "revise": 3,
+        "drop": 3,
+        "keep": 2
+      },
+      "both_agree": {
+        "revise": 2,
+        "drop": 2,
+        "keep": 2
+      }
+    },
+    "fail/revise": {
+      "n": 6,
+      "E1": {
+        "revise": 3,
+        "keep": 2,
+        "drop": 1
+      },
+      "E2": {
+        "revise": 4,
+        "keep": 1,
+        "drop": 1
+      },
+      "both_agree": {
+        "revise": 3,
+        "keep": 1,
+        "drop": 1
+      }
+    },
+    "pass/drop": {
+      "n": 31,
+      "E1": {
+        "revise": 17,
+        "drop": 13,
+        "keep": 1
+      },
+      "E2": {
+        "revise": 5,
+        "drop": 25,
+        "keep": 1
+      },
+      "both_agree": {
+        "revise": 5,
+        "drop": 13,
+        "keep": 1
+      }
+    },
+    "pass/keep": {
+      "n": 32,
+      "E1": {
+        "revise": 14,
+        "drop": 3,
+        "keep": 15
+      },
+      "E2": {
+        "revise": 10,
+        "drop": 8,
+        "keep": 14
+      },
+      "both_agree": {
+        "revise": 9,
+        "drop": 3,
+        "keep": 14
+      }
+    },
+    "pass/revise": {
+      "n": 34,
+      "E1": {
+        "keep": 8,
+        "revise": 21,
+        "drop": 5
+      },
+      "E2": {
+        "keep": 6,
+        "revise": 20,
+        "drop": 8
+      },
+      "both_agree": {
+        "keep": 6,
+        "revise": 17,
+        "drop": 4
+      }
+    }
+  },
+  "questions": {
+    "A_gate_would_discard_human_acceptable": {
+      "n_s120": 14,
+      "n_population_2100": 404,
+      "by_extractor": {
+        "Mistral 7B": 9,
+        "Qwen 2.5 7B": 4,
+        "Llama 3.1 8B": 1
+      },
+      "estimates": {
+        "E1_acceptable": {
+          "count": 10,
+          "raw_pct": 71.4,
+          "raw_ci95": [
+            45.5,
+            92.9
+          ],
+          "ipw_pct": 69.9,
+          "ipw_ci95": [
+            42.9,
+            93.0
+          ],
+          "bootstrap_reps_nonempty": 10000,
+          "projected_rows_in_2100": 282.0,
+          "projected_ci95": [
+            173.0,
+            376.0
+          ]
+        },
+        "E2_acceptable": {
+          "count": 10,
+          "raw_pct": 71.4,
+          "raw_ci95": [
+            45.5,
+            92.9
+          ],
+          "ipw_pct": 69.9,
+          "ipw_ci95": [
+            43.4,
+            93.0
+          ],
+          "bootstrap_reps_nonempty": 10000,
+          "projected_rows_in_2100": 282.0,
+          "projected_ci95": [
+            175.0,
+            376.0
+          ]
+        },
+        "both_acceptable": {
+          "count": 9,
+          "raw_pct": 64.3,
+          "raw_ci95": [
+            37.5,
+            88.9
+          ],
+          "ipw_pct": 61.8,
+          "ipw_ci95": [
+            34.5,
+            88.1
+          ],
+          "bootstrap_reps_nonempty": 10000,
+          "projected_rows_in_2100": 250.0,
+          "projected_ci95": [
+            139.0,
+            356.0
+          ]
+        },
+        "either_acceptable": {
+          "count": 11,
+          "raw_pct": 78.6,
+          "raw_ci95": [
+            54.5,
+            100.0
+          ],
+          "ipw_pct": 77.9,
+          "ipw_ci95": [
+            53.0,
+            100.0
+          ],
+          "bootstrap_reps_nonempty": 10000,
+          "projected_rows_in_2100": 315.0,
+          "projected_ci95": [
+            214.0,
+            404.0
+          ]
+        }
+      }
+    },
+    "B_trackA_only_would_admit_human_rejected": {
+      "n_s120": 31,
+      "n_population_2100": 227,
+      "by_extractor": {
+        "Llama 3.1 8B": 12,
+        "Qwen 2.5 7B": 8,
+        "Mistral 7B": 11
+      },
+      "estimates": {
+        "E1_drop": {
+          "count": 13,
+          "raw_pct": 41.9,
+          "raw_ci95": [
+            25.0,
+            59.4
+          ],
+          "ipw_pct": 41.9,
+          "ipw_ci95": [
+            25.0,
+            59.4
+          ],
+          "bootstrap_reps_nonempty": 10000,
+          "projected_rows_in_2100": 95.0,
+          "projected_ci95": [
+            57.0,
+            135.0
+          ]
+        },
+        "E2_drop": {
+          "count": 25,
+          "raw_pct": 80.6,
+          "raw_ci95": [
+            65.6,
+            93.5
+          ],
+          "ipw_pct": 80.6,
+          "ipw_ci95": [
+            65.6,
+            93.5
+          ],
+          "bootstrap_reps_nonempty": 10000,
+          "projected_rows_in_2100": 183.0,
+          "projected_ci95": [
+            149.0,
+            212.0
+          ]
+        },
+        "both_drop": {
+          "count": 13,
+          "raw_pct": 41.9,
+          "raw_ci95": [
+            25.0,
+            59.4
+          ],
+          "ipw_pct": 41.9,
+          "ipw_ci95": [
+            25.0,
+            59.4
+          ],
+          "bootstrap_reps_nonempty": 10000,
+          "projected_rows_in_2100": 95.0,
+          "projected_ci95": [
+            57.0,
+            135.0
+          ]
+        },
+        "either_drop": {
+          "count": 25,
+          "raw_pct": 80.6,
+          "raw_ci95": [
+            65.6,
+            93.5
+          ],
+          "ipw_pct": 80.6,
+          "ipw_ci95": [
+            65.6,
+            93.5
+          ],
+          "bootstrap_reps_nonempty": 10000,
+          "projected_rows_in_2100": 183.0,
+          "projected_ci95": [
+            149.0,
+            212.0
+          ]
+        }
+      }
+    },
+    "C_agreement_pass_keeprevise_human_acceptable": {
+      "n_s120": 66,
+      "n_population_2100": 1392,
+      "by_extractor": {
+        "Llama 3.1 8B": 27,
+        "Mistral 7B": 17,
+        "Qwen 2.5 7B": 22
+      },
+      "estimates": {
+        "E1_acceptable": {
+          "count": 58,
+          "raw_pct": 87.9,
+          "raw_ci95": [
+            79.4,
+            95.4
+          ],
+          "ipw_pct": 88.3,
+          "ipw_ci95": [
+            79.9,
+            95.5
+          ],
+          "bootstrap_reps_nonempty": 10000,
+          "projected_rows_in_2100": 1229.0,
+          "projected_ci95": [
+            1113.0,
+            1330.0
+          ]
+        },
+        "E2_acceptable": {
+          "count": 50,
+          "raw_pct": 75.8,
+          "raw_ci95": [
+            65.1,
+            85.9
+          ],
+          "ipw_pct": 75.6,
+          "ipw_ci95": [
+            64.7,
+            85.9
+          ],
+          "bootstrap_reps_nonempty": 10000,
+          "projected_rows_in_2100": 1053.0,
+          "projected_ci95": [
+            901.0,
+            1196.0
+          ]
+        },
+        "both_acceptable": {
+          "count": 49,
+          "raw_pct": 74.2,
+          "raw_ci95": [
+            63.2,
+            84.5
+          ],
+          "ipw_pct": 74.4,
+          "ipw_ci95": [
+            63.2,
+            84.7
+          ],
+          "bootstrap_reps_nonempty": 10000,
+          "projected_rows_in_2100": 1035.0,
+          "projected_ci95": [
+            880.0,
+            1179.0
+          ]
+        }
+      }
+    },
+    "D_agreement_fail_drop_human_drop": {
+      "n_s120": 9,
+      "n_population_2100": 77,
+      "by_extractor": {
+        "Mistral 7B": 2,
+        "Qwen 2.5 7B": 5,
+        "Llama 3.1 8B": 2
+      },
+      "estimates": {
+        "E1_drop": {
+          "count": 7,
+          "raw_pct": 77.8,
+          "raw_ci95": [
+            50.0,
+            100.0
+          ],
+          "ipw_pct": 77.8,
+          "ipw_ci95": [
+            50.0,
+            100.0
+          ],
+          "bootstrap_reps_nonempty": 9999,
+          "projected_rows_in_2100": 60.0,
+          "projected_ci95": [
+            38.0,
+            77.0
+          ]
+        },
+        "E2_drop": {
+          "count": 8,
+          "raw_pct": 88.9,
+          "raw_ci95": [
+            62.5,
+            100.0
+          ],
+          "ipw_pct": 88.9,
+          "ipw_ci95": [
+            62.5,
+            100.0
+          ],
+          "bootstrap_reps_nonempty": 9999,
+          "projected_rows_in_2100": 68.0,
+          "projected_ci95": [
+            48.0,
+            77.0
+          ]
+        },
+        "both_drop": {
+          "count": 7,
+          "raw_pct": 77.8,
+          "raw_ci95": [
+            50.0,
+            100.0
+          ],
+          "ipw_pct": 77.8,
+          "ipw_ci95": [
+            50.0,
+            100.0
+          ],
+          "bootstrap_reps_nonempty": 9999,
+          "projected_rows_in_2100": 60.0,
+          "projected_ci95": [
+            38.0,
+            77.0
+          ]
+        }
+      }
+    }
+  }
+}

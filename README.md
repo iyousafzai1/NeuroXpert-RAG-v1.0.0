@@ -87,6 +87,20 @@ with different model versions WILL produce different numbers.
 To exactly reproduce the paper results, use the frozen reproducibility package:
 `https://doi.org/10.5281/zenodo.20740642`
 
+### Analysis code and per-row outputs (`tools/`)
+
+The `tools/` directory holds the scripts and per-row outputs behind the manuscript's ablation, verifier-comparison
+and audit-state analyses (the exact paths cited in the paper's Supplementary Information):
+
+| Folder | Content |
+|---|---|
+| `tools/ablation_clean/` | fixed-verifier architecture ablation on the 100-PMID subset (sharded harness, merged per-row outputs, `ablation_conditions.json`, Table 8 rows, Fig. 3/4 generator) |
+| `tools/comparators/` | external claim-grounding verifiers (Bespoke-MiniCheck-7B, MiniCheck-Flan-T5-Large, AlignScore-large, DeBERTa-v3-large NLI): frozen `PROTOCOL.md`, `VALIDATION_RECORD.md`, input rows, raw scores, evaluation script and per-row results |
+| `tools/audit_state_experiments/` | paired verifier crossover on byte-identical records (SHA-256 list), human-referenced joint-state utility (IPW + stratified bootstrap), row-level reproducibility, matched-input Track B, Track-A fault injection, paired AUROC-difference CIs and per-document McNemar tests; `06_manuscript_tables/` regenerates every inserted table and number |
+| `tools/joint_audit_state_matrix.py`, `tools/derived/` | joint Track A × Track B matrix over the 2,100 archived rows (Table 6) |
+
+Scripts that read the archived 700-abstract run expect the frozen results package from the Zenodo record above.
+
 ## Architecture
 
 ```

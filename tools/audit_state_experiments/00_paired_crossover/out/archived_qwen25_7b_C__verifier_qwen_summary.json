@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-09-15T00:52:19.853507+00:00",
+  "input_csv": "inputs/archived_qwen25_7b_C_audit_sheet.csv",
+  "input_sha256": "0cc04e79e3b5526116cdc4b4ed94b0298143fcbec5bef3927a06cb332303218c",
+  "verifier_model": "qwen2.5-7b-instruct",
+  "base_url": "http://127.0.0.1:8001/v1",
+  "n_rows": 100,
+  "decision": {
+    "keep": 41,
+    "revise": 54,
+    "drop": 5
+  },
+  "overclaiming": {
+    "no": 38,
+    "yes": 62
+  },
+  "errors": 0,
+  "seconds": 65.7
+}

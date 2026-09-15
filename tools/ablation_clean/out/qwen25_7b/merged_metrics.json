@@ -1,0 +1,72 @@
+[
+  {
+    "system": "full_neuroxpert_rag",
+    "model": "qwen2.5-7b-instruct",
+    "n": 100,
+    "schema_valid_rate": 0.9,
+    "citation_valid_rate": 1.0,
+    "quote_anchor_rate": 0.8,
+    "semantic_keep_rate": 0.57,
+    "semantic_revise_rate": 0.34,
+    "semantic_drop_rate": 0.09,
+    "overclaim_rate": 0.0,
+    "overclaim_count": 0,
+    "useful_evidence_retained_rate": 0.91,
+    "verifier_models": {
+      "llama-3.1-8b-instruct": 100
+    },
+    "extraction_models": {
+      "null": 100
+    },
+    "errors": 0
+  },
+  {
+    "system": "baseline_b_structured_no_mechanical_gate",
+    "model": "qwen2.5-7b-instruct",
+    "n": 100,
+    "schema_valid_rate": 0.9,
+    "citation_valid_rate": 1.0,
+    "quote_anchor_rate": 0.81,
+    "semantic_keep_rate": 0.55,
+    "semantic_revise_rate": 0.35,
+    "semantic_drop_rate": 0.1,
+    "overclaim_rate": 0.01,
+    "overclaim_count": 1,
+    "useful_evidence_retained_rate": 0.9,
+    "verifier_models": {
+      "llama-3.1-8b-instruct": 100
+    },
+    "extraction_models": {
+      "null": 100
+    },
+    "errors": 0
+  },
+  {
+    "system": "baseline_c_single_stage_extract_verify",
+    "model": "qwen2.5-7b-instruct",
+    "n": 100,
+    "schema_valid_rate": 0.0,
+    "citation_valid_rate": 1.0,
+    "quote_anchor_rate": 0.94,
+    "semantic_keep_rate": 0.71,
+    "semantic_revise_rate": 0.24,
+    "semantic_drop_rate": 0.05,
+    "overclaim_rate": 0.0,
+    "overclaim_count": 0,
+    "useful_evidence_retained_rate": 0.95,
+    "verifier_models": {
+      "llama-3.1-8b-instruct": 100
+    },
+    "extraction_models": {
+      "null": 100
+    },
+    "errors": 0
+  },
+  {
+    "system": "baseline_a_naive_free_form_rag",
+    "model": "qwen2.5-7b-instruct",
+    "n": 100,
+    "schema_valid_rate": 0.0,
+    "quote_anchor_rate": 0.0
+  }
+]

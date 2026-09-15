@@ -1,0 +1,10 @@
+track_a,track_b,Llama 3.1 8B,Qwen 2.5 7B,Mistral 7B,pooled
+pass,keep,314,315,176,805
+pass,revise,228,194,165,587
+pass,drop,91,61,75,227
+fail,keep,35,43,155,233
+fail,revise,16,63,92,171
+fail,drop,16,24,37,77
+hidden_by_sequential_gating,fail&keep|revise,51,106,247,404
+hidden_by_grounded_accept_collapse,pass&drop,91,61,75,227
+disagreement_total,,142,167,322,631

@@ -1,0 +1,51 @@
+
+=== reference: evaluator_2 on s120 ===
+method                  view          n   AUROC   AUPRC    Acc   Prec    Rec     F1   kappa
+deberta-nli             strict      120   0.741   0.455  0.800  0.500  0.208  0.294   0.200   AUROC CI [0.623,0.847]  F1 CI [0.077,0.485]
+deberta-nli             retention   120   0.733   0.743  0.600  0.587  0.955  0.727   0.116   AUROC CI [0.636,0.824]  F1 CI [0.659,0.789]
+alignscore-large-officialstrict      120   0.686   0.345      —      —      —      —       —   AUROC CI [0.574,0.788]
+alignscore-large-officialretention   120   0.583   0.626      —      —      —      —       —   AUROC CI [0.480,0.689]
+minicheck-flan-t5       strict      120   0.667   0.281  0.775  0.200  0.042  0.069   0.000   AUROC CI [0.562,0.769]  F1 CI [0.000,0.214]
+minicheck-flan-t5       retention   120   0.589   0.651  0.467  0.800  0.060  0.111   0.036   AUROC CI [0.486,0.689]  F1 CI [0.027,0.217]
+minicheck-bespoke-7b    strict      120   0.790   0.547  0.825  0.800  0.167  0.276   0.222   AUROC CI [0.674,0.891]  F1 CI [0.074,0.483]
+minicheck-bespoke-7b    retention   120   0.736   0.774  0.483  1.000  0.075  0.139   0.066   AUROC CI [0.640,0.823]  F1 CI [0.031,0.250]
+track-b                 strict      120   0.760   0.334  0.733  0.400  0.667  0.500   0.333   AUROC CI [0.671,0.841]  F1 CI [0.345,0.639]
+track-b                 retention   120   0.748   0.756  0.775  0.750  0.896  0.816   0.532   AUROC CI [0.667,0.830]  F1 CI [0.745,0.878]
+
+=== reference: evaluator_1 on s120 ===
+method                  view          n   AUROC   AUPRC    Acc   Prec    Rec     F1   kappa
+deberta-nli             strict      120   0.765   0.505  0.783  0.600  0.214  0.316   0.220   AUROC CI [0.661,0.858]  F1 CI [0.118,0.500]
+deberta-nli             retention   120   0.675   0.840  0.742  0.761  0.943  0.843   0.165   AUROC CI [0.557,0.789]  F1 CI [0.785,0.891]
+alignscore-large-officialstrict      120   0.642   0.377      —      —      —      —       —   AUROC CI [0.524,0.754]
+alignscore-large-officialretention   120   0.581   0.780      —      —      —      —       —   AUROC CI [0.450,0.709]
+minicheck-flan-t5       strict      120   0.667   0.318  0.742  0.200  0.036  0.061  -0.011   AUROC CI [0.565,0.765]  F1 CI [0.000,0.188]
+minicheck-flan-t5       retention   120   0.578   0.803  0.308  1.000  0.057  0.108   0.031   AUROC CI [0.462,0.692]  F1 CI [0.023,0.200]
+minicheck-bespoke-7b    strict      120   0.807   0.579  0.792  0.800  0.143  0.242   0.185   AUROC CI [0.704,0.895]  F1 CI [0.065,0.432]
+minicheck-bespoke-7b    retention   120   0.672   0.847  0.308  1.000  0.057  0.108   0.031   AUROC CI [0.556,0.781]  F1 CI [0.023,0.198]
+track-b                 strict      120   0.748   0.357  0.717  0.425  0.607  0.500   0.311   AUROC CI [0.667,0.826]  F1 CI [0.353,0.636]
+track-b                 retention   120   0.699   0.809  0.733  0.850  0.773  0.810   0.368   AUROC CI [0.593,0.801]  F1 CI [0.753,0.860]
+
+=== reference: track_b on s300 ===
+method                  view          n   AUROC   AUPRC    Acc   Prec    Rec     F1   kappa
+deberta-nli             strict      300   0.616   0.467  0.677  0.571  0.196  0.292   0.143   AUROC CI [0.549,0.683]  F1 CI [0.190,0.388]
+deberta-nli             retention   300   0.642   0.808  0.623  0.671  0.861  0.754   0.002   AUROC CI [0.578,0.705]  F1 CI [0.709,0.796]
+alignscore-large-officialstrict      300   0.600   0.397      —      —      —      —       —   AUROC CI [0.531,0.665]
+alignscore-large-officialretention   300   0.590   0.745      —      —      —      —       —   AUROC CI [0.522,0.657]
+minicheck-flan-t5       strict      300   0.581   0.452  0.673  0.667  0.078  0.140   0.074   AUROC CI [0.511,0.650]  F1 CI [0.056,0.228]
+minicheck-flan-t5       retention   300   0.584   0.781  0.370  1.000  0.060  0.113   0.040   AUROC CI [0.517,0.650]  F1 CI [0.057,0.172]
+minicheck-bespoke-7b    strict      300   0.628   0.459  0.653  0.455  0.098  0.161   0.046   AUROC CI [0.559,0.696]  F1 CI [0.078,0.250]
+minicheck-bespoke-7b    retention   300   0.675   0.836  0.403  1.000  0.109  0.197   0.075   AUROC CI [0.615,0.733]  F1 CI [0.129,0.268]
+
+=== reference: track_b on s120 ===
+method                  view          n   AUROC   AUPRC    Acc   Prec    Rec     F1   kappa
+deberta-nli             strict      120   0.652   0.491  0.683  0.600  0.150  0.240   0.123   AUROC CI [0.546,0.754]  F1 CI [0.087,0.393]
+deberta-nli             retention   120   0.644   0.783  0.642  0.670  0.912  0.772   0.015   AUROC CI [0.535,0.748]  F1 CI [0.735,0.806]
+alignscore-large-officialstrict      120   0.601   0.425      —      —      —      —       —   AUROC CI [0.496,0.703]
+alignscore-large-officialretention   120   0.610   0.749      —      —      —      —       —   AUROC CI [0.502,0.716]
+minicheck-flan-t5       strict      120   0.502   0.339  0.658  0.400  0.050  0.089   0.016   AUROC CI [0.396,0.612]  F1 CI [0.000,0.213]
+minicheck-flan-t5       retention   120   0.564   0.743  0.375  1.000  0.062  0.118   0.043   AUROC CI [0.454,0.670]  F1 CI [0.025,0.222]
+minicheck-bespoke-7b    strict      120   0.633   0.484  0.692  0.800  0.100  0.178   0.112   AUROC CI [0.524,0.737]  F1 CI [0.047,0.327]
+minicheck-bespoke-7b    retention   120   0.634   0.794  0.375  1.000  0.062  0.118   0.043   AUROC CI [0.531,0.732]  F1 CI [0.025,0.222]
+
+overlap S120/S300: {'shared_rows': 18, 'n_S120': 118, 'n_S300': 293}
+DeBERTa reproduction: {'rows_compared': 300, 'identical_labels': 299, 'fraction': 0.9966666666666667}

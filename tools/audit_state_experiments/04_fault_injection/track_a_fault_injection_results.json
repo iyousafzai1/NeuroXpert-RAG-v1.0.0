@@ -1,0 +1,141 @@
+{
+  "n_base_rows": 1619,
+  "by_fault_type": {
+    "wrong_pmid_in_corpus": {
+      "expected": "reject",
+      "n": 1619,
+      "rejected": 1619,
+      "retained": 0,
+      "rejection_rate": 100.0,
+      "failing_checks": "sentence_anchored=1619"
+    },
+    "wrong_pmid_not_in_corpus": {
+      "expected": "reject",
+      "n": 1619,
+      "rejected": 1619,
+      "retained": 0,
+      "rejection_rate": 100.0,
+      "failing_checks": "citation_valid=1619, sentence_anchored=1619"
+    },
+    "sentence_from_other_pmid": {
+      "expected": "reject",
+      "n": 1619,
+      "rejected": 1619,
+      "retained": 0,
+      "rejection_rate": 100.0,
+      "failing_checks": "sentence_anchored=1619"
+    },
+    "number_changed": {
+      "expected": "reject",
+      "n": 346,
+      "rejected": 346,
+      "retained": 0,
+      "rejection_rate": 100.0,
+      "failing_checks": "sentence_anchored=346"
+    },
+    "direction_word_changed": {
+      "expected": "reject",
+      "n": 669,
+      "rejected": 669,
+      "retained": 0,
+      "rejection_rate": 100.0,
+      "failing_checks": "sentence_anchored=669"
+    },
+    "sentence_composed_two_abstracts": {
+      "expected": "reject",
+      "n": 1614,
+      "rejected": 1614,
+      "retained": 0,
+      "rejection_rate": 100.0,
+      "failing_checks": "sentence_anchored=1614"
+    },
+    "word_dropped": {
+      "expected": "reject",
+      "n": 1614,
+      "rejected": 1614,
+      "retained": 0,
+      "rejection_rate": 100.0,
+      "failing_checks": "sentence_anchored=1614"
+    },
+    "schema_missing_field": {
+      "expected": "reject",
+      "n": 1619,
+      "rejected": 1619,
+      "retained": 0,
+      "rejection_rate": 100.0,
+      "failing_checks": "schema_valid=1619"
+    },
+    "schema_strength_out_of_range": {
+      "expected": "reject",
+      "n": 1619,
+      "rejected": 1619,
+      "retained": 0,
+      "rejection_rate": 100.0,
+      "failing_checks": "schema_valid=1619"
+    },
+    "whitespace_variant": {
+      "expected": "retain",
+      "n": 1619,
+      "rejected": 0,
+      "retained": 1619,
+      "rejection_rate": 0.0,
+      "failing_checks": ""
+    },
+    "nbsp_variant": {
+      "expected": "retain",
+      "n": 1619,
+      "rejected": 0,
+      "retained": 1619,
+      "rejection_rate": 0.0,
+      "failing_checks": ""
+    },
+    "trailing_period_removed": {
+      "expected": "retain",
+      "n": 1554,
+      "rejected": 0,
+      "retained": 1554,
+      "rejection_rate": 0.0,
+      "failing_checks": ""
+    },
+    "case_variant": {
+      "expected": "surface",
+      "n": 1619,
+      "rejected": 1618,
+      "retained": 1,
+      "rejection_rate": 99.94,
+      "failing_checks": "sentence_anchored=1618"
+    },
+    "unicode_dash_quote_variant": {
+      "expected": "surface",
+      "n": 865,
+      "rejected": 865,
+      "retained": 0,
+      "rejection_rate": 100.0,
+      "failing_checks": "sentence_anchored=865"
+    },
+    "truncated_quote": {
+      "expected": "surface",
+      "n": 1590,
+      "rejected": 0,
+      "retained": 1590,
+      "rejection_rate": 0.0,
+      "failing_checks": ""
+    }
+  },
+  "sensitivity_corruptions_pct": {
+    "wrong_pmid_in_corpus": 100.0,
+    "wrong_pmid_not_in_corpus": 100.0,
+    "sentence_from_other_pmid": 100.0,
+    "number_changed": 100.0,
+    "direction_word_changed": 100.0,
+    "sentence_composed_two_abstracts": 100.0,
+    "word_dropped": 100.0,
+    "schema_missing_field": 100.0,
+    "schema_strength_out_of_range": 100.0
+  },
+  "specificity_normalisation_variants_pct": {
+    "whitespace_variant": 100.0,
+    "nbsp_variant": 100.0,
+    "trailing_period_removed": 100.0
+  }
+}

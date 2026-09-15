@@ -1,0 +1,121 @@
+id,extractor,pmid,record_id,A,B,E1,E2,track_a_failures,ipw
+HV001,Llama 3.1 8B,30294823,465,pass,drop,revise,revise,,7.6
+HV002,Mistral 7B,30099805,586,fail,keep,revise,revise,sentence_anchored,25.95
+HV003,Llama 3.1 8B,40666274,464,pass,keep,revise,revise,,25.95
+HV004,Llama 3.1 8B,40768779,357,pass,drop,drop,drop,,7.6
+HV005,Qwen 2.5 7B,39424632,264,pass,drop,revise,drop,,7.6
+HV006,Llama 3.1 8B,22047966,495,pass,revise,keep,keep,,18.95
+HV007,Llama 3.1 8B,21259388,657,pass,revise,revise,revise,,18.95
+HV008,Mistral 7B,22858213,203,pass,revise,revise,revise,,18.95
+HV009,Qwen 2.5 7B,25148416,458,pass,revise,keep,revise,,18.95
+HV010,Mistral 7B,36089824,243,fail,drop,revise,revise,sentence_anchored,7.6
+HV011,Llama 3.1 8B,33440292,147,pass,revise,drop,drop,,18.95
+HV012,Qwen 2.5 7B,32428790,119,pass,keep,revise,revise,,25.95
+HV013,Qwen 2.5 7B,41556979,649,pass,revise,revise,revise,,18.95
+HV014,Qwen 2.5 7B,28391138,178,fail,keep,drop,revise,sentence_anchored,25.95
+HV015,Mistral 7B,39378092,404,pass,revise,drop,drop,,18.95
+HV016,Llama 3.1 8B,15541779,141,pass,revise,revise,revise,,18.95
+HV017,Mistral 7B,37556131,48,pass,drop,revise,revise,,7.6
+HV018,Qwen 2.5 7B,34792871,63,fail,drop,drop,drop,sentence_anchored,7.6
+HV019,Mistral 7B,40945612,199,fail,keep,revise,revise,sentence_anchored,25.95
+HV020,Mistral 7B,38451271,483,pass,revise,drop,drop,,18.95
+HV021,Mistral 7B,24878823,356,fail,keep,drop,drop,sentence_anchored,25.95
+HV022,Mistral 7B,29171429,583,pass,drop,revise,revise,,7.6
+HV023,Llama 3.1 8B,41148227,644,pass,keep,revise,revise,,25.95
+HV024,Mistral 7B,30366001,256,pass,revise,revise,revise,,18.95
+HV025,Llama 3.1 8B,36511133,582,fail,revise,revise,revise,sentence_anchored,18.95
+HV026,Llama 3.1 8B,10349031,674,pass,keep,drop,drop,,25.95
+HV027,Qwen 2.5 7B,12359667,400,pass,revise,revise,revise,,18.95
+HV028,Llama 3.1 8B,24656768,131,pass,revise,keep,keep,,18.95
+HV029,Qwen 2.5 7B,41104323,44,pass,drop,drop,drop,,7.6
+HV030,Mistral 7B,26969418,340,pass,drop,revise,revise,,7.6
+HV031,Llama 3.1 8B,25307575,677,fail,drop,drop,drop,schema_valid,7.6
+HV032,Mistral 7B,41257054,259,fail,keep,keep,keep,sentence_anchored,25.95
+HV033,Qwen 2.5 7B,40706276,138,pass,keep,drop,drop,,25.95
+HV034,Llama 3.1 8B,39559854,342,pass,drop,revise,drop,,7.6
+HV035,Llama 3.1 8B,9571295,607,pass,drop,drop,drop,,7.6
+HV036,Mistral 7B,35831231,330,pass,revise,revise,revise,,18.95
+HV037,Qwen 2.5 7B,38047402,537,pass,revise,keep,keep,,18.95
+HV038,Llama 3.1 8B,40949952,459,pass,revise,drop,drop,,18.95
+HV039,Mistral 7B,23223295,413,fail,revise,keep,keep,sentence_anchored,18.95
+HV040,Llama 3.1 8B,37533885,487,pass,drop,drop,drop,,7.6
+HV041,Mistral 7B,39054810,293,pass,keep,keep,keep,,25.95
+HV042,Llama 3.1 8B,32066697,603,pass,revise,keep,keep,,18.95
+HV043,Qwen 2.5 7B,30844604,325,pass,revise,revise,revise,,18.95
+HV044,Mistral 7B,21665292,170,pass,revise,drop,revise,,18.95
+HV045,Mistral 7B,30384282,156,pass,drop,drop,drop,,7.6
+HV046,Mistral 7B,39875081,104,pass,revise,keep,keep,,18.95
+HV047,Llama 3.1 8B,32948139,244,pass,drop,drop,drop,,7.6
+HV048,Qwen 2.5 7B,31978743,570,pass,keep,revise,revise,,25.95
+HV049,Llama 3.1 8B,34461353,88,pass,revise,keep,keep,,18.95
+HV050,Qwen 2.5 7B,30832195,136,fail,revise,drop,drop,schema_valid;sentence_present;sentence_anchored,18.95
+HV051,Mistral 7B,27881961,563,pass,drop,keep,keep,,7.6
+HV052,Mistral 7B,38246283,680,fail,keep,keep,keep,sentence_anchored,25.95
+HV053,Llama 3.1 8B,30504061,137,pass,drop,drop,drop,,7.6
+HV054,Qwen 2.5 7B,31421156,672,fail,drop,drop,drop,schema_valid;sentence_present;sentence_anchored,7.6
+HV055,Llama 3.1 8B,39315326,3,pass,keep,revise,revise,,25.95
+HV056,Llama 3.1 8B,41740634,651,pass,keep,drop,drop,,25.95
+HV057,Qwen 2.5 7B,19940844,693,pass,revise,keep,revise,,18.95
+HV058,Qwen 2.5 7B,28423021,107,fail,revise,keep,revise,sentence_anchored,18.95
+HV059,Qwen 2.5 7B,30391836,238,pass,keep,keep,keep,,25.95
+HV060,Qwen 2.5 7B,24705817,412,pass,drop,revise,revise,,7.6
+HV061,Llama 3.1 8B,30366001,256,pass,revise,revise,revise,,18.95
+HV062,Mistral 7B,20851718,36,pass,keep,keep,keep,,25.95
+HV063,Llama 3.1 8B,31936471,551,pass,drop,drop,drop,,7.6
+HV064,Llama 3.1 8B,41310178,411,pass,keep,revise,drop,,25.95
+HV065,Qwen 2.5 7B,38018143,497,pass,drop,drop,drop,,7.6
+HV066,Mistral 7B,33441433,671,pass,keep,revise,drop,,25.95
+HV067,Mistral 7B,35149322,144,pass,keep,keep,keep,,25.95
+HV068,Mistral 7B,32428984,629,fail,keep,revise,drop,sentence_anchored,25.95
+HV069,Llama 3.1 8B,40991106,385,pass,drop,revise,drop,,7.6
+HV070,Llama 3.1 8B,36320407,197,pass,revise,revise,drop,,18.95
+HV071,Qwen 2.5 7B,34482279,447,pass,revise,revise,revise,,18.95
+HV072,Qwen 2.5 7B,21480730,125,pass,keep,keep,keep,,25.95
+HV073,Qwen 2.5 7B,38902791,522,pass,keep,keep,keep,,25.95
+HV074,Llama 3.1 8B,33872964,84,pass,keep,keep,keep,,25.95
+HV075,Llama 3.1 8B,35831231,330,pass,revise,revise,revise,,18.95
+HV076,Llama 3.1 8B,38889552,262,pass,keep,keep,keep,,25.95
+HV077,Mistral 7B,41148227,644,pass,revise,revise,revise,,18.95
+HV078,Mistral 7B,23274773,87,fail,revise,revise,revise,sentence_anchored,18.95
+HV079,Llama 3.1 8B,34964209,390,pass,keep,revise,revise,,25.95
+HV080,Qwen 2.5 7B,42146757,327,pass,revise,revise,drop,,18.95
+HV081,Llama 3.1 8B,26769234,280,pass,keep,keep,keep,,25.95
+HV082,Llama 3.1 8B,37209127,427,pass,keep,revise,drop,,25.95
+HV083,Qwen 2.5 7B,19019636,126,fail,drop,revise,drop,sentence_anchored,7.6
+HV084,Qwen 2.5 7B,39965782,581,fail,keep,drop,drop,sentence_present;sentence_anchored,25.95
+HV085,Qwen 2.5 7B,25456522,211,pass,drop,revise,drop,,7.6
+HV086,Qwen 2.5 7B,37561637,571,pass,keep,keep,keep,,25.95
+HV087,Qwen 2.5 7B,36843348,531,pass,revise,revise,revise,,18.95
+HV088,Mistral 7B,10570690,598,pass,drop,revise,drop,,7.6
+HV089,Llama 3.1 8B,30384282,156,pass,keep,revise,drop,,25.95
+HV090,Mistral 7B,23684384,554,fail,revise,revise,revise,sentence_anchored,18.95
+HV091,Qwen 2.5 7B,31642530,443,pass,keep,revise,drop,,25.95
+HV092,Mistral 7B,31421156,672,fail,drop,drop,drop,sentence_anchored,7.6
+HV093,Qwen 2.5 7B,23294010,323,pass,drop,revise,drop,,7.6
+HV094,Mistral 7B,27467529,541,pass,keep,keep,keep,,25.95
+HV095,Qwen 2.5 7B,36945425,95,pass,keep,revise,revise,,25.95
+HV096,Mistral 7B,36185399,685,pass,drop,drop,drop,,7.6
+HV097,Llama 3.1 8B,37992775,157,pass,revise,revise,revise,,18.95
+HV098,Qwen 2.5 7B,28783574,171,pass,drop,revise,drop,,7.6
+HV099,Llama 3.1 8B,25748775,612,pass,drop,revise,drop,,7.6
+HV100,Mistral 7B,31665241,360,pass,drop,revise,drop,,7.6
+HV101,Mistral 7B,31936471,551,pass,drop,revise,drop,,7.6
+HV102,Llama 3.1 8B,12359667,400,pass,drop,drop,drop,,7.6
+HV103,Mistral 7B,36963236,322,pass,drop,revise,drop,,7.6
+HV104,Qwen 2.5 7B,18803315,696,fail,drop,drop,drop,sentence_present;sentence_anchored,7.6
+HV105,Mistral 7B,39453553,676,pass,revise,revise,revise,,18.95
+HV106,Qwen 2.5 7B,39218589,665,fail,drop,drop,drop,schema_valid;sentence_present;sentence_anchored,7.6
+HV107,Llama 3.1 8B,38772504,661,pass,keep,revise,revise,,25.95
+HV108,Llama 3.1 8B,25928822,535,pass,keep,keep,keep,,25.95
+HV109,Qwen 2.5 7B,41667050,381,pass,revise,revise,revise,,18.95
+HV110,Qwen 2.5 7B,31880365,303,pass,keep,keep,keep,,25.95
+HV111,Llama 3.1 8B,34792871,63,fail,drop,drop,drop,schema_valid,7.6
+HV112,Mistral 7B,35754775,593,pass,revise,revise,revise,,18.95
+HV113,Llama 3.1 8B,38468374,368,pass,revise,revise,drop,,18.95
+HV114,Llama 3.1 8B,39965782,581,pass,drop,drop,drop,,7.6
+HV115,Mistral 7B,21480730,125,pass,keep,keep,keep,,25.95
+HV116,Mistral 7B,40768779,357,pass,drop,drop,drop,,7.6
+HV117,Mistral 7B,22885245,207,pass,keep,keep,revise,,25.95
+HV118,Qwen 2.5 7B,41207270,39,pass,revise,revise,drop,,18.95
+HV119,Qwen 2.5 7B,40516848,461,pass,drop,revise,drop,,7.6
+HV120,Qwen 2.5 7B,25819744,166,pass,keep,revise,revise,,25.95
