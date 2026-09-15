@@ -1,0 +1,47 @@
+# Model checkpoint identifiers used in the NeuroXpert-RAG paper evaluation.
+# These were the exact models served via vLLM during extraction and verification.
+# All checkpoints were downloaded and frozen to ensure reproducibility.
+
+extractors:
+  llama-3.1-8b:
+    identifier: "llama-3.1-8b-instruct"
+    source: "meta-llama/Llama-3.1-8B-Instruct"
+    served_via: "vllm"
+    precision: "bfloat16"
+    context_length: 4096
+
+  qwen-2.5-7b:
+    identifier: "qwen2.5-7b-instruct"
+    source: "Qwen/Qwen2.5-7B-Instruct"
+    served_via: "vllm"
+    precision: "bfloat16"
+    context_length: 4096
+
+  mistral-7b:
+    identifier: "mistral-7b-instruct-v0.3"
+    source: "mistralai/Mistral-7B-Instruct-v0.3"
+    served_via: "vllm"
+    precision: "bfloat16"
+    context_length: 4096
+
+verifier:
+  identifier: "llama-3.1-8b-instruct"
+  source: "meta-llama/Llama-3.1-8B-Instruct"
+  served_via: "vllm"
+  precision: "bfloat16"
+  context_length: 4096
+
+cross_domain_verifiers:
+  phi-3-mini:
+    identifier: "phi-3.5-mini-instruct"
+    source: "microsoft/Phi-3.5-mini-instruct"
+  llama-3.1-8b:
+    identifier: "llama-3.1-8b-instruct"
+  mistral-7b:
+    identifier: "mistral-7b-instruct-v0.3"
+
+independent_verifier:
+  identifier: "phi-4"
+  source: "microsoft/phi-4"
+  served_via: "ollama"
+  note: "Used for cross-family robustness check only"

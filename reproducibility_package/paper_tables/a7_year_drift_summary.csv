@@ -1,0 +1,4 @@
+model,sg_oldest_bin,sg_newest_bin,sg_drift,drop_newest_bin,drift_direction
+Llama 3.1 8B,0.9217,0.8885,-0.0333,0.2038,decline
+Mistral 7B,0.6261,0.5923,-0.0338,0.2077,decline
+Qwen 2.5 7B,0.7565,0.8115,0.055,0.1192,improvement

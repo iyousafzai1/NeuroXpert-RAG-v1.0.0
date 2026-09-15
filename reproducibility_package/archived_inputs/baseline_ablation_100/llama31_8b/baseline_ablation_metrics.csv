@@ -1,0 +1,5 @@
+system,model,n,schema_valid_rate,citation_valid_rate,quote_anchor_rate,semantic_keep_rate,semantic_revise_rate,semantic_drop_rate,overclaim_rate,useful_evidence_retained_rate,unparseable_output_rate,errors,self_decision_counts
+full_neuroxpert_rag,llama-3.1-8b-instruct,100,1.0,1.0,0.92,0.51,0.33,0.16,0.02,0.84,0.0,0,
+baseline_a_naive_free_form_rag,llama-3.1-8b-instruct,100,0.0,0.84,0.0,,,,,,1.0,0,
+baseline_b_structured_no_mechanical_gate,llama-3.1-8b-instruct,100,1.0,1.0,0.92,0.5,0.36,0.14,0.02,0.86,0.0,0,
+baseline_c_single_stage_extract_verify,llama-3.1-8b-instruct,100,0.0,1.0,0.89,0.63,0.27,0.1,0.04,0.9,0.04,0,"{'verified': 85, 'missing': 8, 'supported': 3}"

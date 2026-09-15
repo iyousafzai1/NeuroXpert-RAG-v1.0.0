@@ -1,0 +1,5 @@
+{
+  "n_pmids": 100,
+  "n_loaded": 100,
+  "model": "mistral-7b-instruct-v0.3"
+}

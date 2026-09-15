@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-05-29T06:19:25.840414+00:00",
+  "n_rows": 100,
+  "decision": {
+    "revise": 53,
+    "keep": 18,
+    "drop": 29
+  },
+  "overclaiming": {
+    "yes": 79,
+    "no": 21
+  },
+  "errors": 0
+}

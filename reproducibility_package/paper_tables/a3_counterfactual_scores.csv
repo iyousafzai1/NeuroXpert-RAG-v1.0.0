@@ -1,0 +1,13 @@
+model_label,system_label,grounding_strength,useful_evidence_retained_rate,unparseable_output_rate,utility_minus_unparseable,overclaim_rate,safety_adjusted_utility
+llama-3.1-8b-instruct,baseline_b_structured_no_mechanical_gate,0.9733333333333332,0.86,0.0,0.86,0.02,0.8428
+llama-3.1-8b-instruct,baseline_c_single_stage_extract_verify,0.63,0.9,0.04,0.86,0.04,0.8256
+llama-3.1-8b-instruct,full_neuroxpert_rag,0.9733333333333332,0.84,0.0,0.84,0.02,0.8231999999999999
+llama-3.1-8b-instruct,baseline_a_naive_free_form_rag,0.2799999999999999,,1.0,,,
+mistral-7b-instruct-v0.3,baseline_c_single_stage_extract_verify,0.5866666666666667,0.96,0.0,0.96,0.0,0.96
+mistral-7b-instruct-v0.3,baseline_b_structured_no_mechanical_gate,0.85,0.95,0.0,0.95,0.01,0.9405
+mistral-7b-instruct-v0.3,full_neuroxpert_rag,0.8466666666666667,0.84,0.0,0.84,0.0,0.84
+mistral-7b-instruct-v0.3,baseline_a_naive_free_form_rag,0.37,,1.0,,,
+qwen2.5-7b-instruct,full_neuroxpert_rag,0.9,0.91,0.0,0.91,0.0,0.91
+qwen2.5-7b-instruct,baseline_c_single_stage_extract_verify,0.65,0.95,0.0,0.95,0.64,0.3419999999999999
+qwen2.5-7b-instruct,baseline_b_structured_no_mechanical_gate,0.8966666666666666,0.71,0.0,0.71,0.79,0.1490999999999999
+qwen2.5-7b-instruct,baseline_a_naive_free_form_rag,0.2299999999999999,,1.0,,,

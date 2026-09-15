@@ -1,0 +1,72 @@
+[
+  {
+    "system": "full_neuroxpert_rag",
+    "model": "qwen2.5-7b-instruct",
+    "n": 100,
+    "schema_valid_rate": 0.9,
+    "citation_valid_rate": 1.0,
+    "quote_anchor_rate": 0.8,
+    "semantic_keep_rate": 0.57,
+    "semantic_revise_rate": 0.34,
+    "semantic_drop_rate": 0.09,
+    "overclaim_rate": 0.0,
+    "useful_evidence_retained_rate": 0.91,
+    "unparseable_output_rate": 0.0,
+    "errors": 0,
+    "self_decision_counts": ""
+  },
+  {
+    "system": "baseline_a_naive_free_form_rag",
+    "model": "qwen2.5-7b-instruct",
+    "n": 100,
+    "schema_valid_rate": 0.0,
+    "citation_valid_rate": 0.69,
+    "quote_anchor_rate": 0.0,
+    "semantic_keep_rate": null,
+    "semantic_revise_rate": null,
+    "semantic_drop_rate": null,
+    "overclaim_rate": null,
+    "useful_evidence_retained_rate": null,
+    "unparseable_output_rate": 1.0,
+    "errors": 0,
+    "self_decision_counts": ""
+  },
+  {
+    "system": "baseline_b_structured_no_mechanical_gate",
+    "model": "qwen2.5-7b-instruct",
+    "n": 100,
+    "schema_valid_rate": 0.9,
+    "citation_valid_rate": 1.0,
+    "quote_anchor_rate": 0.79,
+    "semantic_keep_rate": 0.18,
+    "semantic_revise_rate": 0.53,
+    "semantic_drop_rate": 0.29,
+    "overclaim_rate": 0.79,
+    "useful_evidence_retained_rate": 0.71,
+    "unparseable_output_rate": 0.0,
+    "errors": 0,
+    "self_decision_counts": ""
+  },
+  {
+    "system": "baseline_c_single_stage_extract_verify",
+    "model": "qwen2.5-7b-instruct",
+    "n": 100,
+    "schema_valid_rate": 0.0,
+    "citation_valid_rate": 1.0,
+    "quote_anchor_rate": 0.95,
+    "semantic_keep_rate": 0.4,
+    "semantic_revise_rate": 0.55,
+    "semantic_drop_rate": 0.05,
+    "overclaim_rate": 0.64,
+    "useful_evidence_retained_rate": 0.95,
+    "unparseable_output_rate": 0.0,
+    "errors": 0,
+    "self_decision_counts": {
+      "supported": 86,
+      "verified": 11,
+      "supportable": 1,
+      "false": 1,
+      "true": 1
+    }
+  }
+]

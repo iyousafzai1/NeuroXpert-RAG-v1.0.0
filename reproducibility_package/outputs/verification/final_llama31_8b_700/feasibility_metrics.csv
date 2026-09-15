@@ -1,0 +1,2 @@
+recommendation,gate1_pass,gate2_grounded_pass,gate2_llm_pass,gate1_n_attempted,gate1_schema_valid_rate,gate1_citation_valid_rate,gate1_evidence_present_rate,gate1_evidence_anchored_rate,gate1_strict_grounded_n,gate2_any_evidence_rate,gate2_quote_anchor_rate,gate2_llm_ok_rate,gate2_llm_refusal_rate,gate2_llm_quote_violation_rate,gate2_llm_indirect_without_refusal_rate
+GO_TO_GPU_SCALE_UP,True,True,True,700,1.0,1.0,0.9814285714285714,0.925764192139738,636,1.0,1.0,1.0,0.0,0.0,0.0

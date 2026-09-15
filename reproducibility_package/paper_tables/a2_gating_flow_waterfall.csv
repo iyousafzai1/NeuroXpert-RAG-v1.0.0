@@ -1,0 +1,19 @@
+model,stage,n_retained,n_dropped_at_stage,pct_of_input_retained,pct_dropped_at_stage
+Llama 3.1 8B,usable_abstracts,700,0,100.0,0.0
+Llama 3.1 8B,schema_valid,700,0,100.0,0.0
+Llama 3.1 8B,citation_valid,700,0,100.0,0.0
+Llama 3.1 8B,evidence_anchored,648,52,92.57,7.43
+Llama 3.1 8B,strict_grounded,636,12,90.86,1.71
+Llama 3.1 8B,keep_or_revise,593,43,84.71,6.14
+Mistral 7B,usable_abstracts,700,0,100.0,0.0
+Mistral 7B,schema_valid,700,0,100.0,0.0
+Mistral 7B,citation_valid,700,0,100.0,0.0
+Mistral 7B,evidence_anchored,417,283,59.57,40.43
+Mistral 7B,strict_grounded,416,1,59.43,0.14
+Mistral 7B,keep_or_revise,588,-172,84.0,-24.57
+Qwen 2.5 7B,usable_abstracts,700,0,100.0,0.0
+Qwen 2.5 7B,schema_valid,700,0,100.0,0.0
+Qwen 2.5 7B,citation_valid,700,0,100.0,0.0
+Qwen 2.5 7B,evidence_anchored,642,58,91.71,8.29
+Qwen 2.5 7B,strict_grounded,571,71,81.57,10.14
+Qwen 2.5 7B,keep_or_revise,615,-44,87.86,-6.29

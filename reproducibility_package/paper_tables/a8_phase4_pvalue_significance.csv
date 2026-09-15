@@ -1,0 +1,4 @@
+pair,keep_or_revise,overclaim,strict_grounded,strict_grounded_sig,keep_or_revise_sig,overclaim_sig
+Llama 3.1 8B vs Mistral 7B,0.6964676629916758,1.0,1.4166819280918388e-41,***,ns,ns
+Llama 3.1 8B vs Qwen 2.5 7B,0.1095595938274044,1.0,1.6967766819869384e-07,***,ns,ns
+Qwen 2.5 7B vs Mistral 7B,0.0590321834785978,1.0,9.93756217930588e-19,***,ns,ns

@@ -1,0 +1,121 @@
+annotation_id,psyA_score,psyA_decision,psyA_rationale
+HV001,1,revise,parallel findings: impulsivity AND connectivity differ between same groups. Weak relationship signal but both elements present in sentence.
+HV002,1,revise,response inhibition (impulsivity proxy) + brain activation + association. Modality: activation not FC; revise for feature mismatch.
+HV003,1,revise,BPT variability-SN relationship stated. Phenotype=impulsivity via BPD context; good brain+relationship evidence. Revise phen field.
+HV004,0,drop,AUC classification metrics only. No phenotype-feature relationship stated. Truly off-topic for this claim.
+HV005,1,revise,ADHD+FC mentioned but methods/background framing only. No result or direction. Revise for indirect evidence.
+HV006,2,keep,explicit impulsivity + cross-network connectivity + associated + increased. Perfect match to claim.
+HV007,1,revise,motor network FC + group difference. Motor impulsivity via TS context. Revise for indirect phenotype link.
+HV008,1,revise,explicit impulsivity mention but background sentence with no brain feature. Paper is about CC area/MRI — context provides feature. Revise.
+HV009,2,keep,impulsivity + fMRI/DTI + correlated + direction clear. Head motion is an MRI-derived measure. Keep.
+HV010,1,revise,IGD + connectivity patterns + distinct groups. No explicit impulsivity in sentence. Revise for diagnostic context.
+HV011,0,drop,"suicide + childhood trauma association. No impulsivity, no brain feature. Completely off-topic."
+HV012,1,revise,BIS-11 impulsivity + GMV + group difference. Good evidence but feature=GMV not BOLD variability. Revise for modality.
+HV013,1,revise,predictive brain networks identified. Nonplanning impulsivity not in sentence. Revise for phenotype.
+HV014,0,drop,impulsivity + genetic finding. No brain feature at all. Drop.
+HV015,0,drop,"alcohol + neuroanatomy. Phenotype=unknown, no impulsivity signal. Drop."
+HV016,1,revise,"disinhibition + schizophrenia. Speculative, no brain measurement, no quantified finding. Drop."
+HV017,1,revise,inhibitory control (impulsivity proxy) + reward dysfunction conceptual model. Conceptual but relevant. Revise.
+HV018,0,drop,BIS-11 treatment outcome. No brain feature. Drop.
+HV019,1,revise,FA/MD/RD white matter changes in SZ. No impulsivity in sentence. Revise for phenotype missing.
+HV020,0,drop,trait anxiety → internet addiction via FC mediation. Wrong phenotype entirely. Drop.
+HV021,0,drop,"card-sorting + FC + insula. Cognitive flexibility, not impulsivity. Drop."
+HV022,1,revise,ADHD + brain networks + rs-fMRI. Methods sentence but diagnostic context supports phenotype. Revise.
+HV023,1,revise,"IGD + increased FC in DAN. Group difference, phenotype unknown in extracted field. Revise."
+HV024,1,revise,IED/reactive aggression + rs-fMRI methods. No result. Revise for methods framing.
+HV025,1,revise,genetic group + brain activity/connectivity differences. Attentional not impulsivity context. Revise.
+HV026,0,drop,"Stroop model + cingulate. No phenotype, no impulsivity. Completely wrong topic. Drop."
+HV027,1,revise,"inhibit prepotent responses + brain regions described. General function, no specific finding. Revise."
+HV028,2,keep,impulse + brain networks + functional abnormalities + associated. Explicit link stated. Keep.
+HV029,0,drop,protocol aims: 'we aim to introduce'. No result. Drop.
+HV030,1,revise,VMHC reductions in striatum/limbic + CC in heroin users. Impulsivity via SUD context. Revise.
+HV031,0,drop,general methods background about brain imaging resolution. No phenotype. Drop.
+HV032,2,keep,VAN connectivity + negatively associated + impulsive drive. Explicit link. Keep.
+HV033,0,drop,"ADHD + inflammation + impulsiveness. Behavioral finding, no brain feature linked to impulsivity. Drop."
+HV034,1,revise,connectivity + regulation + nicotine context. No impulsivity link. Revise for weak phenotype.
+HV035,0,drop,"PFC motor function textbook description. No impulsivity, no result. Drop."
+HV036,1,revise,CSBD vs HC + FC differences. Impulsivity via CSBD context. Revise.
+HV037,2,keep,rs-FC alterations + impaired inhibition control + behavioral addictions. Explicit link. Keep.
+HV038,0,drop,"neurobiological correlates of substance dynamic. Vague, no impulsivity. Drop."
+HV039,2,keep,ADHD diagnosis + symptom dimensions + altered intrinsic connectivity. Explicit link. Keep.
+HV040,0,drop,review categorization of biological factors. No specific finding. Drop.
+HV041,2,keep,insula/MFG connectivity + associated + increased impulsivity. Perfect match. Keep.
+HV042,2,keep,ADHD-discriminative FC + DMN/VAN + correlated + ADHD symptoms. ADHD=attentional impulsivity context. Keep.
+HV043,1,revise,"regional alterations + correlated + IA severity. IA=internet addiction, not clearly impulsivity. Revise."
+HV044,0,drop,impulsivity + anxiety/depression/aggression correlates. No brain feature. Drop.
+HV045,0,drop,BIS scores group difference. No brain feature. Drop.
+HV046,2,keep,impulsivity + GMV of nucleus accumbens + positive correlations. Explicit phenotype-feature link. Keep.
+HV047,0,drop,statistical threshold only. Truncated meaningless sentence. Drop.
+HV048,1,revise,motor impulsivity + medication effect. No brain feature in sentence. Revise.
+HV049,2,keep,weak FC to prefrontal/orbitofrontal + predictive + overhasty learning (impulsivity proxy). Keep.
+HV050,0,drop,empty sentence. Drop.
+HV051,2,keep,frontoparietal network + hyperactive/impulsive behaviors + known to be related. Explicit link. Keep.
+HV052,2,keep,motor impulsiveness + beta oscillations + FC between rIFG and pre-SMA. All explicit. Keep.
+HV053,0,drop,quality of life + impulse control disorders. No brain feature. Drop.
+HV054,0,drop,empty sentence. Drop.
+HV055,1,revise,DAN activity + attentional dysregulation + IGD. Attentional not impulsivity directly. Revise.
+HV056,0,drop,PUSM=social media use prediction. Not impulsivity. Drop.
+HV057,2,keep,fronto-striatal circuits + impulsive acts + may underpin. Explicit brain-impulsivity link. Keep.
+HV058,2,keep,motor impulsiveness + parietal/DLPFC/ACC activation effects. Explicit link. Keep.
+HV059,2,keep,impulsivity (BART) + inverse rs-connectivity + cognitive control/ACC networks. Keep.
+HV060,1,revise,ADHD + connectivity redistribution + DMN/attention/sensorimotor. Impulsivity via ADHD context. Revise.
+HV061,1,revise,"habenula + global efficiency + reactive aggression. IED context, impulsivity not explicit. Revise."
+HV062,2,keep,impulsivity scores + iAFC network activity + HD group. Explicit link. Keep.
+HV063,0,drop,both groups + parietal activity increase. No phenotype mentioned. Drop.
+HV064,1,revise,impulsivity + behavioral errors. No brain feature. Revise for missing feature.
+HV065,0,drop,neuromodulation evidence review. No impulsivity. Drop.
+HV066,1,revise,motor conflicts + midfrontal theta. Conflict processing not motor impulsivity. Revise.
+HV067,2,keep,BIS-11 impulse control + beta/delta oscillations. Explicit. Keep.
+HV068,1,revise,motor networks + alcohol + sensation-seeking mediation. Sensation-seeking ≠ motor impulsivity. Revise.
+HV069,1,revise,"BMI + connectome prediction. Obesity context, impulsivity not stated. Revise."
+HV070,1,revise,"FH+ adolescents + DMN-FPN connectivity. Family history, no impulsivity. Revise."
+HV071,1,revise,risk phenotypes + frontal-parietal networks + impulsivity listed. Revise.
+HV072,2,keep,BIS scores + left frontal FA + positive correlation. Keep.
+HV073,2,keep,DMN connectivity + elevated impulsivity + non-planning. Explicit. Keep.
+HV074,2,keep,FA in CC + impulsivity + negative correlation. Keep.
+HV075,1,revise,CSBD vs HC + FC differences. Impulsivity via context. Revise.
+HV076,2,keep,dynamic FCs + impulsivity + BPD clinical measures correlation. Keep.
+HV077,1,revise,IGD + DAN FC increase. Phenotype=unknown. Revise.
+HV078,1,revise,VBM + impulsivity + cortical/subcortical network. GMV not structural connectivity. Revise.
+HV079,1,revise,neurocircuitry + inhibitory control + thalamus + CPTSD. Revise.
+HV080,1,revise,post-COVID children + MOXO impulsivity z-scores. No brain feature. Drop.
+HV081,2,keep,caudate volume + DLPFC-caudate RSFC + cognitive control in IGD. Keep.
+HV082,1,revise,loss aversion + eFC community features. Not impulsivity. Revise.
+HV083,1,revise,impulsivity as covariate rendering group differences non-significant. Confound analysis. Revise.
+HV084,0,drop,empty sentence. Drop.
+HV085,1,revise,EDNOS + BIS-11 scores higher. No brain feature. Revise.
+HV086,2,keep,NAcc 11C-MADAM binding + attentional impulsivity + r=-0.73. Explicit. Keep.
+HV087,1,revise,"Meta-Thinking program + DMN suppression + ADHD. Intervention, no explicit impulsivity. Revise."
+HV088,1,revise,frontal-basal ganglia + ADHD + may be different. Hedged background. Revise.
+HV089,1,revise,impulsivity + CSF glutamate. Not a brain imaging feature. Revise.
+HV090,1,revise,ADHD + occipital/frontal activity increase. Revise for phenotype.
+HV091,1,revise,RIPL connectivity + trait anxiety. Trait anxiety ≠ impulsivity. Revise.
+HV092,0,drop,acetylcholine + neuromuscular junction. Completely off-topic. Drop.
+HV093,1,revise,"cingulo-opercular network + cognitive/affective behaviors. Broad, no impulsivity. Revise."
+HV094,2,keep,SU group + spontaneous neural activity + decreased L-SFG/MFG + increased impulsivity. Keep.
+HV095,1,revise,relapsers + BIS non-planning impulsivity. No brain feature. Revise.
+HV096,0,drop,action potential + motor nerve fibers + manifold. Off-topic. Drop.
+HV097,1,revise,impulsivity + psychosocial correlates. No brain feature. Drop.
+HV098,1,revise,Go/No-Go + BIS-11 + no relation. Null finding. Revise.
+HV099,1,revise,"thalamic pulvinar + ADHD. Review background, no specific finding. Revise."
+HV100,1,revise,"impulsivity in PD + reward evaluation. Speculative mechanism, no brain feature. Revise."
+HV101,1,revise,"IGD + OFC activity increase. Activity not FC, no impulsivity. Revise."
+HV102,0,drop,"I-RISA model description. Conceptual, no finding. Drop."
+HV103,1,revise,rsFC + biomarker of decision-making. Decision-making not impulsivity. Revise.
+HV104,0,drop,empty sentence. Drop.
+HV105,1,revise,PD + behavioral changes + brain atrophy + connectivity changes. Revise.
+HV106,0,drop,empty sentence. Drop.
+HV107,1,revise,impulsivity + depression/anxiety risk. No brain feature. Drop.
+HV108,2,keep,frontoparietal network connectivity + ADHD + impulsivity symptoms association. Keep.
+HV109,1,revise,impulsiveness + risk-taking + IGD + reward/ECN FC. Parallel findings. Revise.
+HV110,2,keep,self-rated impulsivity + VTA-mid-cingulate FC + L-DOPA. Keep.
+HV111,0,drop,rTPJ/rACC + mentalization + BPD. No impulsivity. Drop.
+HV112,1,revise,ADHD-C vs ADHD-I + DMN connectivity differences. Revise.
+HV113,1,revise,IGD + FC increases/decreases. Vague review summary. Revise.
+HV114,0,drop,narcolepsy + brain clearance. Off-topic. Drop.
+HV115,2,keep,BIS scores + left frontal FA + positive correlation. Keep.
+HV116,0,drop,IGD + methods: combined DC and FC. Methods only. Drop.
+HV117,2,keep,anterior insula/MFC activation + motor/non-planning impulsivity correlation. Keep.
+HV118,1,revise,sex differences + degree centrality. No phenotype. Revise.
+HV119,1,revise,FTP + IPL-dmPFC/vmPFC connectivity. FTP not impulsivity. Revise.
+HV120,1,revise,JME + impulsivity domain scores higher. No brain feature. Revise.

@@ -1,0 +1,4 @@
+model,keep_rate_abstract_only,keep_rate_full_text_augmented,drop_rate_abstract_only,drop_rate_full_text_augmented,overclaim_yes_rate_abstract_only,overclaim_yes_rate_full_text_augmented,useful_rate_abstract_only,useful_rate_full_text_augmented,sentence_anchored_rate_abstract_only,sentence_anchored_rate_full_text_augmented,delta_keep_rate,delta_drop_rate,delta_overclaim_yes_rate,delta_useful_rate,delta_sentence_anchored_rate
+Llama 3.1 8B,0.76,0.71,0.05,0.03,0.02,0.0,0.95,0.97,0.925764192139738,0.95,-0.05,-0.02,-0.02,0.02,0.0242
+Mistral 7B,0.73,0.73,0.05,0.06,0.0,0.0,0.95,0.94,0.5959885386819485,0.64,0.0,0.01,0.0,-0.01,0.044
+Qwen 2.5 7B,0.8,0.8,0.05,0.04,0.0,0.0,0.95,0.96,0.9165329052969502,0.9292929292929292,0.0,-0.01,0.0,0.01,0.0128

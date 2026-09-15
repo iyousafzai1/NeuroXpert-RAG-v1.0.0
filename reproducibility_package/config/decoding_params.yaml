@@ -1,0 +1,18 @@
+# Decoding parameters used for LLM calls in the NeuroXpert-RAG evaluation.
+# All parameters were held constant across extractor models and the verifier
+# except where noted.
+
+extraction:
+  temperature: 0.1
+  top_p: 0.9
+  repeat_penalty: 1.1
+  max_tokens: 700           # num_predict / output budget
+  serving: "single_sequence"
+  note: "Extraction prompt was identical across all three extractor models."
+
+verification:
+  temperature: 0.0           # Deterministic decoding for verifier
+  top_p: 0.9
+  max_tokens: 350
+  serving: "single_sequence"
+  note: "Verifier prompt was blinded to extractor model identity."

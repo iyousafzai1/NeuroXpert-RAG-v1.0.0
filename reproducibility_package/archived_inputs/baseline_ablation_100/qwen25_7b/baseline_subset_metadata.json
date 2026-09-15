@@ -1,0 +1,5 @@
+{
+  "n_pmids": 100,
+  "n_loaded": 100,
+  "model": "qwen2.5-7b-instruct"
+}

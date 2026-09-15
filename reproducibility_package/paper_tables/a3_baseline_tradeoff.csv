@@ -1,0 +1,13 @@
+model_label,system_label,n,schema_valid_rate,quote_anchor_rate,semantic_keep_rate,semantic_drop_rate,overclaim_rate,useful_evidence_retained_rate,unparseable_output_rate,fully_parseable,safety_utility_score
+Llama 3.1 8B,NeuroxpertRAG (Full),100,1.0,0.92,0.51,0.16,0.02,0.84,0.0,True,0.8232
+Llama 3.1 8B,A: Naive Free-form,100,0.0,0.0,,,,,1.0,False,
+Llama 3.1 8B,B: Structured No-Gate,100,1.0,0.92,0.5,0.14,0.02,0.86,0.0,True,0.8428
+Llama 3.1 8B,C: Single-Stage,100,0.0,0.89,0.63,0.1,0.04,0.9,0.04,False,0.864
+Mistral 7B,NeuroxpertRAG (Full),100,1.0,0.54,0.56,0.16,0.0,0.84,0.0,True,0.84
+Mistral 7B,A: Naive Free-form,100,0.0,0.11,,,,,1.0,False,
+Mistral 7B,B: Structured No-Gate,100,1.0,0.55,0.49,0.05,0.01,0.95,0.0,True,0.9405
+Mistral 7B,C: Single-Stage,100,0.0,0.76,0.84,0.04,0.0,0.96,0.0,False,0.96
+Qwen 2.5 7B,NeuroxpertRAG (Full),100,0.9,0.8,0.57,0.09,0.0,0.91,0.0,True,0.91
+Qwen 2.5 7B,A: Naive Free-form,100,0.0,0.0,,,,,1.0,False,
+Qwen 2.5 7B,B: Structured No-Gate,100,0.9,0.79,0.18,0.29,0.79,0.71,0.0,True,0.1491
+Qwen 2.5 7B,C: Single-Stage,100,0.0,0.95,0.4,0.05,0.64,0.95,0.0,False,0.342

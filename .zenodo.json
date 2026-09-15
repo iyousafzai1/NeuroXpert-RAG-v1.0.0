@@ -1,0 +1,37 @@
+{
+  "title": "NeuroXpert-RAG: Decoupling Mechanical Grounding and Semantic Verification for Auditable LLM Evidence Extraction — code, frozen corpus, outputs and analysis results",
+  "upload_type": "software",
+  "description": "Open-source neuroxpert-rag package and frozen reproducibility package for the manuscript \"NeuroXpert-RAG: Decoupling Mechanical Grounding and Semantic Verification for Auditable LLM Evidence Extraction\" (Journal of King Saud University – Computer and Information Sciences, submitted). Contains: the Python package (neuroxpert_rag/); the frozen 700-abstract PubMed corpus, query strings, model identifiers, decoding configuration, seeds and environment snapshots; per-row extraction and verification outputs for Llama-3.1-8B, Qwen2.5-7B and Mistral-7B-v0.3 with the fixed Llama-3.1-8B verifier; knowledge-base tiers and the 227-row consensus tier; the paper's summary tables (reproducibility_package/); and the analysis scripts with per-row outputs of the fixed-verifier architecture ablation, the external claim-grounding verifier comparison (MiniCheck, AlignScore, DeBERTa-NLI), the paired verifier crossover on byte-identical records (SHA-256 list), the human-referenced joint audit-state utility analysis, row-level reproducibility, matched-input Track B, Track-A fault injection and paired statistics (tools/). See README.md and reproducibility_package/README.md for the regeneration procedure.",
+  "creators": [
+    {
+      "name": "Khan, Irfan",
+      "affiliation": "Software School, Quanzhou University of Information Engineering, Quanzhou, China"
+    },
+    {
+      "name": "Ayyasamy, Ramesh Kumar",
+      "affiliation": "Faculty of Information and Communication Technology, Universiti Tunku Abdul Rahman, Kampar, Malaysia"
+    },
+    {
+      "name": "Khan, Mohammad Zubair",
+      "affiliation": "Faculty of Computer and Information Systems, Islamic University of Madinah, Medina, Saudi Arabia"
+    },
+    {
+      "name": "Zhang, Miao",
+      "affiliation": "Software School, Quanzhou University of Information Engineering, Quanzhou, China"
+    }
+  ],
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "retrieval-augmented generation",
+    "evidence extraction",
+    "mechanical grounding",
+    "semantic verification",
+    "auditability",
+    "large language models",
+    "biomedical literature",
+    "expert system",
+    "reproducibility"
+  ],
+  "access_right": "open",
+  "language": "eng"
+}

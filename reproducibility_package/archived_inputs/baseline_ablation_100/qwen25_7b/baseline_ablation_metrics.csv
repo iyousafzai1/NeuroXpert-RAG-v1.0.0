@@ -1,0 +1,5 @@
+system,model,n,schema_valid_rate,citation_valid_rate,quote_anchor_rate,semantic_keep_rate,semantic_revise_rate,semantic_drop_rate,overclaim_rate,useful_evidence_retained_rate,unparseable_output_rate,errors,self_decision_counts
+full_neuroxpert_rag,qwen2.5-7b-instruct,100,0.9,1.0,0.8,0.57,0.34,0.09,0.0,0.91,0.0,0,
+baseline_a_naive_free_form_rag,qwen2.5-7b-instruct,100,0.0,0.69,0.0,,,,,,1.0,0,
+baseline_b_structured_no_mechanical_gate,qwen2.5-7b-instruct,100,0.9,1.0,0.79,0.18,0.53,0.29,0.79,0.71,0.0,0,
+baseline_c_single_stage_extract_verify,qwen2.5-7b-instruct,100,0.0,1.0,0.95,0.4,0.55,0.05,0.64,0.95,0.0,0,"{'supported': 86, 'verified': 11, 'supportable': 1, 'false': 1, 'true': 1}"

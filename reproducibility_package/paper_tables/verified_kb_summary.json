@@ -1,0 +1,508 @@
+{
+  "generated_at": "2026-05-28T10:35:48.634273+00:00",
+  "runs": {
+    "Llama 3.1 8B": {
+      "all": {
+        "n_rows": 700,
+        "models": {
+          "Llama 3.1 8B": 700
+        },
+        "decision": {
+          "revise": 244,
+          "keep": 349,
+          "drop": 107
+        },
+        "support_score": {
+          "1": 244,
+          "2": 349,
+          "0": 107
+        },
+        "feature_type": {
+          "functional connectivity": 377,
+          "unknown": 248,
+          "structural connectivity": 34,
+          "BOLD variability": 19,
+          "dynamic connectivity": 17,
+          "EEG connectivity": 5
+        },
+        "phenotype": {
+          "impulsivity (general)": 565,
+          "unknown": 65,
+          "attentional impulsivity": 40,
+          "motor impulsivity": 21,
+          "nonplanning impulsivity": 9
+        },
+        "direction": {
+          "unclear": 335,
+          "higher": 234,
+          "lower": 131
+        },
+        "directness": {
+          "direct": 280,
+          "indirect": 225,
+          "background": 151,
+          "unclear": 44
+        }
+      },
+      "keep_only": {
+        "n_rows": 349,
+        "models": {
+          "Llama 3.1 8B": 349
+        },
+        "decision": {
+          "keep": 349
+        },
+        "support_score": {
+          "2": 349
+        },
+        "feature_type": {
+          "functional connectivity": 194,
+          "unknown": 107,
+          "structural connectivity": 29,
+          "BOLD variability": 8,
+          "dynamic connectivity": 8,
+          "EEG connectivity": 3
+        },
+        "phenotype": {
+          "impulsivity (general)": 283,
+          "unknown": 34,
+          "attentional impulsivity": 16,
+          "motor impulsivity": 10,
+          "nonplanning impulsivity": 6
+        },
+        "direction": {
+          "higher": 136,
+          "unclear": 131,
+          "lower": 82
+        },
+        "directness": {
+          "direct": 177,
+          "indirect": 109,
+          "background": 49,
+          "unclear": 14
+        }
+      },
+      "keep_or_revise": {
+        "n_rows": 593,
+        "models": {
+          "Llama 3.1 8B": 593
+        },
+        "decision": {
+          "revise": 244,
+          "keep": 349
+        },
+        "support_score": {
+          "1": 244,
+          "2": 349
+        },
+        "feature_type": {
+          "functional connectivity": 340,
+          "unknown": 184,
+          "structural connectivity": 34,
+          "BOLD variability": 15,
+          "dynamic connectivity": 15,
+          "EEG connectivity": 5
+        },
+        "phenotype": {
+          "impulsivity (general)": 484,
+          "unknown": 48,
+          "attentional impulsivity": 35,
+          "motor impulsivity": 17,
+          "nonplanning impulsivity": 9
+        },
+        "direction": {
+          "unclear": 256,
+          "higher": 217,
+          "lower": 120
+        },
+        "directness": {
+          "direct": 262,
+          "indirect": 208,
+          "background": 101,
+          "unclear": 22
+        }
+      }
+    },
+    "Qwen 2.5 7B": {
+      "all": {
+        "n_rows": 700,
+        "models": {
+          "Qwen 2.5 7B": 700
+        },
+        "decision": {
+          "revise": 257,
+          "keep": 358,
+          "drop": 85
+        },
+        "support_score": {
+          "1": 257,
+          "2": 358,
+          "0": 85
+        },
+        "feature_type": {
+          "functional connectivity": 420,
+          "unknown": 154,
+          "structural connectivity": 51,
+          "BOLD variability": 49,
+          "dynamic connectivity": 14,
+          "EEG connectivity": 9,
+          "covariates": 3
+        },
+        "phenotype": {
+          "impulsivity (general)": 484,
+          "nonplanning impulsivity": 88,
+          "attentional impulsivity": 62,
+          "motor impulsivity": 37,
+          "unknown": 29
+        },
+        "direction": {
+          "unclear": 304,
+          "higher": 258,
+          "lower": 138
+        },
+        "directness": {
+          "direct": 451,
+          "indirect": 169,
+          "background": 66,
+          "unclear": 14
+        }
+      },
+      "keep_only": {
+        "n_rows": 358,
+        "models": {
+          "Qwen 2.5 7B": 358
+        },
+        "decision": {
+          "keep": 358
+        },
+        "support_score": {
+          "2": 358
+        },
+        "feature_type": {
+          "functional connectivity": 219,
+          "unknown": 68,
+          "structural connectivity": 38,
+          "BOLD variability": 23,
+          "dynamic connectivity": 4,
+          "EEG connectivity": 4,
+          "covariates": 2
+        },
+        "phenotype": {
+          "impulsivity (general)": 256,
+          "nonplanning impulsivity": 45,
+          "attentional impulsivity": 24,
+          "motor impulsivity": 19,
+          "unknown": 14
+        },
+        "direction": {
+          "higher": 156,
+          "unclear": 105,
+          "lower": 97
+        },
+        "directness": {
+          "direct": 282,
+          "indirect": 58,
+          "background": 16,
+          "unclear": 2
+        }
+      },
+      "keep_or_revise": {
+        "n_rows": 615,
+        "models": {
+          "Qwen 2.5 7B": 615
+        },
+        "decision": {
+          "revise": 257,
+          "keep": 358
+        },
+        "support_score": {
+          "1": 257,
+          "2": 358
+        },
+        "feature_type": {
+          "functional connectivity": 378,
+          "unknown": 123,
+          "structural connectivity": 50,
+          "BOLD variability": 42,
+          "dynamic connectivity": 11,
+          "EEG connectivity": 8,
+          "covariates": 3
+        },
+        "phenotype": {
+          "impulsivity (general)": 435,
+          "nonplanning impulsivity": 81,
+          "attentional impulsivity": 51,
+          "motor impulsivity": 31,
+          "unknown": 17
+        },
+        "direction": {
+          "unclear": 253,
+          "higher": 231,
+          "lower": 131
+        },
+        "directness": {
+          "direct": 417,
+          "indirect": 142,
+          "background": 48,
+          "unclear": 8
+        }
+      }
+    },
+    "Mistral 7B": {
+      "all": {
+        "n_rows": 700,
+        "models": {
+          "Mistral 7B": 700
+        },
+        "decision": {
+          "keep": 331,
+          "revise": 257,
+          "drop": 112
+        },
+        "support_score": {
+          "2": 330,
+          "1": 258,
+          "0": 112
+        },
+        "feature_type": {
+          "functional connectivity": 491,
+          "unknown": 108,
+          "structural connectivity": 48,
+          "EEG connectivity": 21,
+          "dynamic connectivity": 18,
+          "BOLD variability": 13,
+          "covariates": 1
+        },
+        "phenotype": {
+          "impulsivity (general)": 524,
+          "unknown": 71,
+          "attentional impulsivity": 46,
+          "motor impulsivity": 29,
+          "nonplanning impulsivity": 28,
+          "BIS total": 2
+        },
+        "direction": {
+          "unclear": 498,
+          "higher": 133,
+          "lower": 69
+        },
+        "directness": {
+          "unclear": 335,
+          "direct": 267,
+          "background": 56,
+          "indirect": 42
+        }
+      },
+      "keep_only": {
+        "n_rows": 331,
+        "models": {
+          "Mistral 7B": 331
+        },
+        "decision": {
+          "keep": 331
+        },
+        "support_score": {
+          "2": 330,
+          "1": 1
+        },
+        "feature_type": {
+          "functional connectivity": 224,
+          "unknown": 54,
+          "structural connectivity": 33,
+          "dynamic connectivity": 9,
+          "BOLD variability": 6,
+          "EEG connectivity": 5
+        },
+        "phenotype": {
+          "impulsivity (general)": 256,
+          "motor impulsivity": 21,
+          "attentional impulsivity": 20,
+          "unknown": 18,
+          "nonplanning impulsivity": 15,
+          "BIS total": 1
+        },
+        "direction": {
+          "unclear": 198,
+          "higher": 85,
+          "lower": 48
+        },
+        "directness": {
+          "direct": 164,
+          "unclear": 143,
+          "indirect": 12,
+          "background": 12
+        }
+      },
+      "keep_or_revise": {
+        "n_rows": 588,
+        "models": {
+          "Mistral 7B": 588
+        },
+        "decision": {
+          "keep": 331,
+          "revise": 257
+        },
+        "support_score": {
+          "2": 330,
+          "1": 258
+        },
+        "feature_type": {
+          "functional connectivity": 416,
+          "unknown": 86,
+          "structural connectivity": 43,
+          "dynamic connectivity": 17,
+          "EEG connectivity": 16,
+          "BOLD variability": 10
+        },
+        "phenotype": {
+          "impulsivity (general)": 449,
+          "unknown": 44,
+          "attentional impulsivity": 41,
+          "motor impulsivity": 27,
+          "nonplanning impulsivity": 25,
+          "BIS total": 2
+        },
+        "direction": {
+          "unclear": 394,
+          "higher": 130,
+          "lower": 64
+        },
+        "directness": {
+          "unclear": 271,
+          "direct": 251,
+          "indirect": 33,
+          "background": 33
+        }
+      }
+    }
+  },
+  "combined_keep_only": {
+    "n_rows": 1038,
+    "models": {
+      "Llama 3.1 8B": 349,
+      "Qwen 2.5 7B": 358,
+      "Mistral 7B": 331
+    },
+    "decision": {
+      "keep": 1038
+    },
+    "support_score": {
+      "2": 1037,
+      "1": 1
+    },
+    "feature_type": {
+      "functional connectivity": 637,
+      "unknown": 229,
+      "structural connectivity": 100,
+      "BOLD variability": 37,
+      "dynamic connectivity": 21,
+      "EEG connectivity": 12,
+      "covariates": 2
+    },
+    "phenotype": {
+      "impulsivity (general)": 795,
+      "unknown": 66,
+      "nonplanning impulsivity": 66,
+      "attentional impulsivity": 60,
+      "motor impulsivity": 50,
+      "BIS total": 1
+    },
+    "direction": {
+      "unclear": 434,
+      "higher": 377,
+      "lower": 227
+    },
+    "directness": {
+      "direct": 623,
+      "indirect": 179,
+      "unclear": 159,
+      "background": 77
+    }
+  },
+  "combined_keep_or_revise": {
+    "n_rows": 1796,
+    "models": {
+      "Llama 3.1 8B": 593,
+      "Qwen 2.5 7B": 615,
+      "Mistral 7B": 588
+    },
+    "decision": {
+      "revise": 758,
+      "keep": 1038
+    },
+    "support_score": {
+      "1": 759,
+      "2": 1037
+    },
+    "feature_type": {
+      "functional connectivity": 1134,
+      "unknown": 393,
+      "structural connectivity": 127,
+      "BOLD variability": 67,
+      "dynamic connectivity": 43,
+      "EEG connectivity": 29,
+      "covariates": 3
+    },
+    "phenotype": {
+      "impulsivity (general)": 1368,
+      "attentional impulsivity": 127,
+      "nonplanning impulsivity": 115,
+      "unknown": 109,
+      "motor impulsivity": 75,
+      "BIS total": 2
+    },
+    "direction": {
+      "unclear": 903,
+      "higher": 578,
+      "lower": 315
+    },
+    "directness": {
+      "direct": 930,
+      "indirect": 383,
+      "unclear": 301,
+      "background": 182
+    }
+  },
+  "consensus_min2": {
+    "n_rows": 227,
+    "models": {
+      "Llama 3.1 8B": 178,
+      "Mistral 7B": 6,
+      "Qwen 2.5 7B": 43
+    },
+    "decision": {
+      "keep": 163,
+      "revise": 64
+    },
+    "support_score": {
+      "2": 163,
+      "1": 64
+    },
+    "feature_type": {
+      "functional connectivity": 153,
+      "unknown": 41,
+      "structural connectivity": 22,
+      "BOLD variability": 6,
+      "dynamic connectivity": 3,
+      "EEG connectivity": 2
+    },
+    "phenotype": {
+      "impulsivity (general)": 193,
+      "attentional impulsivity": 14,
+      "motor impulsivity": 8,
+      "nonplanning impulsivity": 7,
+      "unknown": 5
+    },
+    "direction": {
+      "unclear": 91,
+      "higher": 90,
+      "lower": 46
+    },
+    "directness": {
+      "direct": 127,
+      "indirect": 71,
+      "background": 19,
+      "unclear": 10
+    }
+  }
+}

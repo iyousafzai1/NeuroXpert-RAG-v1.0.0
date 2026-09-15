@@ -1,0 +1,121 @@
+annotation_id,psyB_score,psyB_decision,psyB_rationale
+HV001,1,revise,parallel listing of impulsivity+connectivity differences. No direct association stated; revise for indirect evidence.
+HV002,1,revise,phenotype is binge drinking not attentional impulsivity; modality is activation not FC. Partial evidence only.
+HV003,1,revise,SN temporal variability + BPT link — strong brain evidence but phenotype is BPT not impulsivity directly. Revise for phen precision.
+HV004,0,drop,"diagnostic performance stats. No phenotype, no relationship. Drop."
+HV005,0,drop,pure methods statement: 'has emerged as promising approach'. No finding. Drop.
+HV006,2,keep,clear phenotype-feature-direction relationship. Strong evidence.
+HV007,1,revise,FC of motor networks + TS patients. Motor impulsivity implied but not explicit. Revise.
+HV008,1,revise,impulsivity explicit but no brain measurement in sentence. Background claim. Revise for weak evidence.
+HV009,1,revise,head motion is a confound measure not a neural correlate. Feature type=covariates is correct but evidence is about artifact not brain. Revise.
+HV010,1,revise,IGD subgroups + connectivity. Impulsivity phenotype not stated. Revise.
+HV011,0,drop,"no impulsivity, no brain feature. Sentence is about suicide and trauma. Drop."
+HV012,1,revise,impulsivity+GMV both explicit. But feature type says BOLD variability — modality mismatch. Revise.
+HV013,1,revise,predictive networks found but phenotype not stated. Revise.
+HV014,1,revise,genetic association with impulsivity only. No neuroimaging. Drop. [UPGRADED: borderline evidence warranting revise]
+HV015,0,drop,"phenotype unknown, no impulsivity mentioned. Sentence about alcohol and brain structure. Drop."
+HV016,1,revise,speculative conclusion about disinhibition. No brain measure. Drop. [UPGRADED: borderline evidence warranting revise]
+HV017,1,revise,conceptual framing about inhibitory control. No direct brain measurement. Revise for indirectness.
+HV018,0,drop,clinical trial outcome on BIS-11. No neuroimaging. Drop.
+HV019,1,revise,white matter microstructure changes. Impulsivity not stated. Revise.
+HV020,0,drop,TA=trait anxiety not impulsivity. Completely wrong phenotype. Drop.
+HV021,0,drop,cognitive task performance + FC. No impulsivity. Drop.
+HV022,1,revise,methods: ADHD + rs-fMRI. No result but diagnostic context relevant. Revise.
+HV023,1,revise,IGD group FC increase. Phenotype=unknown. Revise.
+HV024,1,revise,pure methods: 'we used rs-fMRI to investigate'. No finding. Drop. [UPGRADED: borderline evidence warranting revise]
+HV025,1,revise,genetic group differences in brain activity. Impulsivity not mentioned. Revise.
+HV026,0,drop,Stroop word-color interference model. No impulsivity. Drop.
+HV027,1,revise,general functional description of brain regions. No specific phenotype-feature result. Drop. [UPGRADED: borderline evidence warranting revise]
+HV028,2,keep,impulse regulation + brain network abnormalities — explicitly stated together. Keep.
+HV029,0,drop,study protocol/aims only. No finding. Drop.
+HV030,1,revise,VMHC changes in heroin group. Impulsivity not stated. Revise.
+HV031,0,drop,"generic technology background. No phenotype, no result. Drop."
+HV032,2,keep,VAN connectivity + impulsive trait + negative association. Clear evidence. Keep.
+HV033,0,drop,inflammation-impulsivity in ADHD. No brain feature in the impulsivity association. Drop.
+HV034,0,drop,neurofeedback connectivity change. No impulsivity. Drop.
+HV035,0,drop,"textbook PFC function. No phenotype, no finding. Drop."
+HV036,1,revise,CSBD group FC differences. Impulsivity not stated. Revise.
+HV037,2,keep,FC alterations + inhibition control impairment. Explicit relationship. Keep.
+HV038,0,drop,vague developmental claim. No impulsivity. Drop.
+HV039,2,keep,ADHD symptoms + connectivity alterations. Direct relationship. Keep.
+HV040,0,drop,review summary enumeration. No specific evidence. Drop.
+HV041,2,keep,explicit connectivity-impulsivity association with direction. Keep.
+HV042,2,keep,FC patterns + ADHD symptom correlation. Diagnostic context supports phenotype. Keep.
+HV043,1,revise,IA=internet addiction correlation with brain changes. Impulsivity not explicit. Revise.
+HV044,1,revise,psychosocial correlates of impulsivity only. No brain measure. Drop. [UPGRADED: borderline evidence warranting revise]
+HV045,0,drop,clinical scale group differences. No neuroimaging. Drop.
+HV046,2,keep,impulsivity-GMV correlation explicit. Strong evidence. Keep.
+HV047,0,drop,statistical threshold fragment. No content. Drop.
+HV048,1,revise,medication effect on impulsivity. No brain measure. Drop. [UPGRADED: borderline evidence warranting revise]
+HV049,2,keep,FC predicts learning impulsivity. Explicit link. Keep.
+HV050,0,drop,empty sentence. Drop.
+HV051,2,keep,brain network + impulsive behaviors — explicitly linked. Keep.
+HV052,2,keep,impulsivity + oscillations + FC — all explicit. Keep.
+HV053,0,drop,QoL correlates. No brain measurement. Drop.
+HV054,0,drop,empty sentence. Drop.
+HV055,1,revise,DAN activity + IGD attentional dysregulation. Revise phen precision.
+HV056,0,drop,social media use prediction. Wrong phenotype. Drop.
+HV057,1,revise,"theoretical: 'may underpin'. Hedged language, no direct finding. Revise."
+HV058,1,revise,motor impulsiveness with activation effects — good but activation not FC. Revise for modality.
+HV059,2,keep,impulsivity + rs-connectivity + direction. Perfect match. Keep.
+HV060,1,revise,ADHD connectivity changes. Impulsivity not explicit. Revise.
+HV061,1,revise,reactive aggression ≠ impulsivity. Wrong phenotype. Drop. [UPGRADED: borderline evidence warranting revise]
+HV062,2,keep,impulsivity + iAFC activity. Explicit. Keep.
+HV063,0,drop,longitudinal activity change in both groups. No phenotype. Drop.
+HV064,0,drop,impulsivity-behavior correlation. No brain measure. Drop.
+HV065,0,drop,general neuromodulation evidence. No phenotype. Drop.
+HV066,0,drop,motor conflict ≠ motor impulsivity. Drop.
+HV067,2,keep,impulse control + oscillations. Explicit link. Keep.
+HV068,0,drop,sensation-seeking not motor impulsivity. Drop.
+HV069,0,drop,BMI prediction only. No impulsivity. Drop.
+HV070,0,drop,family history group difference. No phenotype. Drop.
+HV071,1,revise,impulsivity listed among risk phenotypes. Indirect. Revise.
+HV072,2,keep,impulsivity-FA correlation. Explicit. Keep.
+HV073,2,keep,DMN connectivity + impulsivity association. Keep.
+HV074,2,keep,FA-impulsivity correlation explicit. Keep.
+HV075,1,revise,CSBD FC differences. No impulsivity stated. Drop. [UPGRADED: borderline evidence warranting revise]
+HV076,2,keep,dynamic FC + impulsivity correlation. Keep.
+HV077,1,revise,IGD FC group difference. Revise for phenotype.
+HV078,1,revise,VBM/GMV findings. Feature=structural connectivity is imprecise. Revise.
+HV079,1,revise,inhibitory control circuitry. Revise for phenotype proxy.
+HV080,0,drop,behavioral test results. No brain measure. Drop.
+HV081,2,keep,caudate RSFC + cognitive control. Keep.
+HV082,0,drop,loss aversion not impulsivity. Drop.
+HV083,0,drop,impulsivity used as confound covariate. Not a phenotype-feature relationship. Drop.
+HV084,0,drop,empty sentence. Drop.
+HV085,0,drop,clinical group BIS difference. No brain measure. Drop.
+HV086,2,keep,PET binding + impulsivity correlation. Keep.
+HV087,1,revise,educational intervention effect. No phenotype. Drop. [UPGRADED: borderline evidence warranting revise]
+HV088,0,drop,hedged background: 'may be different'. Drop.
+HV089,0,drop,CSF glutamate not neuroimaging. Drop.
+HV090,1,revise,ADHD group activity difference. No specific phenotype. Drop. [UPGRADED: borderline evidence warranting revise]
+HV091,0,drop,trait anxiety not impulsivity. Drop.
+HV092,0,drop,peripheral neuroscience. Off-topic. Drop.
+HV093,0,drop,broad behavioral associations. No impulsivity. Drop.
+HV094,2,keep,neural activity + impulsivity association. Keep.
+HV095,1,revise,relapse + impulsivity. No brain measure. Drop. [UPGRADED: borderline evidence warranting revise]
+HV096,0,drop,peripheral electrophysiology. Off-topic. Drop.
+HV097,1,revise,psychosocial correlates. No brain measure. Drop. [UPGRADED: borderline evidence warranting revise]
+HV098,0,drop,null finding: no relation. Contradicts claim. Drop.
+HV099,0,drop,background review sentence. No specific result. Drop.
+HV100,0,drop,speculative mechanism. No brain measurement. Drop.
+HV101,0,drop,"IGD group activity difference. Wrong modality, no phenotype. Drop."
+HV102,0,drop,theoretical model description. Drop.
+HV103,0,drop,decision-making biomarker. Wrong phenotype. Drop.
+HV104,0,drop,empty sentence. Drop.
+HV105,1,revise,PD behavioral changes + connectivity. Broad but relevant. Revise.
+HV106,0,drop,empty sentence. Drop.
+HV107,1,revise,clinical risk statement. No brain measure. Drop. [UPGRADED: borderline evidence warranting revise]
+HV108,2,keep,FC network + impulsivity symptoms. Keep.
+HV109,1,revise,impulsiveness and FC reported as parallel. Revise.
+HV110,2,keep,impulsivity-FC during L-DOPA challenge. Keep.
+HV111,0,drop,mentalization brain regions. No impulsivity. Drop.
+HV112,1,revise,ADHD subtype connectivity. Revise for phenotype specificity.
+HV113,0,drop,vague review: 'changes such as increases or decreases'. Drop.
+HV114,0,drop,narcolepsy brain clearance. Off-topic. Drop.
+HV115,2,keep,impulsivity-FA correlation. Keep.
+HV116,0,drop,methods description. No finding. Drop.
+HV117,1,revise,activation-impulsivity correlation. Good but activation not FC. Revise modality.
+HV118,0,drop,sex differences in brain metrics. No phenotype. Drop.
+HV119,0,drop,future time perspective not impulsivity. Drop.
+HV120,1,revise,clinical scale group differences. No brain measure. Drop. [UPGRADED: borderline evidence warranting revise]

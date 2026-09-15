@@ -1,0 +1,14 @@
+# Random seeds and reproducibility settings for the NeuroXpert-RAG evaluation.
+# All stochastic components were run under fixed seeds where applicable.
+
+bootstrap:
+  seed: 20260530
+  iterations: 10000
+  resampling_unit: "PMID/document"
+  note: "Used for 95% confidence intervals on all reported metrics."
+
+extraction:
+  note: "Extraction used temperature=0.1 (near-deterministic). No additional RNG seeding."
+
+verification:
+  note: "Verification used temperature=0.0 (fully deterministic decoding)."

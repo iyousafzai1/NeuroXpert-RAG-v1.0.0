@@ -99,7 +99,9 @@ and audit-state analyses (the exact paths cited in the paper's Supplementary Inf
 | `tools/audit_state_experiments/` | paired verifier crossover on byte-identical records (SHA-256 list), human-referenced joint-state utility (IPW + stratified bootstrap), row-level reproducibility, matched-input Track B, Track-A fault injection, paired AUROC-difference CIs and per-document McNemar tests; `06_manuscript_tables/` regenerates every inserted table and number |
 | `tools/joint_audit_state_matrix.py`, `tools/derived/` | joint Track A × Track B matrix over the 2,100 archived rows (Table 6) |
 
-Scripts that read the archived 700-abstract run expect the frozen results package from the Zenodo record above.
+The frozen reproducibility package itself (corpus, environment records, primary per-row outputs, knowledge-base tiers,
+paper tables, archived inputs) is included in this repository under `reproducibility_package/`; each GitHub release of
+this repository is archived on Zenodo with a DOI.
 
 ## Architecture
 

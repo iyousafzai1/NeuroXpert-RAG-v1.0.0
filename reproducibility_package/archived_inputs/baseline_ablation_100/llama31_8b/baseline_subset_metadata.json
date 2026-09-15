@@ -1,0 +1,5 @@
+{
+  "n_pmids": 100,
+  "n_loaded": 100,
+  "model": "llama-3.1-8b-instruct"
+}

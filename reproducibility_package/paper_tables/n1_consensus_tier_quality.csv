@@ -1,0 +1,4 @@
+tier,n_evidence_units,n_total_rows,mean_verifier_support_score,pct_sentence_anchored,pct_verifier_keep,pct_overclaiming,n_pmids
+Gold (3/3),87,261,2.0,79.31,100.0,0.0,87
+Silver (2/3),96,192,2.0,77.08,100.0,0.0,96
+Bronze (1/3),90,90,2.0,78.89,100.0,0.0,90

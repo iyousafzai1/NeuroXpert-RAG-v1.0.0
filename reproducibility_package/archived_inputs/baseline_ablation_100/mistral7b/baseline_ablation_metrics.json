@@ -1,0 +1,71 @@
+[
+  {
+    "system": "full_neuroxpert_rag",
+    "model": "mistral-7b-instruct-v0.3",
+    "n": 100,
+    "schema_valid_rate": 1.0,
+    "citation_valid_rate": 1.0,
+    "quote_anchor_rate": 0.54,
+    "semantic_keep_rate": 0.56,
+    "semantic_revise_rate": 0.28,
+    "semantic_drop_rate": 0.16,
+    "overclaim_rate": 0.0,
+    "useful_evidence_retained_rate": 0.84,
+    "unparseable_output_rate": 0.0,
+    "errors": 0,
+    "self_decision_counts": ""
+  },
+  {
+    "system": "baseline_a_naive_free_form_rag",
+    "model": "mistral-7b-instruct-v0.3",
+    "n": 100,
+    "schema_valid_rate": 0.0,
+    "citation_valid_rate": 1.0,
+    "quote_anchor_rate": 0.11,
+    "semantic_keep_rate": null,
+    "semantic_revise_rate": null,
+    "semantic_drop_rate": null,
+    "overclaim_rate": null,
+    "useful_evidence_retained_rate": null,
+    "unparseable_output_rate": 1.0,
+    "errors": 0,
+    "self_decision_counts": ""
+  },
+  {
+    "system": "baseline_b_structured_no_mechanical_gate",
+    "model": "mistral-7b-instruct-v0.3",
+    "n": 100,
+    "schema_valid_rate": 1.0,
+    "citation_valid_rate": 1.0,
+    "quote_anchor_rate": 0.55,
+    "semantic_keep_rate": 0.49,
+    "semantic_revise_rate": 0.46,
+    "semantic_drop_rate": 0.05,
+    "overclaim_rate": 0.01,
+    "useful_evidence_retained_rate": 0.95,
+    "unparseable_output_rate": 0.0,
+    "errors": 0,
+    "self_decision_counts": ""
+  },
+  {
+    "system": "baseline_c_single_stage_extract_verify",
+    "model": "mistral-7b-instruct-v0.3",
+    "n": 100,
+    "schema_valid_rate": 0.0,
+    "citation_valid_rate": 1.0,
+    "quote_anchor_rate": 0.76,
+    "semantic_keep_rate": 0.84,
+    "semantic_revise_rate": 0.12,
+    "semantic_drop_rate": 0.04,
+    "overclaim_rate": 0.0,
+    "useful_evidence_retained_rate": 0.96,
+    "unparseable_output_rate": 0.0,
+    "errors": 0,
+    "self_decision_counts": {
+      "missing": 96,
+      "extracted evidence record is valid": 1,
+      "the extracted evidence record supports the relationship between trait impulsivity and driving errors, with executive functions and driving self-regulation as the mediating factors.": 1,
+      "extracted": 2
+    }
+  }
+]
